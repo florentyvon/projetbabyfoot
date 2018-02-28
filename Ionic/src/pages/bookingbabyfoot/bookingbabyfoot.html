@@ -12,10 +12,28 @@
     </button>
     <ion-title>Réserver un Babyfoot</ion-title>
   </ion-navbar>
-
 </ion-header>
 
 
 <ion-content padding>
-  Je suis la page de réservation d'un babyfoot
+    <ion-row><ion-col style="text-align:center"><button ion-button (click)="doRadio()">Choisir le babyfoot</button></ion-col></ion-row>
+    <p id='Resultat'>Vous avez choisi le :  {{ testRadioResult }}</p>
+    <p>Créneau horaire :</p>
+    <ion-list>
+        <ion-item>
+          <ion-label>Date</ion-label>
+          <ion-datetime displayFormat="DD MMM YYYY" [(ngModel)]="event.month"></ion-datetime>
+        </ion-item>
+    
+    
+        <ion-item>
+          <ion-label>Heure début</ion-label>
+          <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>Heure fin</ion-label>
+          <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeEnds"></ion-datetime>
+        </ion-item>
+    </ion-list>
 </ion-content>

@@ -1,0 +1,32 @@
+Réunion du 20 décembre 2017 13h15 : 
+
+3 campus
+1 babyfoot par composante
+Dimension mieux être au travail / Espace détente 
+
+Orienté personnel d’abord mais aussi personnel vers étudiants
+Connection et ligue (LDAP, twitter, linkedin ?) déclaration à la CNIL ? Invité
+QRCode ppar babyfoot
+Challenge inter entreprise de babyfoot sur Angers
+Babyfoot à la présidence en janvier / Babyfoot en ufr santé / Babyfoot en ufr sciences au premier trimestre / Babyfoot istia premier trimestre
+
+Mini réseau social de babyfoot ?
+Spectateurs ? (futur caméra flux en ligne) Timeline en direct via url ? 
+
+Confirmer / Annuler un but (raison : gamelle=-1, demie autre etc.)
+
+1200€ le babyfoot (bonzini) (investissement ???) 
+
+Culture au numérique pour les personnels / Créer du lien
+
+Vidéo Youtube 
+
+Documenter pour kit installation 
+
+Plus appli web (responsive, ionic2) // esprit startup // méthode AGILE // 
+
+Son ? Ecran de led / Affichage / Alimentation du babyfoot / Ecran 
+
+https://www.amazon.fr/Tablette-tactile-raspberry-daffichage-Kuman/dp/B01F3JI58G/ref=sr_1_11?s=electronics&ie=UTF8&qid=1513775051&sr=1-11&keywords=raspberry+pi+3+lcd
+
+https://ionicframework.com/docs/v1/guide/building.html

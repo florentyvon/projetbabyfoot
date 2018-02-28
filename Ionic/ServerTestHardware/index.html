@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+
+        <title>Socket.io</title>
+
+    </head>
+
+ 
+
+    <body>
+
+        <h1>Score du match</h1>
+<div id="score"></div>
+
+        <p><input type="button" value="Nouvelle partie" id="reset" /></p>
+
+
+
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+        <script src="/socket.io/socket.io.js"></script>
+
+        <script>
+
+			//Connexion du navigateur web au serveur
+            var socket = io.connect('http://192.168.1.1:8080');
+	
+			//Ecoute la confirmation de connexion
+			//Lorsqu'un client se connecte, on recupere le score actuel
+			socket.on('WEBconnected', function(score) {
+		
+				//On demande l'envoie du score actuel (stocké sur le serveur)
+				
+					 //Variable de score pour chaque equipe
+				currentScoreB =score.scoreB;
+				currentScoreR =score.scoreR;
+				
+				
+				//Texte à afficher
+				Score = "Equipe Bleue "+currentScoreB+" - "+currentScoreR+" Equipe Rouge";
+				//On affiche sur la page HTML
+				document.getElementById("score").innerHTML=Score;
+				
+				socket.emit('needScore');
+				
+			
+
+            });
+		
+		
+			//Ecouter l'evenement de but de l'equipe Bleue
+			socket.on('butEquipeBleue', function(nbutsB) {
+				currentScoreB = nbutsB;
+				
+				//mise à jour du score
+				Score = "Equipe Bleue "+currentScoreB+" - "+currentScoreR+" Equipe Rouge";
+				document.getElementById("score").innerHTML=Score;
+			
+            });
+			
+			//Ecouter l'evenement de but de l'equipe Ruge
+			socket.on('butEquipeRouge', function(nbutsR) {
+				currentScoreR = nbutsR;
+				//mise à jour du score
+		
+				Score = "Equipe Bleue "+currentScoreB+" - "+currentScoreR+" Equipe Rouge";
+				document.getElementById("score").innerHTML=Score;
+
+            });
+			
+			 $('#reset').click(function () {
+
+                socket.emit('reset');
+				
+				currentScoreB =0;
+				currentScoreR =0;
+				Score = "Equipe Bleue "+currentScoreB+" - "+currentScoreR+" Equipe Rouge";
+				document.getElementById("score").innerHTML=Score;
+
+            });
+	
+	
+
+			  </script>		
+
+
+		
+
+    </body>
+
+</html>

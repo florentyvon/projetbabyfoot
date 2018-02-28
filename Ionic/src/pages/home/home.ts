@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { QuickgamePage } from '../quickgame/quickgame';
-import { ChampionshipPage } from '../championship/championship';
 import { BookingbabyfootPage } from '../bookingbabyfoot/bookingbabyfoot';
 import { UnknowngamePage } from '../unknowngame/unknowngame';
 import { FriendsgamePage } from '../friendsgame/friendsgame';

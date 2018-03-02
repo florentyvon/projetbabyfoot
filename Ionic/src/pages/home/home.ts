@@ -5,6 +5,8 @@ import { UnknowngamePage } from '../unknowngame/unknowngame';
 import { FriendsgamePage } from '../friendsgame/friendsgame';
 import { HistoricPage } from '../historic/historic';
 import { ListbabyfootsPage } from '../listbabyfoots/listbabyfoots';
+import { ProfilePage } from '../profile/profile';
+import { FollowingPage } from '../following/following';
 
 /**
  * Generated class for the HomePage page.
@@ -42,7 +44,12 @@ export class HomePage {
       case 'lb':
         this.navCtrl.push(ListbabyfootsPage);
         break;
-
+      case 'mp':
+      this.navCtrl.push(ProfilePage);
+        break;
+      case 'fm':
+      this.navCtrl.push(FollowingPage);
+        break;
     }
   }
   /*back() {

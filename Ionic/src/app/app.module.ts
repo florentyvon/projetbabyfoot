@@ -13,6 +13,8 @@ import { FriendsgamePage } from '../pages/friendsgame/friendsgame';
 import { UnknowngamePage } from '../pages/unknowngame/unknowngame';
 import { HistoricPage } from '../pages/historic/historic';
 import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
+import { ProfilePage } from '../pages/profile/profile';
+import { FollowingPage } from '../pages/following/following';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -29,7 +31,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FriendsgamePage,
     UnknowngamePage,
     ListbabyfootsPage,
-    HistoricPage
+    HistoricPage,
+    ProfilePage,
+    FollowingPage,
   ],
   imports: [
     BrowserModule,
@@ -47,7 +51,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FriendsgamePage,
     UnknowngamePage,
     ListbabyfootsPage,
-    HistoricPage
+    HistoricPage,
+    ProfilePage,
+    FollowingPage
   ],
   providers: [
     StatusBar,

@@ -16,12 +16,12 @@
 
 <ion-content padding>
 
-    <p>
+    <p (click)="goTo('mp')">
         <ion-icon name="contact"></ion-icon> Joueur1 - Equipe1
     </p>
     <p>
         <ion-row>
-            <ion-col style="text-align:center">Je souhaite...</ion-col>
+            <ion-col style="text-align:center"><br/>Je souhaite...</ion-col>
         </ion-row>
     </p>
     <p>
@@ -32,6 +32,11 @@
     <p>
         <ion-row>
             <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('ug')"><ion-icon name="help"></ion-icon>Jouer avec des inconnus</button></ion-col>
+        </ion-row>
+    </p>
+    <p>
+        <ion-row>
+            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('fm')"><ion-icon name="information"></ion-icon>Suivre un match</button></ion-col>
         </ion-row>
     </p>
     <p>

@@ -11,6 +11,9 @@ import { UnknowngamePage } from '../pages/unknowngame/unknowngame';
 import { FriendsgamePage } from '../pages/friendsgame/friendsgame';
 import { HistoricPage } from '../pages/historic/historic';
 import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
+import { ProfilePage } from '../pages/profile/profile';
+import { FollowingPage } from '../pages/following/following';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -43,7 +46,9 @@ export class MyApp {
       { title: 'Jouer avec des amis', component: FriendsgamePage },
       { title: 'Jouer avec des inconnus', component: UnknowngamePage },
       { title: 'Historique des Parties', component: HistoricPage },
-      { title: 'Liste des babyfoots', component: ListbabyfootsPage }
+      { title: 'Liste des babyfoots', component: ListbabyfootsPage },
+      { title: 'Mon Profil', component: ProfilePage },
+      { title: 'Suivre un match', component: FollowingPage}
     ];
   }
 

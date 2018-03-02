@@ -25681,3 +25681,11 @@ ion-navbar.toolbar {
 page-bookingbabyfoot p {
   visibility: hidden;
 }
+
+page-home p {
+  font-size: 20px;
+}
+
+page-profile p {
+  font-size: 20px;
+}

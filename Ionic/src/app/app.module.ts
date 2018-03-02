@@ -9,11 +9,13 @@ import { HomePage } from '../pages/home/home';
 import { QuickgamePage } from '../pages/quickgame/quickgame';
 import { ChampionshipPage } from '../pages/championship/championship';
 import { BookingbabyfootPage } from '../pages/bookingbabyfoot/bookingbabyfoot'
+import { FriendsgamePage } from '../pages/friendsgame/friendsgame';
+import { UnknowngamePage } from '../pages/unknowngame/unknowngame';
+import { HistoricPage } from '../pages/historic/historic';
+import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { FriendsgamePage } from '../pages/friendsgame/friendsgame';
-import { UnknowngamePage } from '../pages/unknowngame/unknowngame';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { UnknowngamePage } from '../pages/unknowngame/unknowngame';
     BookingbabyfootPage,
     FriendsgamePage,
     UnknowngamePage,
+    ListbabyfootsPage,
+    HistoricPage
   ],
   imports: [
     BrowserModule,
@@ -41,7 +45,9 @@ import { UnknowngamePage } from '../pages/unknowngame/unknowngame';
     ChampionshipPage,
     BookingbabyfootPage,
     FriendsgamePage,
-    UnknowngamePage
+    UnknowngamePage,
+    ListbabyfootsPage,
+    HistoricPage
   ],
   providers: [
     StatusBar,

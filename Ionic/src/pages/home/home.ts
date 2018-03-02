@@ -3,6 +3,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { BookingbabyfootPage } from '../bookingbabyfoot/bookingbabyfoot';
 import { UnknowngamePage } from '../unknowngame/unknowngame';
 import { FriendsgamePage } from '../friendsgame/friendsgame';
+import { HistoricPage } from '../historic/historic';
+import { ListbabyfootsPage } from '../listbabyfoots/listbabyfoots';
 
 /**
  * Generated class for the HomePage page.
@@ -31,6 +33,16 @@ export class HomePage {
       case 'bb':
         this.navCtrl.push(BookingbabyfootPage);
         break;
+      case 'hp':
+        this.navCtrl.push(HistoricPage);
+        break;
+      case 'f':
+        this.navCtrl.push(HomePage);
+        break;
+      case 'lb':
+        this.navCtrl.push(ListbabyfootsPage);
+        break;
+
     }
   }
   /*back() {

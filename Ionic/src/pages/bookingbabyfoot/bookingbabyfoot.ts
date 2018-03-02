@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, AlertController } from 'ionic-angular';
+import { HomePage } from '../home/home';
 
 
 /**
@@ -74,13 +75,24 @@ export class BookingbabyfootPage {
       this.testRadioOpen = true;
     });
   }
+    booking(){
+      this.goTo('h');
+    }
+
+    goTo(page) {
+      switch (page) {
+        case 'h':
+          this.navCtrl.push(HomePage);
+          break;
+      }
+    }
 
   public event = {
     /*month: `'${this.now.getFullYear()}-${this.now.getMonth()}-${this.now.getDate()}'`,
     timeStarts: `'${this.now.getHours()}:${this.now.getMinutes()}'`,
     timeEnds:  `'${this.now.getHours()}:${this.now.getMinutes()+10}'`,*/
-    month: '2012-05-03',
-    timeStarts : '02:56',
-    timeEnds : '03:58',
+    month: '',
+    timeStarts : '',
+    timeEnds : '',
   }
 }

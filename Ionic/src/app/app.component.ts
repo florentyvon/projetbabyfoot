@@ -9,6 +9,8 @@ import { ChampionshipPage } from '../pages/championship/championship';
 import { BookingbabyfootPage } from '../pages/bookingbabyfoot/bookingbabyfoot';
 import { UnknowngamePage } from '../pages/unknowngame/unknowngame';
 import { FriendsgamePage } from '../pages/friendsgame/friendsgame';
+import { HistoricPage } from '../pages/historic/historic';
+import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -39,7 +41,9 @@ export class MyApp {
       { title: 'Championnats', component: ChampionshipPage },
       { title: 'Réservation Babyfoot', component: BookingbabyfootPage },
       { title: 'Jouer avec des amis', component: FriendsgamePage },
-      { title: 'Jouer avec des inconnus', component: UnknowngamePage }
+      { title: 'Jouer avec des inconnus', component: UnknowngamePage },
+      { title: 'Historique des Parties', component: HistoricPage },
+      { title: 'Liste des babyfoots', component: ListbabyfootsPage }
     ];
   }
 

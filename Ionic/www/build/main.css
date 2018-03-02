@@ -25682,8 +25682,26 @@ page-bookingbabyfoot p {
   visibility: hidden;
 }
 
-page-home p {
-  font-size: 20px;
+page-listbabyfoots .card-background-page ion-card {
+  position: relative;
+  text-align: center;
+}
+
+page-listbabyfoots .card-background-page .card-title {
+  position: absolute;
+  top: 36%;
+  font-size: 2.0em;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+}
+
+page-listbabyfoots .card-background-page .card-subtitle {
+  font-size: 1.0em;
+  position: absolute;
+  top: 52%;
+  width: 100%;
+  color: #fff;
 }
 
 page-profile p {

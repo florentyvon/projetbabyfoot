@@ -15,6 +15,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class HistoricPage {
 
+  historic: string = "general";
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

@@ -19,10 +19,15 @@ export class BookingbabyfootPage {
 
   testRadioOpen: boolean;
   testRadioResult;
-  template: string;
   now = new Date();
+  m : number;
+  d: number;
+  mm :string;
+  dd : string;
+  s:string;
 
-  constructor(public navCtrl: NavController, public alertCtrl: AlertController) {}
+  constructor(public navCtrl: NavController, public alertCtrl: AlertController) {
+  }
 
   doRadio() {
     document.getElementById("Resultat").style.visibility="hidden";
@@ -75,8 +80,9 @@ export class BookingbabyfootPage {
       this.testRadioOpen = true;
     });
   }
-    booking(){
-      this.goTo('h');
+    booking(date, hdeb, hfin){
+      console.log(this.testRadioResult+':'+date+'-'+hdeb+'-'+hfin)
+      this.goTo('h'); 
     }
 
     goTo(page) {
@@ -88,11 +94,8 @@ export class BookingbabyfootPage {
     }
 
   public event = {
-    /*month: `'${this.now.getFullYear()}-${this.now.getMonth()}-${this.now.getDate()}'`,
+    month: `'${this.now.getFullYear()}-${this.now.getMonth()}-${this.now.getDate()}'`,
     timeStarts: `'${this.now.getHours()}:${this.now.getMinutes()}'`,
-    timeEnds:  `'${this.now.getHours()}:${this.now.getMinutes()+10}'`,*/
-    month: '',
-    timeStarts : '',
-    timeEnds : '',
+    timeEnds:  `'${this.now.getHours()}:${this.now.getMinutes()}'`,
   }
 }

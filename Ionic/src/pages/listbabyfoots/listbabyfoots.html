@@ -6,13 +6,43 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>listbabyfoots</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>Les babyfoots de l'UA</ion-title>
+    </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="card-background-page">
+
+    <ion-card>
+        <img src="../assets/imgs/b1.jpg" />
+        <div class="card-title">Présidence</div>
+        <div class="card-subtitle">41 Parties Jouées</div>
+        <ion-fab right top>
+            <button ion-fab (click)="map()">
+              <ion-icon name="pin"></ion-icon>
+            </button>
+        </ion-fab>
+
+    </ion-card>
+
+    <ion-card>
+        <img src="../assets/imgs/b2.jpg" />
+        <div class="card-title">ISTIA</div>
+        <div class="card-subtitle">64 Parties Jouées</div>
+    </ion-card>
+
+    <ion-card>
+        <img src="../assets/imgs/b3.jpg" />
+        <div class="card-title">Sciences</div>
+        <div class="card-subtitle">72 Parties Jouées</div>
+    </ion-card>
+
+    <ion-card>
+        <img src="../assets/imgs/b4.jpg" />
+        <div class="card-title">SUAPS</div>
+        <div class="card-subtitle">28 Parties Jouées</div>
+    </ion-card>
 
 </ion-content>

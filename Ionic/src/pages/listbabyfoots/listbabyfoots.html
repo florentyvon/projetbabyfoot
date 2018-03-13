@@ -4,6 +4,10 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
+
+<!-- cordova.js required for cordova apps -->
+<script src="cordova.js"></script>
+
 <ion-header>
 
     <ion-navbar>
@@ -20,7 +24,7 @@
         <div class="card-title">Présidence</div>
         <div class="card-subtitle">41 Parties Jouées</div>
         <ion-fab right top>
-            <button ion-fab (click)="map()">
+            <button ion-fab (click)="map('1')">
               <ion-icon name="pin"></ion-icon>
             </button>
         </ion-fab>
@@ -31,6 +35,11 @@
         <img src="../assets/imgs/b2.jpg" />
         <div class="card-title">ISTIA</div>
         <div class="card-subtitle">64 Parties Jouées</div>
+        <ion-fab right top>
+            <button ion-fab (click)="map('2')">
+              <ion-icon name="pin"></ion-icon>
+            </button>
+        </ion-fab>
     </ion-card>
 
     <ion-card>

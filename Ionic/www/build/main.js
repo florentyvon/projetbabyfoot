@@ -1,6 +1,6 @@
 webpackJsonp([10],{
 
-/***/ 107:
+/***/ 108:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45,7 +45,7 @@ var ChampionshipPage = (function () {
 
 /***/ }),
 
-/***/ 108:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -90,7 +90,7 @@ var QuickgamePage = (function () {
 
 /***/ }),
 
-/***/ 119:
+/***/ 120:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -103,20 +103,20 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 119;
+webpackEmptyAsyncContext.id = 120;
 
 /***/ }),
 
-/***/ 160:
+/***/ 161:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/bookingbabyfoot/bookingbabyfoot.module": [
-		282,
+		283,
 		9
 	],
 	"../pages/championship/championship.module": [
-		283,
+		285,
 		8
 	],
 	"../pages/following/following.module": [
@@ -124,31 +124,31 @@ var map = {
 		7
 	],
 	"../pages/friendsgame/friendsgame.module": [
-		285,
+		286,
 		6
 	],
 	"../pages/historic/historic.module": [
-		286,
+		287,
 		5
 	],
 	"../pages/home/home.module": [
-		287,
+		288,
 		4
 	],
 	"../pages/listbabyfoots/listbabyfoots.module": [
-		288,
+		289,
 		3
 	],
 	"../pages/profile/profile.module": [
-		289,
+		290,
 		2
 	],
 	"../pages/quickgame/quickgame.module": [
-		290,
+		291,
 		1
 	],
 	"../pages/unknowngame/unknowngame.module": [
-		291,
+		292,
 		0
 	]
 };
@@ -163,19 +163,19 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 160;
+webpackAsyncContext.id = 161;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 200:
+/***/ 203:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_item_details__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_item_details__ = __webpack_require__(204);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -221,7 +221,7 @@ var ListPage = (function () {
 
 /***/ }),
 
-/***/ 201:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -259,13 +259,13 @@ var ItemDetailsPage = (function () {
 
 /***/ }),
 
-/***/ 206:
+/***/ 207:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(231);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -273,7 +273,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 230:
+/***/ 231:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -281,27 +281,29 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(273);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_item_details_item_details__ = __webpack_require__(201);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(200);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_home_home__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_quickgame_quickgame__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_championship_championship__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_friendsgame_friendsgame__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_unknowngame_unknowngame__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_historic_historic__ = __webpack_require__(54);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_listbabyfoots_listbabyfoots__ = __webpack_require__(55);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_profile_profile__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_following_following__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_launch_navigator__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_item_details_item_details__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_quickgame_quickgame__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_championship_championship__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_friendsgame_friendsgame__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_unknowngame_unknowngame__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_historic_historic__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_listbabyfoots_listbabyfoots__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_profile_profile__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_following_following__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_status_bar__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_splash_screen__ = __webpack_require__(206);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -327,26 +329,26 @@ var AppModule = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_item_details_item_details__["a" /* ItemDetailsPage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_quickgame_quickgame__["a" /* QuickgamePage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_championship_championship__["a" /* ChampionshipPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_bookingbabyfoot_bookingbabyfoot__["a" /* BookingbabyfootPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_friendsgame_friendsgame__["a" /* FriendsgamePage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_unknowngame_unknowngame__["a" /* UnknowngamePage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_listbabyfoots_listbabyfoots__["a" /* ListbabyfootsPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_historic_historic__["a" /* HistoricPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_profile_profile__["a" /* ProfilePage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_following_following__["a" /* FollowingPage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_item_details_item_details__["a" /* ItemDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_list_list__["a" /* ListPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_quickgame_quickgame__["a" /* QuickgamePage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_championship_championship__["a" /* ChampionshipPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_bookingbabyfoot_bookingbabyfoot__["a" /* BookingbabyfootPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_friendsgame_friendsgame__["a" /* FriendsgamePage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_unknowngame_unknowngame__["a" /* UnknowngamePage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_listbabyfoots_listbabyfoots__["a" /* ListbabyfootsPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_historic_historic__["a" /* HistoricPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_profile_profile__["a" /* ProfilePage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_following_following__["a" /* FollowingPage */],
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/bookingbabyfoot/bookingbabyfoot.module#BookingbabyfootPageModule', name: 'BookingbabyfootPage', segment: 'bookingbabyfoot', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/championship/championship.module#ChampionshipPageModule', name: 'ChampionshipPage', segment: 'championship', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/following/following.module#FollowingPageModule', name: 'FollowingPage', segment: 'following', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/championship/championship.module#ChampionshipPageModule', name: 'ChampionshipPage', segment: 'championship', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/friendsgame/friendsgame.module#FriendsgamePageModule', name: 'FriendsgamePage', segment: 'friendsgame', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/historic/historic.module#HistoricPageModule', name: 'HistoricPage', segment: 'historic', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
@@ -360,23 +362,24 @@ var AppModule = (function () {
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
             entryComponents: [
                 __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
-                __WEBPACK_IMPORTED_MODULE_4__pages_item_details_item_details__["a" /* ItemDetailsPage */],
-                __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
-                __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_quickgame_quickgame__["a" /* QuickgamePage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_championship_championship__["a" /* ChampionshipPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_bookingbabyfoot_bookingbabyfoot__["a" /* BookingbabyfootPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_friendsgame_friendsgame__["a" /* FriendsgamePage */],
-                __WEBPACK_IMPORTED_MODULE_11__pages_unknowngame_unknowngame__["a" /* UnknowngamePage */],
-                __WEBPACK_IMPORTED_MODULE_13__pages_listbabyfoots_listbabyfoots__["a" /* ListbabyfootsPage */],
-                __WEBPACK_IMPORTED_MODULE_12__pages_historic_historic__["a" /* HistoricPage */],
-                __WEBPACK_IMPORTED_MODULE_14__pages_profile_profile__["a" /* ProfilePage */],
-                __WEBPACK_IMPORTED_MODULE_15__pages_following_following__["a" /* FollowingPage */]
+                __WEBPACK_IMPORTED_MODULE_5__pages_item_details_item_details__["a" /* ItemDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_list_list__["a" /* ListPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_quickgame_quickgame__["a" /* QuickgamePage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_championship_championship__["a" /* ChampionshipPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_bookingbabyfoot_bookingbabyfoot__["a" /* BookingbabyfootPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_friendsgame_friendsgame__["a" /* FriendsgamePage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_unknowngame_unknowngame__["a" /* UnknowngamePage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_listbabyfoots_listbabyfoots__["a" /* ListbabyfootsPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_historic_historic__["a" /* HistoricPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_profile_profile__["a" /* ProfilePage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_following_following__["a" /* FollowingPage */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__["a" /* SplashScreen */],
-                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] }
+                __WEBPACK_IMPORTED_MODULE_17__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_18__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
+                __WEBPACK_IMPORTED_MODULE_4__ionic_native_launch_navigator__["a" /* LaunchNavigator */]
             ]
         })
     ], AppModule);
@@ -387,17 +390,17 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 273:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_list_list__ = __webpack_require__(200);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_list_list__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_home_home__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_quickgame_quickgame__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_championship_championship__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_quickgame_quickgame__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_championship_championship__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_unknowngame_unknowngame__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_friendsgame_friendsgame__ = __webpack_require__(53);
@@ -405,8 +408,8 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_listbabyfoots_listbabyfoots__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_profile_profile__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_following_following__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_splash_screen__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_status_bar__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_splash_screen__ = __webpack_require__(206);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -472,15 +475,17 @@ var MyApp = (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\app\app.html"*/'<ion-menu [content]="content">\n\n\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Pages</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_13__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_13__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_14__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_14__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _e || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_13__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_14__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=app.component.js.map
@@ -584,10 +589,9 @@ var BookingbabyfootPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-bookingbabyfoot',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\pages\bookingbabyfoot\bookingbabyfoot.html"*/'<!--\n\n  Generated template for the BookingbabyfootPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title>Réserver un Babyfoot</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-row>\n\n        <ion-col style="text-align:center"><button ion-button (click)="doRadio()">Choisir le babyfoot</button></ion-col>\n\n    </ion-row>\n\n    <p id=\'Resultat\'>Vous avez choisi le : {{ testRadioResult }}</p>\n\n    <p>Créneau horaire :</p>\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-label>Date</ion-label>\n\n            <ion-datetime displayFormat="DD MMM YYYY" [(ngModel)]="event.month"></ion-datetime>\n\n        </ion-item>\n\n\n\n\n\n        <ion-item>\n\n            <ion-label>Heure début</ion-label>\n\n            <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>\n\n        </ion-item>\n\n\n\n        <ion-item>\n\n            <ion-label>Heure fin</ion-label>\n\n            <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeEnds"></ion-datetime>\n\n        </ion-item>\n\n    </ion-list>\n\n\n\n    <ion-row>\n\n        <ion-col style="text-align:center"><button ion-button (click)="booking(event.month, event.timeStarts, event.timeEnds)">Réserver</button></ion-col>\n\n    </ion-row>\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\pages\bookingbabyfoot\bookingbabyfoot.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], BookingbabyfootPage);
     return BookingbabyfootPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=bookingbabyfoot.js.map
@@ -669,10 +673,10 @@ var HomePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\pages\home\home.html"*/'<!--\n\n  Generated template for the HomePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title>Babyfoot Connecté</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n    <h3 (click)="goTo(\'mp\')">\n\n        <ion-icon name="contact"></ion-icon> Joueur1 - Equipe1\n\n    </h3>\n\n    <h4>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><br/>Je souhaite...</ion-col>\n\n        </ion-row>\n\n    </h4>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'fg\')"><ion-icon name="contacts"></ion-icon>Jouer avec des amis</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'ug\')"><ion-icon name="help"></ion-icon>Jouer avec des inconnus</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'fm\')"><ion-icon name="information"></ion-icon>Suivre un match</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'bb\')"><ion-icon name="calendar"></ion-icon>Reserver un babyfoot</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <!--<p><button ion-button color="light" (click)="back()">Back</button></p>-->\n\n\n\n</ion-content>\n\n<ion-footer>\n\n    <ion-toolbar>\n\n        <ion-row>\n\n            <ion-col style="text-align:center" (click)="goTo(\'hp\')">\n\n                <ion-icon name="time"></ion-icon><br/>Historique des Parties\n\n            </ion-col>\n\n            <ion-col style="text-align:center" (click)="goTo(\'f\')">\n\n                <ion-icon name="heart"></ion-icon><br/>Favoris\n\n            </ion-col>\n\n            <ion-col style="text-align:center" (click)="goTo(\'lb\')">\n\n                <ion-icon name="pin"></ion-icon><br/>Les Babys\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-toolbar>\n\n</ion-footer>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\pages\home\home.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object])
     ], HomePage);
     return HomePage;
-    var HomePage_1;
+    var HomePage_1, _a;
 }());
 
 //# sourceMappingURL=home.js.map
@@ -806,10 +810,9 @@ var HistoricPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-historic',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\pages\historic\historic.html"*/'<!--\n\n  Generated template for the HistoricPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar no-border-bottom>\n\n        <ion-title>Historique des parties</ion-title>\n\n    </ion-navbar>\n\n\n\n    <ion-toolbar no-border-top>\n\n        <ion-segment [(ngModel)]="historic">\n\n            <ion-segment-button value="general">\n\n                General\n\n            </ion-segment-button>\n\n            <ion-segment-button value="moi">\n\n                Moi\n\n            </ion-segment-button>\n\n            <ion-segment-button value="amis">\n\n                Amis\n\n            </ion-segment-button>\n\n        </ion-segment>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <div [ngSwitch]="historic">\n\n        <ion-list *ngSwitchCase="\'general\'">\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>20/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Florent<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Steve<br/>8</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>10/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Youssef<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Aloïs<br/>2</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>05/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Julien<br/>12</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Mickaël<br/>10</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>03/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Florent<br/>5</div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Steve<br/>8</b></div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n        </ion-list>\n\n\n\n        <ion-list *ngSwitchCase="\'moi\'">\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>20/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Florent<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Steve<br/>8</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>03/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Florent<br/>5</div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Steve<br/>8</b></div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>23/09/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Florent<br/>8</div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Julien<br/>8</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>20/09/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Florent<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Aloïs<br/>3</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n        </ion-list>\n\n\n\n        <ion-list *ngSwitchCase="\'amis\'">\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>10/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Youssef<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Aloïs<br/>2</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>05/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Julien<br/>12</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Mickaël<br/>10</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>23/09/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Aloïs<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Steve<br/>5</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>20/09/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Youssef<br/>10</div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Steve<br/>10</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n        </ion-list>\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\pages\historic\historic.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], HistoricPage);
     return HistoricPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=historic.js.map
@@ -823,6 +826,7 @@ var HistoricPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListbabyfootsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_launch_navigator__ = __webpack_require__(162);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -834,6 +838,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 /**
  * Generated class for the ListbabyfootsPage page.
  *
@@ -841,20 +846,100 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Ionic pages and navigation.
  */
 var ListbabyfootsPage = (function () {
-    function ListbabyfootsPage(navCtrl, navParams) {
+    function ListbabyfootsPage(navCtrl, alertCtrl, launchNavigator) {
         this.navCtrl = navCtrl;
-        this.navParams = navParams;
+        this.alertCtrl = alertCtrl;
+        this.launchNavigator = launchNavigator;
+        this.start = "";
     }
     ListbabyfootsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ListbabyfootsPage');
+        console.log("ionViewDidLoad ListbabyfootsPage");
+    };
+    ListbabyfootsPage.prototype.map = function (adr) {
+        var _this = this;
+        switch (adr) {
+            case "1":
+                console.log("switch1 ok");
+                var alert = this.alertCtrl.create({
+                    title: "Babyfoot de la Présidence",
+                    message: "Présidence de l'Université d'Angers<br/>40 rue de Rennes<br/>49035 Angers<br/>02 41 96 23 23",
+                    buttons: [
+                        {
+                            text: "Retour",
+                            role: "cancel"
+                        },
+                        {
+                            text: "Voir sur Maps",
+                            handler: function () {
+                                console.log("Maps clicked");
+                                _this.destination = "Présidence de l'université d'Angers, 40 rue de Rennes, 49000 Angers";
+                                _this.navigate(_this.destination);
+                            }
+                        }
+                    ]
+                });
+                alert.present();
+                break;
+            case "2":
+                var alert2 = this.alertCtrl.create({
+                    title: "Babyfoot de l'ISTIA",
+                    message: "Ecole d'Ingénieurs ISTIA<br/>62 avenue Notre Dame du Lac<br/>49000 Angers<br/>02 44 68 75 00",
+                    buttons: [
+                        {
+                            text: "Retour",
+                            role: "cancel"
+                        },
+                        {
+                            text: "Voir sur Maps",
+                            handler: function () {
+                                console.log("Maps clicked");
+                                _this.destination = "Ecole d'Ingénieurs ISTIA, 62 avenue Notre Dame du Lac, 49000 Angers";
+                                _this.navigate(_this.destination);
+                            }
+                        }
+                    ]
+                });
+                alert2.present();
+                break;
+            case "3":
+                var alert3 = this.alertCtrl.create({
+                    title: "Babyfoot Fac de Sciences",
+                    message: "Fac de Sciences<br/>2 Boulevard Lavoisier<br/>49000 Angers<br/>02 41 73 53 53",
+                    buttons: [
+                        {
+                            text: "Retour",
+                            role: "cancel"
+                        },
+                        {
+                            text: "Voir sur Maps",
+                            handler: function () {
+                                console.log("Maps clicked");
+                                _this.destination = "Ecole d'Ingénieurs ISTIA, 62 avenue Notre Dame du Lac, 49000 Angers";
+                                _this.navigate(_this.destination);
+                            }
+                        }
+                    ]
+                });
+                alert3.present();
+                break;
+        }
+    };
+    ListbabyfootsPage.prototype.navigate = function (destination) {
+        var options = {
+            start: this.start
+        };
+        this.launchNavigator
+            .navigate(destination, options)
+            .then(function (success) { return console.log("Launched navigator"); }, function (error) { return console.log("Error launching navigator: " + error); });
     };
     ListbabyfootsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-listbabyfoots',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\pages\listbabyfoots\listbabyfoots.html"*/'<!--\n\n  Generated template for the ListbabyfootsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Les babyfoots de l\'UA</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="card-background-page">\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b1.jpg" />\n\n        <div class="card-title">Présidence</div>\n\n        <div class="card-subtitle">41 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map()">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b2.jpg" />\n\n        <div class="card-title">ISTIA</div>\n\n        <div class="card-subtitle">64 Parties Jouées</div>\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b3.jpg" />\n\n        <div class="card-title">Sciences</div>\n\n        <div class="card-subtitle">72 Parties Jouées</div>\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b4.jpg" />\n\n        <div class="card-title">SUAPS</div>\n\n        <div class="card-subtitle">28 Parties Jouées</div>\n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\pages\listbabyfoots\listbabyfoots.html"*/,
+            selector: "page-listbabyfoots",template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\pages\listbabyfoots\listbabyfoots.html"*/'<!--\n\n  Generated template for the ListbabyfootsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<!-- cordova.js required for cordova apps -->\n\n<script src="cordova.js"></script>\n\n\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Les babyfoots de l\'UA</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="card-background-page">\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b1.jpg" />\n\n        <div class="card-title">Présidence</div>\n\n        <div class="card-subtitle">41 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map(\'1\')">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b2.jpg" />\n\n        <div class="card-title">ISTIA</div>\n\n        <div class="card-subtitle">64 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map(\'2\')">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b3.jpg" />\n\n        <div class="card-title">Sciences</div>\n\n        <div class="card-subtitle">72 Parties Jouées</div>\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b4.jpg" />\n\n        <div class="card-title">SUAPS</div>\n\n        <div class="card-subtitle">28 Parties Jouées</div>\n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\projetbabyfoot\Ionic\src\pages\listbabyfoots\listbabyfoots.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_launch_navigator__["a" /* LaunchNavigator */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_launch_navigator__["a" /* LaunchNavigator */]) === "function" && _c || Object])
     ], ListbabyfootsPage);
     return ListbabyfootsPage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=listbabyfoots.js.map
@@ -954,5 +1039,5 @@ var FollowingPage = (function () {
 
 /***/ })
 
-},[206]);
+},[207]);
 //# sourceMappingURL=main.js.map

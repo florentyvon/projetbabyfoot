@@ -45,10 +45,10 @@ export class HomePage {
         this.navCtrl.push(ListbabyfootsPage);
         break;
       case 'mp':
-      this.navCtrl.push(ProfilePage);
+        this.navCtrl.push(ProfilePage);
         break;
       case 'fm':
-      this.navCtrl.push(FollowingPage);
+        this.navCtrl.push(FollowingPage);
         break;
     }
   }

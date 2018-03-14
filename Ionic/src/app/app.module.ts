@@ -3,6 +3,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import {LaunchNavigator, LaunchNavigatorOptions} from '@ionic-native/launch-navigator';
+import { HttpModule } from '@angular/http';
 
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
@@ -21,6 +22,8 @@ import { FriendsPage } from '../pages/friends/friends';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AuthentificationProvider } from '../providers/authentification/authentification';
+import { LoginPage } from '../pages/login/login';
 
 
 @NgModule({
@@ -40,9 +43,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FollowingPage,
     StatsPage,
     FriendsPage,
+    LoginPage,
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     IonicModule.forRoot(MyApp, {
     monthNames: ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre' ],
     monthShortNames: ['jan', 'fev', 'mars', 'avr', 'mai', 'juin', 'juil', 'août', 'sept', 'oct', 'nov', 'dec' ],
@@ -66,13 +71,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilePage,
     FollowingPage,
     StatsPage,
-    FriendsPage
+    FriendsPage,
+    LoginPage,
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    LaunchNavigator
+    LaunchNavigator,
+    AuthentificationProvider
   ]
 })
 export class AppModule {}

@@ -1,0 +1,22 @@
+{
+  "name": "serverbf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.9",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.9.0",
+    "regex": "^0.1.1",
+    "regexp": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { Platform, MenuController, Nav } from 'ionic-angular';
+import { Platform, MenuController, Nav, NavController, AlertController } from 'ionic-angular';
 
 import { ListPage } from '../pages/list/list';
 import { HomePage } from '../pages/home/home';
@@ -15,6 +15,7 @@ import { ProfilePage } from '../pages/profile/profile';
 import { FollowingPage } from '../pages/following/following';
 import { StatsPage } from '../pages/stats/stats';
 import { FriendsPage } from '../pages/friends/friends';
+import {LoginPage} from '../pages/login/login';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -26,18 +27,20 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  // make HomePage the root (or first) page
-  rootPage = HomePage;
+ 
+  rootPage : any;
   pages: Array<{title: string, component: any}>;
 
   constructor(
     public platform: Platform,
     public menu: MenuController,
     public statusBar: StatusBar,
-    public splashScreen: SplashScreen
+    public splashScreen: SplashScreen,
+    public navCtrl : NavController,
+    public alertCtrl : AlertController,
   ) {
     this.initializeApp();
-
+    
     // set our app's pages
     this.pages = [
       { title: 'My First List', component: ListPage },
@@ -53,8 +56,23 @@ export class MyApp {
       { title: 'Suivre un match', component: FollowingPage},
       { title: 'Voir stats', component: StatsPage},
       { title: 'Voir amis', component: FriendsPage},
+      {title: 'Déconnexion', component : this.LogOut()}
     ];
+    this.checkPreviousAuthorization();
   }
+
+  checkPreviousAuthorization(): void { 
+    
+    console.log(window.localStorage.getItem('userConnected'));
+    //window.localStorage.removeItem('userConnected');
+    if((window.localStorage.getItem('userConnected') === "undefined" || window.localStorage.getItem('userConnected') === null)) {
+      this.rootPage =LoginPage;
+    } else {
+      this.rootPage = HomePage;  
+    }
+
+  }
+
 
   initializeApp() {
     this.platform.ready().then(() => {
@@ -71,4 +89,22 @@ export class MyApp {
     // navigate to the new page if it is not the current page
     this.nav.setRoot(page.component);
   }
+
+LogOut() {
+
+  window.localStorage.removeItem('userConnected');
+  this.showPopup('Déconnexion', 'Vous êtes bien déconnecté');
+  this.rootPage=LoginPage;
+}
+
+showPopup(title, text) {
+  let alert = this.alertCtrl.create({
+    title: title,
+    subTitle: text,
+    buttons: [
+      'OK'
+    ]
+  });
+  alert.present();
+}
 }

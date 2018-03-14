@@ -18,6 +18,7 @@ import { ProfilePage } from '../pages/profile/profile';
 import { FollowingPage } from '../pages/following/following';
 import { StatsPage } from '../pages/stats/stats';
 import { FriendsPage } from '../pages/friends/friends';
+import { TeamPage } from '../pages/team/team';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -40,6 +41,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FollowingPage,
     StatsPage,
     FriendsPage,
+    TeamPage,
   ],
   imports: [
     BrowserModule,
@@ -66,7 +68,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilePage,
     FollowingPage,
     StatsPage,
-    FriendsPage
+    FriendsPage,
+    TeamPage,
   ],
   providers: [
     StatusBar,

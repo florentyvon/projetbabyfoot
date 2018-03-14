@@ -17,6 +17,7 @@ import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
 import { ProfilePage } from '../pages/profile/profile';
 import { FollowingPage } from '../pages/following/following';
 import { StatsPage } from '../pages/stats/stats';
+import { FriendsPage } from '../pages/friends/friends';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -38,6 +39,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilePage,
     FollowingPage,
     StatsPage,
+    FriendsPage,
   ],
   imports: [
     BrowserModule,
@@ -64,6 +66,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProfilePage,
     FollowingPage,
     StatsPage,
+    FriendsPage
   ],
   providers: [
     StatusBar,

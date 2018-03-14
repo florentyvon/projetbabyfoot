@@ -14,6 +14,7 @@ import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
 import { ProfilePage } from '../pages/profile/profile';
 import { FollowingPage } from '../pages/following/following';
 import { StatsPage } from '../pages/stats/stats';
+import { FriendsPage } from '../pages/friends/friends';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -51,6 +52,7 @@ export class MyApp {
       { title: 'Mon Profil', component: ProfilePage },
       { title: 'Suivre un match', component: FollowingPage},
       { title: 'Voir stats', component: StatsPage},
+      { title: 'Voir amis', component: FriendsPage},
     ];
   }
 

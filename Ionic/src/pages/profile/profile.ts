@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { StatsPage } from '../stats/stats';
+import { FriendsPage } from '../friends/friends';
 
 /**
  * Generated class for the ProfilePage page.
@@ -28,8 +29,8 @@ export class ProfilePage {
       case 'stats':
         this.navCtrl.push(StatsPage);
         break;
-      case 'team':
-        this.navCtrl.push(StatsPage);
+      case 'friends':
+        this.navCtrl.push(FriendsPage);
         break;
     }
   }

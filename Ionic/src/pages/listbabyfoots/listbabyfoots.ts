@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, AlertController } from "ionic-angular";
-import {LaunchNavigator,LaunchNavigatorOptions} from "@ionic-native/launch-navigator";
+import { LaunchNavigator, LaunchNavigatorOptions } from "@ionic-native/launch-navigator";
 
 /**
  * Generated class for the ListbabyfootsPage page.

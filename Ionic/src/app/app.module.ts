@@ -16,9 +16,11 @@ import { HistoricPage } from '../pages/historic/historic';
 import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
 import { ProfilePage } from '../pages/profile/profile';
 import { FollowingPage } from '../pages/following/following';
+import { StatsPage } from '../pages/stats/stats';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 @NgModule({
   declarations: [
@@ -35,6 +37,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HistoricPage,
     ProfilePage,
     FollowingPage,
+    StatsPage,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +57,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListbabyfootsPage,
     HistoricPage,
     ProfilePage,
-    FollowingPage
+    FollowingPage,
+    StatsPage,
   ],
   providers: [
     StatusBar,

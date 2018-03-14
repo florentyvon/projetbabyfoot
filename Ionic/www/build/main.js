@@ -1,6 +1,6 @@
-webpackJsonp([10],{
+webpackJsonp([11],{
 
-/***/ 108:
+/***/ 109:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -36,7 +36,7 @@ var ChampionshipPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-championship',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\championship\championship.html"*/'<!--\n  Generated template for the ChampionshipPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Championnats</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  Bonjour je suis la page championnat\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\championship\championship.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], ChampionshipPage);
     return ChampionshipPage;
 }());
@@ -45,7 +45,7 @@ var ChampionshipPage = (function () {
 
 /***/ }),
 
-/***/ 109:
+/***/ 110:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -81,7 +81,7 @@ var QuickgamePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-quickgame',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\quickgame\quickgame.html"*/'<!--\n  Generated template for the QuickgamePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Partei Rapide</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  Bonjour je suis la page partie rapide\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\quickgame\quickgame.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], QuickgamePage);
     return QuickgamePage;
 }());
@@ -90,7 +90,7 @@ var QuickgamePage = (function () {
 
 /***/ }),
 
-/***/ 120:
+/***/ 121:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -103,57 +103,57 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 120;
+webpackEmptyAsyncContext.id = 121;
 
 /***/ }),
 
-/***/ 161:
+/***/ 162:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/bookingbabyfoot/bookingbabyfoot.module": [
-		283,
-		22
+		284,
+		10
 	],
 	"../pages/championship/championship.module": [
-		284,
-		21
+		285,
+		9
 	],
 	"../pages/following/following.module": [
-		285,
-		20
+		286,
+		8
 	],
 	"../pages/friendsgame/friendsgame.module": [
-		286,
-		19
+		287,
+		7
 	],
 	"../pages/historic/historic.module": [
-		287,
-		18
+		288,
+		6
 	],
 	"../pages/home/home.module": [
-		288,
-		17
+		289,
+		5
 	],
 	"../pages/listbabyfoots/listbabyfoots.module": [
-		289,
-		16
+		290,
+		4
 	],
 	"../pages/profile/profile.module": [
-		290,
-		15
+		291,
+		3
 	],
 	"../pages/quickgame/quickgame.module": [
-		291,
-		14
+		292,
+		2
 	],
 	"../pages/stats/stats.module": [
 		293,
-		12
+		1
 	],
 	"../pages/unknowngame/unknowngame.module": [
-		292,
-		13
+		294,
+		0
 	]
 };
 function webpackAsyncContext(req) {
@@ -167,19 +167,19 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 161;
+webpackAsyncContext.id = 162;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 203:
+/***/ 204:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_item_details__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item_details_item_details__ = __webpack_require__(205);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -216,7 +216,7 @@ var ListPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-list',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\list\list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>My First List</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon name="{{item.icon}}" item-left></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-right>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\list\list.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], ListPage);
     return ListPage;
 }());
@@ -225,7 +225,7 @@ var ListPage = (function () {
 
 /***/ }),
 
-/***/ 204:
+/***/ 205:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -254,7 +254,7 @@ var ItemDetailsPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-item-details',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\item-details\item-details.html"*/'<ion-header>\n  <ion-navbar>\n    <button menuToggle *ngIf="!selectedItem">\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Item Details</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <h3 text-center *ngIf="selectedItem">\n    {{selectedItem.title}}\n    <ion-icon [name]="selectedItem.icon"></ion-icon>\n  </h3>\n  <h4 text-center *ngIf="selectedItem">\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </h4>\n</ion-content>\n'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\item-details\item-details.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], ItemDetailsPage);
     return ItemDetailsPage;
 }());
@@ -263,13 +263,13 @@ var ItemDetailsPage = (function () {
 
 /***/ }),
 
-/***/ 207:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(232);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -277,7 +277,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 231:
+/***/ 232:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -285,23 +285,23 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_launch_navigator__ = __webpack_require__(162);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_item_details_item_details__ = __webpack_require__(204);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_launch_navigator__ = __webpack_require__(163);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_item_details_item_details__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_quickgame_quickgame__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_championship_championship__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_quickgame_quickgame__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_championship_championship__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_friendsgame_friendsgame__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_unknowngame_unknowngame__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_historic_historic__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_listbabyfoots_listbabyfoots__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_profile_profile__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_following_following__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_stats_stats__ = __webpack_require__(294);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_status_bar__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_splash_screen__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_following_following__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_stats_stats__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_status_bar__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__ionic_native_splash_screen__ = __webpack_require__(207);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -367,8 +367,8 @@ var AppModule = (function () {
                         { loadChildren: '../pages/listbabyfoots/listbabyfoots.module#ListbabyfootsPageModule', name: 'ListbabyfootsPage', segment: 'listbabyfoots', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/quickgame/quickgame.module#QuickgamePageModule', name: 'QuickgamePage', segment: 'quickgame', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/unknowngame/unknowngame.module#UnknowngamePageModule', name: 'UnknowngamePage', segment: 'unknowngame', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/stats/stats.module#StatsPageModule', name: 'StatsPage', segment: 'stats', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/stats/stats.module#StatsPageModule', name: 'StatsPage', segment: 'stats', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/unknowngame/unknowngame.module#UnknowngamePageModule', name: 'UnknowngamePage', segment: 'unknowngame', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
@@ -404,26 +404,27 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 282:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_list_list__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_list_list__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_home_home__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_quickgame_quickgame__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_championship_championship__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_quickgame_quickgame__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_championship_championship__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(50);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_unknowngame_unknowngame__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_friendsgame_friendsgame__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_historic_historic__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_listbabyfoots_listbabyfoots__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_profile_profile__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_following_following__ = __webpack_require__(57);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_status_bar__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_splash_screen__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_following_following__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_stats_stats__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__ = __webpack_require__(207);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -433,6 +434,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -469,7 +471,8 @@ var MyApp = (function () {
             { title: 'Historique des Parties', component: __WEBPACK_IMPORTED_MODULE_9__pages_historic_historic__["a" /* HistoricPage */] },
             { title: 'Liste des babyfoots', component: __WEBPACK_IMPORTED_MODULE_10__pages_listbabyfoots_listbabyfoots__["a" /* ListbabyfootsPage */] },
             { title: 'Mon Profil', component: __WEBPACK_IMPORTED_MODULE_11__pages_profile_profile__["a" /* ProfilePage */] },
-            { title: 'Suivre un match', component: __WEBPACK_IMPORTED_MODULE_12__pages_following_following__["a" /* FollowingPage */] }
+            { title: 'Suivre un match', component: __WEBPACK_IMPORTED_MODULE_12__pages_following_following__["a" /* FollowingPage */] },
+            { title: 'Voir stats', component: __WEBPACK_IMPORTED_MODULE_13__pages_stats_stats__["a" /* StatsPage */] },
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -488,67 +491,21 @@ var MyApp = (function () {
         this.nav.setRoot(page.component);
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */])
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\babyprojet\Ionic\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Pages</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"D:\babyprojet\Ionic\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* MenuController */],
-            __WEBPACK_IMPORTED_MODULE_13__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_14__ionic_native_splash_screen__["a" /* SplashScreen */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_14__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_15__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
 }());
 
 //# sourceMappingURL=app.component.js.map
-
-/***/ }),
-
-/***/ 294:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the StatsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var StatsPage = (function () {
-    function StatsPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    StatsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad StatsPage');
-    };
-    StatsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPage */])(),
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-stats',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\stats\stats.html"*/'<!--\n  Generated template for the StatsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>stats</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\stats\stats.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
-    ], StatsPage);
-    return StatsPage;
-}());
-
-//# sourceMappingURL=stats.js.map
 
 /***/ }),
 
@@ -638,7 +595,7 @@ var BookingbabyfootPage = (function () {
         var _this = this;
         console.log(this.testRadioResult + ':' + date + '-' + hdeb + '-' + hfin);
         if (babyfoot != undefined) {
-            var alert = this.alertCtrl.create({
+            var alert_1 = this.alertCtrl.create({
                 title: "Réservation enregistrée",
                 message: "Votre réservation du " + date + " entre " + hdeb + " et " + hfin + " sur le " + babyfoot + " a bien été enregistrée. Vous recevrez un email de confirmation. <br/> <br/>D'avance, bonne partie !",
                 buttons: [
@@ -655,10 +612,10 @@ var BookingbabyfootPage = (function () {
                     }
                 ]
             });
-            alert.present();
+            alert_1.present();
         }
         else {
-            var alert = this.alertCtrl.create({
+            var alert_2 = this.alertCtrl.create({
                 title: "Réservation impossible",
                 message: "Veuillez indiquer un babyfoot",
                 buttons: [
@@ -668,7 +625,7 @@ var BookingbabyfootPage = (function () {
                     }
                 ],
             });
-            alert.present();
+            alert_2.present();
         }
     };
     BookingbabyfootPage.prototype.goTo = function (page) {
@@ -682,10 +639,9 @@ var BookingbabyfootPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-bookingbabyfoot',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\bookingbabyfoot\bookingbabyfoot.html"*/'<!--\n\n  Generated template for the BookingbabyfootPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title>Réserver un Babyfoot</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-row>\n\n        <ion-col style="text-align:center"><button ion-button (click)="doRadio()">Choisir le babyfoot</button></ion-col>\n\n    </ion-row>\n\n    <p id=\'Resultat\'>Vous avez choisi le : {{ testRadioResult }}</p>\n\n    <p>Créneau horaire :</p>\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-label>Date</ion-label>\n\n            <ion-datetime displayFormat="DD MMM YYYY" [(ngModel)]="event.month"></ion-datetime>\n\n        </ion-item>\n\n\n\n\n\n        <ion-item>\n\n            <ion-label>Heure début</ion-label>\n\n            <ion-datetime displayFormat="H:mm" pickerFormat="H mm" [(ngModel)]="event.timeStarts"></ion-datetime>\n\n        </ion-item>\n\n\n\n        <ion-item>\n\n            <ion-label>Heure fin</ion-label>\n\n            <ion-datetime displayFormat="H:mm" pickerFormat="H mm" [(ngModel)]="event.timeEnds"></ion-datetime>\n\n        </ion-item>\n\n    </ion-list>\n\n\n\n    <ion-row>\n\n        <ion-col style="text-align:center"><button ion-button (click)="booking(testRadioResult, event.month, event.timeStarts, event.timeEnds)">Réserver</button></ion-col>\n\n    </ion-row>\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\bookingbabyfoot\bookingbabyfoot.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
     ], BookingbabyfootPage);
     return BookingbabyfootPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=bookingbabyfoot.js.map
@@ -705,7 +661,7 @@ var BookingbabyfootPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__historic_historic__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__listbabyfoots_listbabyfoots__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__profile_profile__ = __webpack_require__(56);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__following_following__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__following_following__ = __webpack_require__(58);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -767,7 +723,7 @@ var HomePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\home\home.html"*/'<!--\n\n  Generated template for the HomePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title>Babyfoot Connecté</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n    <h3 (click)="goTo(\'mp\')">\n\n        <ion-icon name="contact"></ion-icon> Joueur1 - Equipe1\n\n    </h3>\n\n    <h4>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><br/>Je souhaite...</ion-col>\n\n        </ion-row>\n\n    </h4>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'fg\')"><ion-icon name="contacts"></ion-icon>Jouer avec des amis</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'ug\')"><ion-icon name="help"></ion-icon>Jouer avec des inconnus</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'fm\')"><ion-icon name="information"></ion-icon>Suivre un match</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'bb\')"><ion-icon name="calendar"></ion-icon>Reserver un babyfoot</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <!--<p><button ion-button color="light" (click)="back()">Back</button></p>-->\n\n\n\n</ion-content>\n\n<ion-footer>\n\n    <ion-toolbar>\n\n        <ion-row>\n\n            <ion-col style="text-align:center" (click)="goTo(\'hp\')">\n\n                <ion-icon name="time"></ion-icon><br/>Historique des Parties\n\n            </ion-col>\n\n            <ion-col style="text-align:center" (click)="goTo(\'f\')">\n\n                <ion-icon name="heart"></ion-icon><br/>Favoris\n\n            </ion-col>\n\n            <ion-col style="text-align:center" (click)="goTo(\'lb\')">\n\n                <ion-icon name="pin"></ion-icon><br/>Les Babys\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-toolbar>\n\n</ion-footer>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\home\home.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]])
     ], HomePage);
     return HomePage;
     var HomePage_1;
@@ -813,7 +769,7 @@ var UnknowngamePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-unknowngame',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\unknowngame\unknowngame.html"*/'<!--\n  Generated template for the UnknowngamePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Partie Rapide</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\unknowngame\unknowngame.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], UnknowngamePage);
     return UnknowngamePage;
 }());
@@ -858,7 +814,7 @@ var FriendsgamePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-friendsgame',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\friendsgame\friendsgame.html"*/'<!--\n  Generated template for the FriendsgamePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>friendsgame</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\friendsgame\friendsgame.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], FriendsgamePage);
     return FriendsgamePage;
 }());
@@ -904,7 +860,7 @@ var HistoricPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-historic',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\historic\historic.html"*/'<!--\n\n  Generated template for the HistoricPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar no-border-bottom>\n\n        <ion-title>Historique des parties</ion-title>\n\n    </ion-navbar>\n\n\n\n    <ion-toolbar no-border-top>\n\n        <ion-segment [(ngModel)]="historic">\n\n            <ion-segment-button value="general">\n\n                General\n\n            </ion-segment-button>\n\n            <ion-segment-button value="moi">\n\n                Moi\n\n            </ion-segment-button>\n\n            <ion-segment-button value="amis">\n\n                Amis\n\n            </ion-segment-button>\n\n        </ion-segment>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <div [ngSwitch]="historic">\n\n        <ion-list *ngSwitchCase="\'general\'">\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>20/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Florent<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Steve<br/>8</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>10/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Youssef<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Aloïs<br/>2</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>05/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Julien<br/>12</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Mickaël<br/>10</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>03/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Florent<br/>5</div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Steve<br/>8</b></div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n        </ion-list>\n\n\n\n        <ion-list *ngSwitchCase="\'moi\'">\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>20/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Florent<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Steve<br/>8</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>03/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Florent<br/>5</div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Steve<br/>8</b></div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>23/09/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Florent<br/>8</div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Julien<br/>8</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>20/09/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Florent<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Aloïs<br/>3</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n        </ion-list>\n\n\n\n        <ion-list *ngSwitchCase="\'amis\'">\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>10/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Youssef<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Aloïs<br/>2</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>05/10/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Julien<br/>12</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Mickaël<br/>10</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>23/09/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div><b>Aloïs<br/>10</b></div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Steve<br/>5</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n            <ion-item>\n\n                <ion-grid>\n\n                    <ion-row style="text-align:center">\n\n                        <ion-col col-4>\n\n                            <div>20/09/2018</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Youssef<br/>10</div>\n\n                        </ion-col>\n\n                        <ion-col col-2>\n\n                            <div>vs.</div>\n\n                        </ion-col>\n\n                        <ion-col col-3>\n\n                            <div>Steve<br/>10</div>\n\n                        </ion-col>\n\n                    </ion-row>\n\n                </ion-grid>\n\n            </ion-item>\n\n        </ion-list>\n\n    </div>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\historic\historic.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], HistoricPage);
     return HistoricPage;
 }());
@@ -920,7 +876,7 @@ var HistoricPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListbabyfootsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_launch_navigator__ = __webpack_require__(162);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_launch_navigator__ = __webpack_require__(163);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1051,7 +1007,7 @@ var ListbabyfootsPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: "page-listbabyfoots",template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\listbabyfoots\listbabyfoots.html"*/'<!--\n\n  Generated template for the ListbabyfootsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<!-- cordova.js required for cordova apps -->\n\n<script src="cordova.js"></script>\n\n\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Les babyfoots de l\'UA</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="card-background-page">\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b1.jpg" />\n\n        <div class="card-title">Présidence</div>\n\n        <div class="card-subtitle">41 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map(\'1\')">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b2.jpg" />\n\n        <div class="card-title">ISTIA</div>\n\n        <div class="card-subtitle">64 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map(\'2\')">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b3.jpg" />\n\n        <div class="card-title">Sciences</div>\n\n        <div class="card-subtitle">72 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map(\'3\')">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b4.jpg" />\n\n        <div class="card-title">SUAPS</div>\n\n        <div class="card-subtitle">28 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map(\'4\')">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\listbabyfoots\listbabyfoots.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
             __WEBPACK_IMPORTED_MODULE_2__ionic_native_launch_navigator__["a" /* LaunchNavigator */]])
     ], ListbabyfootsPage);
@@ -1069,7 +1025,7 @@ var ListbabyfootsPage = (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfilePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__stats_stats__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__stats_stats__ = __webpack_require__(57);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1108,12 +1064,11 @@ var ProfilePage = (function () {
     };
     ProfilePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-profile',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Mon Profil</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contact"></ion-icon> Joueur1 - Niv. 12\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contacts"></ion-icon> Mon équipe\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="people"></ion-icon> Mes amis\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row  (click)="goTo(\'stats\')">\n\n            <ion-col>\n\n                <ion-icon name="stats"></ion-icon> Mes statistiques\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row >\n\n            <ion-col (click)="goTo(\'res\')">\n\n                <ion-icon name="calendar"></ion-icon> Mes Réservations\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\profile\profile.html"*/,
+            selector: 'page-profile',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Mon Profil</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contact"></ion-icon> Joueur1 - Niv. 12\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contacts"></ion-icon> Mon équipe\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="people"></ion-icon> Mes amis\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row  (click)="goTo(\'stats\')">\n\n            <ion-col>\n\n                <ion-icon name="stats"></ion-icon> Mes statistiques\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row (click)="goTo(\'res\')">\n\n            <ion-col>\n\n                <ion-icon name="calendar"></ion-icon> Mes Réservations\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\profile\profile.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], ProfilePage);
     return ProfilePage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=profile.js.map
@@ -1121,6 +1076,51 @@ var ProfilePage = (function () {
 /***/ }),
 
 /***/ 57:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(11);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the StatsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var StatsPage = (function () {
+    function StatsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    StatsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad StatsPage');
+    };
+    StatsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-stats',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\stats\stats.html"*/'<!--\n  Generated template for the StatsPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>stats</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\stats\stats.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], StatsPage);
+    return StatsPage;
+}());
+
+//# sourceMappingURL=stats.js.map
+
+/***/ }),
+
+/***/ 58:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1159,7 +1159,7 @@ var FollowingPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-following',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\following\following.html"*/'<!--\n\n  Generated template for the FollowingPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Suivre un match</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <p>\n\n        <ion-item>\n\n            <ion-label floating>Code Partie</ion-label>\n\n            <ion-input type="text" [(ngModel)]="code"></ion-input>\n\n        </ion-item>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" (click)="follow(code)">Suivre le match</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\following\following.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], FollowingPage);
     return FollowingPage;
 }());
@@ -1168,5 +1168,5 @@ var FollowingPage = (function () {
 
 /***/ })
 
-},[207]);
+},[208]);
 //# sourceMappingURL=main.js.map

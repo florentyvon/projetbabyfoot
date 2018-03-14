@@ -30,16 +30,16 @@
 
         <ion-item>
             <ion-label>Heure début</ion-label>
-            <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>
+            <ion-datetime displayFormat="H:mm" pickerFormat="H mm" [(ngModel)]="event.timeStarts"></ion-datetime>
         </ion-item>
 
         <ion-item>
             <ion-label>Heure fin</ion-label>
-            <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeEnds"></ion-datetime>
+            <ion-datetime displayFormat="H:mm" pickerFormat="H mm" [(ngModel)]="event.timeEnds"></ion-datetime>
         </ion-item>
     </ion-list>
 
     <ion-row>
-        <ion-col style="text-align:center"><button ion-button (click)="booking(event.month, event.timeStarts, event.timeEnds)">Réserver</button></ion-col>
+        <ion-col style="text-align:center"><button ion-button (click)="booking(testRadioResult, event.month, event.timeStarts, event.timeEnds)">Réserver</button></ion-col>
     </ion-row>
 </ion-content>

@@ -351,7 +351,12 @@ var AppModule = (function () {
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {
+                    monthNames: ['janvier', 'fevrier', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'],
+                    monthShortNames: ['jan', 'fev', 'mars', 'avr', 'mai', 'juin', 'juil', 'août', 'sept', 'oct', 'nov', 'dec'],
+                    dayNames: ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+                    dayShortNames: ['dim', 'lun', 'mar', 'mer', 'jeu', 'ven', 'sam'],
+                }, {
                     links: [
                         { loadChildren: '../pages/bookingbabyfoot/bookingbabyfoot.module#BookingbabyfootPageModule', name: 'BookingbabyfootPage', segment: 'bookingbabyfoot', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/championship/championship.module#ChampionshipPageModule', name: 'ChampionshipPage', segment: 'championship', priority: 'low', defaultHistory: [] },
@@ -365,7 +370,7 @@ var AppModule = (function () {
                         { loadChildren: '../pages/unknowngame/unknowngame.module#UnknowngamePageModule', name: 'UnknowngamePage', segment: 'unknowngame', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/stats/stats.module#StatsPageModule', name: 'StatsPage', segment: 'stats', priority: 'low', defaultHistory: [] }
                     ]
-                }),
+                })
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicApp */]],
             entryComponents: [
@@ -579,9 +584,9 @@ var BookingbabyfootPage = (function () {
         this.alertCtrl = alertCtrl;
         this.now = new Date();
         this.event = {
-            month: "'" + this.now.getFullYear() + "-" + this.now.getMonth() + "-" + this.now.getDate() + "'",
+            month: "'" + this.now.getDate() + "-" + (this.now.getMonth() + 1) + "-" + this.now.getFullYear() + "'",
             timeStarts: "'" + this.now.getHours() + ":" + this.now.getMinutes() + "'",
-            timeEnds: "'" + this.now.getHours() + ":" + this.now.getMinutes() + "'",
+            timeEnds: "'" + this.now.getHours() + ":" + (this.now.getMinutes() + 10) + "'",
         };
     }
     BookingbabyfootPage.prototype.doRadio = function () {
@@ -629,9 +634,42 @@ var BookingbabyfootPage = (function () {
             _this.testRadioOpen = true;
         });
     };
-    BookingbabyfootPage.prototype.booking = function (date, hdeb, hfin) {
+    BookingbabyfootPage.prototype.booking = function (babyfoot, date, hdeb, hfin) {
+        var _this = this;
         console.log(this.testRadioResult + ':' + date + '-' + hdeb + '-' + hfin);
-        this.goTo('h');
+        if (babyfoot != undefined) {
+            var alert = this.alertCtrl.create({
+                title: "Réservation enregistrée",
+                message: "Votre réservation du " + date + " entre " + hdeb + " et " + hfin + " sur le " + babyfoot + " a bien été enregistrée. Vous recevrez un email de confirmation. <br/> <br/>D'avance, bonne partie !",
+                buttons: [
+                    {
+                        text: "Retour",
+                        role: "cancel"
+                    },
+                    {
+                        text: "Ok",
+                        handler: function () {
+                            console.log("ok clicked");
+                            _this.goTo('h');
+                        }
+                    }
+                ]
+            });
+            alert.present();
+        }
+        else {
+            var alert = this.alertCtrl.create({
+                title: "Réservation impossible",
+                message: "Veuillez indiquer un babyfoot",
+                buttons: [
+                    {
+                        text: "Retour",
+                        role: "cancel"
+                    }
+                ],
+            });
+            alert.present();
+        }
     };
     BookingbabyfootPage.prototype.goTo = function (page) {
         switch (page) {
@@ -642,11 +680,12 @@ var BookingbabyfootPage = (function () {
     };
     BookingbabyfootPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-bookingbabyfoot',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\bookingbabyfoot\bookingbabyfoot.html"*/'<!--\n\n  Generated template for the BookingbabyfootPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title>Réserver un Babyfoot</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-row>\n\n        <ion-col style="text-align:center"><button ion-button (click)="doRadio()">Choisir le babyfoot</button></ion-col>\n\n    </ion-row>\n\n    <p id=\'Resultat\'>Vous avez choisi le : {{ testRadioResult }}</p>\n\n    <p>Créneau horaire :</p>\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-label>Date</ion-label>\n\n            <ion-datetime displayFormat="DD MMM YYYY" [(ngModel)]="event.month"></ion-datetime>\n\n        </ion-item>\n\n\n\n\n\n        <ion-item>\n\n            <ion-label>Heure début</ion-label>\n\n            <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>\n\n        </ion-item>\n\n\n\n        <ion-item>\n\n            <ion-label>Heure fin</ion-label>\n\n            <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeEnds"></ion-datetime>\n\n        </ion-item>\n\n    </ion-list>\n\n\n\n    <ion-row>\n\n        <ion-col style="text-align:center"><button ion-button (click)="booking(event.month, event.timeStarts, event.timeEnds)">Réserver</button></ion-col>\n\n    </ion-row>\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\bookingbabyfoot\bookingbabyfoot.html"*/,
+            selector: 'page-bookingbabyfoot',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\bookingbabyfoot\bookingbabyfoot.html"*/'<!--\n\n  Generated template for the BookingbabyfootPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n        <ion-title>Réserver un Babyfoot</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-row>\n\n        <ion-col style="text-align:center"><button ion-button (click)="doRadio()">Choisir le babyfoot</button></ion-col>\n\n    </ion-row>\n\n    <p id=\'Resultat\'>Vous avez choisi le : {{ testRadioResult }}</p>\n\n    <p>Créneau horaire :</p>\n\n    <ion-list>\n\n        <ion-item>\n\n            <ion-label>Date</ion-label>\n\n            <ion-datetime displayFormat="DD MMM YYYY" [(ngModel)]="event.month"></ion-datetime>\n\n        </ion-item>\n\n\n\n\n\n        <ion-item>\n\n            <ion-label>Heure début</ion-label>\n\n            <ion-datetime displayFormat="H:mm" pickerFormat="H mm" [(ngModel)]="event.timeStarts"></ion-datetime>\n\n        </ion-item>\n\n\n\n        <ion-item>\n\n            <ion-label>Heure fin</ion-label>\n\n            <ion-datetime displayFormat="H:mm" pickerFormat="H mm" [(ngModel)]="event.timeEnds"></ion-datetime>\n\n        </ion-item>\n\n    </ion-list>\n\n\n\n    <ion-row>\n\n        <ion-col style="text-align:center"><button ion-button (click)="booking(testRadioResult, event.month, event.timeStarts, event.timeEnds)">Réserver</button></ion-col>\n\n    </ion-row>\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\bookingbabyfoot\bookingbabyfoot.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _b || Object])
     ], BookingbabyfootPage);
     return BookingbabyfootPage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=bookingbabyfoot.js.map
@@ -1054,9 +1093,9 @@ var ProfilePage = (function () {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    ProfilePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ProfilePage');
-    };
+    /*ionViewDidLoad() {
+      console.log('ionViewDidLoad ProfilePage');
+    }*/
     ProfilePage.prototype.goTo = function (page) {
         switch (page) {
             case 'stats':
@@ -1069,7 +1108,7 @@ var ProfilePage = (function () {
     };
     ProfilePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-profile',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Mon Profil</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contact"></ion-icon> Joueur1 - Niv. 12\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contacts"></ion-icon> Mon équipe\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="people"></ion-icon> Mes amis\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row  (click)="goTo(\'stats\')">\n\n            <ion-col>\n\n                <ion-icon name="stats"></ion-icon> Mes statistiques\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\profile\profile.html"*/,
+            selector: 'page-profile',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Mon Profil</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contact"></ion-icon> Joueur1 - Niv. 12\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contacts"></ion-icon> Mon équipe\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="people"></ion-icon> Mes amis\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row  (click)="goTo(\'stats\')">\n\n            <ion-col>\n\n                <ion-icon name="stats"></ion-icon> Mes statistiques\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row >\n\n            <ion-col (click)="goTo(\'res\')">\n\n                <ion-icon name="calendar"></ion-icon> Mes Réservations\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\profile\profile.html"*/,
         }),
         __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object])
     ], ProfilePage);

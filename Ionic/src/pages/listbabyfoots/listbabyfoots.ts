@@ -67,7 +67,7 @@ export class ListbabyfootsPage {
               text: "Voir sur Maps",
               handler: () => {
                 console.log("Maps clicked");
-                this.destination="Ecole d'Ingénieurs ISTIA, 62 avenue Notre Dame du Lac, 49000 Angers";
+                this.destination="ISTIA, 62 avenue Notre Dame du Lac, 49000 Angers";
                 this.navigate(this.destination);
               }
             }
@@ -78,7 +78,7 @@ export class ListbabyfootsPage {
       case "3":
         let alert3 = this.alertCtrl.create({
           title: `Babyfoot Fac de Sciences`,
-          message: "Fac de Sciences<br/>2 Boulevard Lavoisier<br/>49000 Angers<br/>02 41 73 53 53",
+          message: "Faculté de Sciences<br/>2 Boulevard Lavoisier<br/>49000 Angers<br/>02 41 73 53 53",
           buttons: [
             {
               text: "Retour",
@@ -88,13 +88,34 @@ export class ListbabyfootsPage {
               text: "Voir sur Maps",
               handler: () => {
                 console.log("Maps clicked");
-                this.destination="Ecole d'Ingénieurs ISTIA, 62 avenue Notre Dame du Lac, 49000 Angers";
+                this.destination="Fac de Sciences, 2 Boulevard Lavoisier, 49000 Angers";
                 this.navigate(this.destination);
               }
             }
           ]
         });
         alert3.present();
+        break;
+        case "4":
+        let alert4 = this.alertCtrl.create({
+          title: 'Babyfoot SUAPS',
+          message: "SUAPS<br/>6 Boulevard Beaussier<br/>49000 Angers<br/>02 41 22 69 49",
+          buttons: [
+            {
+              text: "Retour",
+              role: "cancel"
+            },
+            {
+              text: "Voir sur Maps",
+              handler: () => {
+                console.log("Maps clicked");
+                this.destination="S.U.A.P.S, 49000 Angers";
+                this.navigate(this.destination);
+              }
+            }
+          ]
+        });
+        alert4.present();
         break;
     }
   }

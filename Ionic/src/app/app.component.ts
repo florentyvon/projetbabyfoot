@@ -24,9 +24,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @Component({
   templateUrl: 'app.html'
 })
+
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
-
  
   rootPage : any;
   pages: Array<{title: string, component: any}>;
@@ -36,9 +36,8 @@ export class MyApp {
     public menu: MenuController,
     public statusBar: StatusBar,
     public splashScreen: SplashScreen,
-    public navCtrl : NavController,
     public alertCtrl : AlertController,
-  ) {
+  ) { 
     this.initializeApp();
     
     // set our app's pages
@@ -56,7 +55,7 @@ export class MyApp {
       { title: 'Suivre un match', component: FollowingPage},
       { title: 'Voir stats', component: StatsPage},
       { title: 'Voir amis', component: FriendsPage},
-      {title: 'Déconnexion', component : this.LogOut()}
+      { title: 'Déconnexion', component : HomePage}
     ];
     this.checkPreviousAuthorization();
   }
@@ -66,9 +65,9 @@ export class MyApp {
     console.log(window.localStorage.getItem('userConnected'));
     //window.localStorage.removeItem('userConnected');
     if((window.localStorage.getItem('userConnected') === "undefined" || window.localStorage.getItem('userConnected') === null)) {
-      this.rootPage =LoginPage;
+      this.rootPage=LoginPage;
     } else {
-      this.rootPage = HomePage;  
+      this.rootPage=HomePage;  
     }
 
   }

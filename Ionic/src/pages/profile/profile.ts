@@ -17,7 +17,10 @@ import { FriendsPage } from '../friends/friends';
 })
 export class ProfilePage {
 
+  username;
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.username=window.localStorage.getItem('userConnected');
   }
 
   /*ionViewDidLoad() {

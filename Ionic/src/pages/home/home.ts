@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController } from 'ionic-angular';
 import { BookingbabyfootPage } from '../bookingbabyfoot/bookingbabyfoot';
 import { UnknowngamePage } from '../unknowngame/unknowngame';
 import { FriendsgamePage } from '../friendsgame/friendsgame';
@@ -22,7 +22,11 @@ import { FollowingPage } from '../following/following';
 })
 export class HomePage {
 
-  constructor(private navCtrl: NavController) { }
+  username;
+
+  constructor(private navCtrl: NavController) {
+    this.username=window.localStorage.getItem('userConnected');
+   }
 
   goTo(page) {
     switch (page) {

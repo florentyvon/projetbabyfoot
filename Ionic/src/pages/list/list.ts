@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController } from 'ionic-angular';
 
 import { ItemDetailsPage } from '../item-details/item-details';
-import { LoginPage } from '../login/login';
 
 @Component({
   selector: 'page-list',

@@ -33,7 +33,6 @@ export class ListbabyfootsPage {
   map(adr) {
     switch (adr) {
       case "1":
-        console.log("switch1 ok");
         let alert = this.alertCtrl.create({
           title: "Babyfoot de la Présidence",
           message: "Présidence de l'Université d'Angers<br/>40 rue de Rennes<br/>49035 Angers<br/>02 41 96 23 23",

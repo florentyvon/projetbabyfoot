@@ -22,9 +22,19 @@ module.exports= function(app){
         pseudo: String,
         mail : String,
         password: String,
-        salt: String
+        salt: String,
+        niv : Number,
+        team : String,
     }, {collection : 'joueurs'});
     
+    joueurSchema.methods.toDto = function (){
+        return {
+            pseudo : this.pseudo,
+            mail : this.mail,
+            niv : this.niv,
+            team : this.team,
+        }
+    }
     //Modele associé au schéma joueurs
     var Joueur = mongoose.model('JoueurModel', joueurSchema);
   

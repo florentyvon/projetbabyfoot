@@ -1,4 +1,3 @@
-//var Joueur = require("./../models").Joueur;
 var mongoose = require('mongoose');
 var models = require("./../models");
 var Regex = require("regex");
@@ -122,7 +121,8 @@ exports.signup = function(req, res){
 					Joueur.create({ pseudo : dataPlayer.pseudo_signup,
 									mail : dataPlayer.mail_signup,
 									password : secureData.pswd,
-									salt : secureData.salt},
+									salt : secureData.salt,
+									niv : 1},
 					function(err, user) { console.log(err, user)
 						if(err){
 							res.send(err);

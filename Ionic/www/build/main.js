@@ -221,19 +221,19 @@ webpackEmptyAsyncContext.id = 124;
 
 var map = {
 	"../pages/bookingbabyfoot/bookingbabyfoot.module": [
-		296,
+		297,
 		14
 	],
 	"../pages/championship/championship.module": [
-		297,
+		298,
 		13
 	],
 	"../pages/following/following.module": [
-		298,
+		299,
 		12
 	],
 	"../pages/friends/friends.module": [
-		299,
+		301,
 		11
 	],
 	"../pages/friendsgame/friendsgame.module": [
@@ -241,43 +241,43 @@ var map = {
 		10
 	],
 	"../pages/historic/historic.module": [
-		301,
+		302,
 		9
 	],
 	"../pages/home/home.module": [
-		302,
+		303,
 		8
 	],
 	"../pages/listbabyfoots/listbabyfoots.module": [
-		303,
+		304,
 		7
 	],
 	"../pages/log-out/log-out.module": [
-		304,
+		305,
 		6
 	],
 	"../pages/login/login.module": [
-		305,
+		307,
 		5
 	],
 	"../pages/profile/profile.module": [
-		307,
+		306,
 		4
 	],
 	"../pages/quickgame/quickgame.module": [
-		306,
+		309,
 		3
 	],
 	"../pages/stats/stats.module": [
-		309,
+		308,
 		2
 	],
 	"../pages/team/team.module": [
-		308,
+		310,
 		1
 	],
 	"../pages/unknowngame/unknowngame.module": [
-		310,
+		311,
 		0
 	]
 };
@@ -306,13 +306,13 @@ module.exports = webpackAsyncContext;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(125);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__ = __webpack_require__(272);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__ = __webpack_require__(273);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(273);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(274);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__ = __webpack_require__(274);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__ = __webpack_require__(275);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise__ = __webpack_require__(278);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -568,7 +568,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(125);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(296);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_item_details_item_details__ = __webpack_require__(211);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(210);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(40);
@@ -650,17 +650,17 @@ var AppModule = (function () {
                         { loadChildren: '../pages/bookingbabyfoot/bookingbabyfoot.module#BookingbabyfootPageModule', name: 'BookingbabyfootPage', segment: 'bookingbabyfoot', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/championship/championship.module#ChampionshipPageModule', name: 'ChampionshipPage', segment: 'championship', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/following/following.module#FollowingPageModule', name: 'FollowingPage', segment: 'following', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/friends/friends.module#FriendsPageModule', name: 'FriendsPage', segment: 'friends', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/friendsgame/friendsgame.module#FriendsgamePageModule', name: 'FriendsgamePage', segment: 'friendsgame', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/friends/friends.module#FriendsPageModule', name: 'FriendsPage', segment: 'friends', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/historic/historic.module#HistoricPageModule', name: 'HistoricPage', segment: 'historic', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/listbabyfoots/listbabyfoots.module#ListbabyfootsPageModule', name: 'ListbabyfootsPage', segment: 'listbabyfoots', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/log-out/log-out.module#LogOutPageModule', name: 'LogOutPage', segment: 'log-out', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/quickgame/quickgame.module#QuickgamePageModule', name: 'QuickgamePage', segment: 'quickgame', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/team/team.module#TeamPageModule', name: 'TeamPage', segment: 'team', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/stats/stats.module#StatsPageModule', name: 'StatsPage', segment: 'stats', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/quickgame/quickgame.module#QuickgamePageModule', name: 'QuickgamePage', segment: 'quickgame', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/team/team.module#TeamPageModule', name: 'TeamPage', segment: 'team', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/unknowngame/unknowngame.module#UnknowngamePageModule', name: 'UnknowngamePage', segment: 'unknowngame', priority: 'low', defaultHistory: [] }
                     ]
                 }),
@@ -700,7 +700,7 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 295:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1337,9 +1337,10 @@ var ProfilePage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-profile',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Mon Profil</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contact"></ion-icon> {{ username }} - Niv. 12\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contacts"></ion-icon> Mon équipe\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row (click)="goTo(\'friends\')">\n\n            <ion-col>\n\n                <ion-icon name="people"></ion-icon> Mes amis\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row  (click)="goTo(\'stats\')">\n\n            <ion-col>\n\n                <ion-icon name="stats"></ion-icon> Mes statistiques\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row (click)="goTo(\'res\')">\n\n            <ion-col>\n\n                <ion-icon name="calendar"></ion-icon> Mes Réservations\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n</ion-content>'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\profile\profile.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object])
     ], ProfilePage);
     return ProfilePage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=profile.js.map
@@ -1660,9 +1661,10 @@ var LoginPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-login',template:/*ion-inline-start:"D:\babyprojet\Ionic\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n  <link rel="stylesheet prefetch" href="http://fonts.googleapis.com/css?family=Open+Sans:600">\n\n\n\n<ion-navbar>\n\n  <ion-title>Se connecter / S\'enregistrer</ion-title>\n\n</ion-navbar>\n\n\n\n</ion-header>\n\n<!--\n\n<ion-content>\n\n  <div class="login-wrap">\n\n      <div class="login-html">\n\n        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>\n\n        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>\n\n        <div class="login-form">\n\n          <div class="sign-in-htm">\n\n            <div class="group">\n\n              <!--<label for="user" class="label">Pseudo</label>-->\n\n <!--           <input id="user" type="text" class="input" placeholder="Pseudo"> \n\n\n\n\n\n\n\n          \n\n            </div>\n\n            <div class="group">\n\n              <!--<label for="pass" class="label">Mot de passe</label>-->\n\n <!--             <input id="pass" type="password" class="input" data-type="password" placeholder="Mot de passe" >\n\n              \n\n            </div>\n\n            <div class="group">\n\n              <input id="check" type="checkbox" class="check" checked>\n\n              <label for="check"><span class="icon"></span> Rester connecté</label>\n\n            </div>\n\n            <div class="group">\n\n              <input type="submit" class="button" value="Sign In">\n\n            \n\n            </div>\n\n            <div class="hr"></div>\n\n            <div class="foot-lnk">\n\n              <label href="#forgot">Mot de passe oublié?</label>\n\n            </div>\n\n          </div>\n\n          <div class="sign-up-htm">\n\n            <div class="group">\n\n             <!-- <label for="user" class="label">Pseudo</label>-->\n\n <!--             <input id="user" type="text" class="input" placeholder="Pseudo" >\n\n            </div>\n\n            <div class="group">\n\n             <!-- <label for="pass" class="label">Mot de passe</label>-->\n\n     <!--         <input id="pass" type="password" class="input" data-type="password" placeholder="Mot de passe">\n\n            </div>\n\n            <div class="group">\n\n             <!-- <label for="pass" class="label">Confirmer le mot de passe</label>-->\n\n    <!--          <input id="pass" type="password" class="input" data-type="password" placeholder=" Confirmer mot de passe" >\n\n            </div>\n\n            <div class="group">\n\n              <!--<label for="pass" class="label">Adresse mail</label>-->\n\n  <!--            <input id="pass" type="text" class="input" placeholder="Adresse mail">\n\n            </div>\n\n            <div class="group">\n\n              <input type="submit" class="button" value="Sign Up">\n\n            </div>\n\n            <div class="hr"></div>\n\n            <div class="foot-lnk">\n\n              <label for="tab-1">Déja membre?</label>\n\n            </div>\n\n          </div>\n\n        </div>\n\n      </div>\n\n    </div>\n\n\n\n\n\n  -->\n\n\n\n\n\n\n\n<!--\n\n<ion-content padding>\n\n\n\n\n\n<ion-item>\n\n  <ion-label floating>Pseudo</ion-label>\n\n  <ion-input [(ngModel)]="signindata.pseudo_signin" type="text" required></ion-input>\n\n</ion-item>\n\n<ion-item>\n\n  <ion-label floating>Mot de passe</ion-label>\n\n  <ion-input [(ngModel)]="signindata.password_signin" type="text" required></ion-input>\n\n</ion-item>\n\n<button ion-button full color="primary" (click)="signin()">Sign In</button>\n\n\n\n\n\n\n\n<ion-item>\n\n  <ion-label floating>Pseudo</ion-label>\n\n  <ion-input [(ngModel)]="signupdata.pseudo_signup" type="text"></ion-input>\n\n</ion-item>\n\n<ion-item>\n\n  <ion-label floating>Mot de passe</ion-label>\n\n  <ion-input [(ngModel)]="signupdata.password_signup" type="text"></ion-input>\n\n</ion-item>\n\n<ion-item>\n\n  <ion-label floating>Confirmer le mot de passe</ion-label>\n\n  <ion-input [(ngModel)]="vpassword_verif_signup" type="text"></ion-input>\n\n</ion-item>\n\n  <ion-item>\n\n    <ion-label floating>Adresse mail</ion-label>\n\n    <ion-input [(ngModel)]="signupdata.mail_signup" type="text"></ion-input>\n\n  </ion-item>\n\n  <button ion-button full color="primary" (click)="signup()">Sign Up</button>\n\n-->\n\n<ion-content>\n\n\n\n<ion-list no-lines>\n\n\n\n  <form [formGroup]="SigninForm">\n\n\n\n      <ion-item>\n\n          <ion-label floating>Pseudo</ion-label>\n\n          <ion-input formControlName="pseudo_signin" type="text" [class.invalid]="!SigninForm.controls.pseudo_signin.valid && (SigninForm.controls.pseudo_signin.dirty || submitSignin)"></ion-input>\n\n      </ion-item>\n\n      <ion-item *ngIf="!SigninForm.controls.pseudo_signin.valid  && (SigninForm.controls.pseudo_signin.dirty || submitSignin)">\n\n          <p style=" color: red;">Entrer un pseudo entre 3 et 16 caractères (caractères speciaux non autorisés)</p>\n\n      </ion-item>\n\n\n\n      <ion-item>\n\n          <ion-label floating>Mot de passe</ion-label>\n\n          <ion-input formControlName="password_signin" type="password"></ion-input>\n\n      </ion-item> \n\n  </form>\n\n\n\n</ion-list>\n\n<button ion-button full color="primary" (click)="signin()">Se connecter</button>\n\n\n\n<ion-list no-lines>\n\n\n\n  <form [formGroup]="SignupForm">\n\n\n\n      <ion-item>\n\n          <ion-label floating>Pseudo</ion-label>\n\n          <ion-input formControlName="pseudo_signup" type="text" [class.invalid]="!SignupForm.controls.pseudo_signup.valid && (SignupForm.controls.pseudo_signup.dirty || submitSignup)"></ion-input>\n\n      </ion-item>\n\n      <ion-item *ngIf="!SignupForm.controls.pseudo_signup.valid  && (SignupForm.controls.pseudo_signup.dirty || submitSignup)">\n\n          <p style=" color: red;">Entrer un pseudo entre 3 et 16 caractères (caractères speciaux non autorisés)</p>\n\n      </ion-item>\n\n\n\n      <ion-item>\n\n          <ion-label floating>Mot de passe</ion-label>\n\n          <ion-input formControlName="password_signup" type="password" [class.invalid]="!SignupForm.controls.password_signup.valid && (SignupForm.controls.password_signup.dirty || submitSignup)"></ion-input>\n\n      </ion-item> \n\n      <ion-item *ngIf="!SignupForm.controls.password_signup.valid  && (SignupForm.controls.password_signup.dirty || submitSignup)">\n\n          <p style=" color: red;">Le mot de passe doit contenir au moins 6 caractères dont au moins un minuscule, une Majuscule et un chiffre.</p>\n\n      </ion-item>\n\n\n\n      <ion-item>\n\n          <ion-label floating>Vérification du mot de passe</ion-label>\n\n          <ion-input formControlName="password_verify_signup" type="password"></ion-input>\n\n      </ion-item> \n\n      <ion-item *ngIf="!MatchPassword">\n\n          <p style=" color: red;">Les deux mots de passe ne correspondent pas</p>\n\n      </ion-item>\n\n\n\n      <ion-item>\n\n          <ion-label floating>Adresse mail</ion-label>\n\n          <ion-input formControlName="mail_signup" type="text" [class.invalid]="!SignupForm.controls.mail_signup.valid && (SignupForm.controls.mail_signup.dirty || submitSignup)"></ion-input>\n\n      </ion-item> \n\n      <ion-item *ngIf="!SignupForm.controls.mail_signup.valid  && (SignupForm.controls.mail_signup.dirty || submitSignup)">\n\n          <p style=" color: red;">Entrer une addresse mail valide</p>\n\n      </ion-item>\n\n  </form>\n\n\n\n</ion-list>\n\n<button ion-button full color="primary" (click)="signup()">Créer un compte</button>\n\n\n\n</ion-content>\n\n  <!--\n\n<form method="post">\n\n\n\n<div>\n\n  <br/>\n\n  <label> Login </label>\n\n  <input type="text" name="login" >\n\n  </div>\n\n  <br/>\n\n  <div>\n\n  <label>Mot de passe</label>\n\n    <input type="password" name="password">\n\n</div>\n\n<p><button ion-button [navPush]="Connection" menuToggle>Se connecter </button></p>\n\n</form>\n\n-->\n\n\n\n'/*ion-inline-end:"D:\babyprojet\Ionic\src\pages\login\login.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_authentification_authentification__["a" /* AuthentificationProvider */], __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__providers_authentification_authentification__["a" /* AuthentificationProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_authentification_authentification__["a" /* AuthentificationProvider */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_forms__["a" /* FormBuilder */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _e || Object])
     ], LoginPage);
     return LoginPage;
+    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=login.js.map

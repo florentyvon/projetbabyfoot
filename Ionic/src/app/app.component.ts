@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { Platform, MenuController, Nav, NavController, AlertController } from 'ionic-angular';
+import { Platform, MenuController, Nav } from 'ionic-angular';
 
 import { ListPage } from '../pages/list/list';
 import { HomePage } from '../pages/home/home';
@@ -16,9 +16,11 @@ import { FollowingPage } from '../pages/following/following';
 import { StatsPage } from '../pages/stats/stats';
 import { FriendsPage } from '../pages/friends/friends';
 import {LoginPage} from '../pages/login/login';
+import { LogOutPage } from '../pages/log-out/log-out';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
 
 
 @Component({
@@ -36,7 +38,6 @@ export class MyApp {
     public menu: MenuController,
     public statusBar: StatusBar,
     public splashScreen: SplashScreen,
-    public alertCtrl : AlertController,
   ) { 
     this.initializeApp();
     
@@ -55,7 +56,7 @@ export class MyApp {
       { title: 'Suivre un match', component: FollowingPage},
       { title: 'Voir stats', component: StatsPage},
       { title: 'Voir amis', component: FriendsPage},
-      { title: 'Déconnexion', component : HomePage}
+      { title: 'Déconnexion', component : LogOutPage}
     ];
     this.checkPreviousAuthorization();
   }
@@ -88,22 +89,4 @@ export class MyApp {
     // navigate to the new page if it is not the current page
     this.nav.setRoot(page.component);
   }
-
-LogOut() {
-
-  window.localStorage.removeItem('userConnected');
-  this.showPopup('Déconnexion', 'Vous êtes bien déconnecté');
-  this.rootPage=LoginPage;
-}
-
-showPopup(title, text) {
-  let alert = this.alertCtrl.create({
-    title: title,
-    subTitle: text,
-    buttons: [
-      'OK'
-    ]
-  });
-  alert.present();
-}
 }

@@ -15,6 +15,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { AuthentificationProvider } from '../providers/authentification/authentification';
 import { LoginPage } from '../pages/login/login';
+import { LogOutPage } from '../pages/log-out/log-out';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { LoginPage } from '../pages/login/login';
     ChampionshipPage,
     BookingbabyfootPage,
     LoginPage,
+    LogOutPage,
   ],
   imports: [
     BrowserModule,
@@ -43,6 +45,7 @@ import { LoginPage } from '../pages/login/login';
     ChampionshipPage,
     BookingbabyfootPage,
     LoginPage,
+    LogOutPage,
   ],
   providers: [
     StatusBar,

@@ -2,42 +2,43 @@ var mongoose = require('mongoose');
 var models = require("./../models");
 
 var Joueur = models.Joueur;
-var Stats = models.Stats;
+var Stats = models.Statistique;
 
 
 //RECUPERATION DES DONNEES JOUEUR
-exports.getDataPlayer = function(req, res){
+exports.getDataPlayer = function(req, res) {
 
-	console.log("GetDataPlayer Function");
+    //On recupère les données du pseudo
+    var dataPlayer = req.body.dataPN;
+    //On déclare le résultat à renvoyer comme un string
+    var result = "";
+    //Variable qui reçoit le résultat de la requête
+    var currentPlayer;
+    //Requête sur la BDD
+    Joueur.findOne().where("pseudo").equals(dataPlayer).exec(function(err, currentPlayer) {
+        //JSON to String
+        result = JSON.stringify(currentPlayer);
+        //Envoi du résultat via res
+        res.json(result);
+    });
 
-	//On recupère les données du pseudo
-	var dataPlayer = req.body.dataPN;
-	console.log("Dataplayer:", dataPlayer)
-	var result = "";
-	var currentPlayer;
-
-	console.log("Recherche avec Pseudo");
-	Joueur.findOne().where("pseudo").equals(dataPlayer).exec(function(err,currentPlayer){
-		result=JSON.stringify(currentPlayer);
-		res.json(result);
-	});
-	
 };
 
-exports.getStatsPlayer = function(req, res){
+//RECUPERATION DES STATS JOUEUR
+exports.getStatsPlayer = function(req, res) {
 
-	console.log("GetDataPlayer Function");
+    //On recupère les stats à l'aide de l'id
+    var dataPlayer = req.body.dataIS;
+    //On déclare le résultat à renvoyer comme un string
+    var result = "";
+    //Variable qui reçoit le résultat de la requête
+    var currentPlayer;
+    //Requête sur la BDD
+    Stats.findOne().where("_id").equals(dataPlayer).exec(function(err, currentPlayer) {
+        //JSON to String
+        result = JSON.stringify(currentPlayer);
+        //Envoi du résultat via res
+        res.json(result);
+    });
 
-	//On recupère les données du pseudo
-	var dataIS = req.body.dataIS;
-	console.log("Dataplayer:", dataPlayer)
-	var result = "";
-	var currentPlayer;
-
-	console.log("Recherche avec Pseudo");
-	Stats.findOne().where("id").equals(dataIS).exec(function(err,currentPlayer){
-		result=JSON.stringify(currentPlayer);
-		res.json(result);
-	});
-	
 };

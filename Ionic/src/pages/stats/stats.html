@@ -6,59 +6,59 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>Statistiques</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>Statistiques</ion-title>
+    </ion-navbar>
 
 </ion-header>
 
 <ion-content padding>
-  <p style="text-align:center">
-    <ion-row>
-      <ion-col>
-        <h1>3 Victoires</h1>
-      </ion-col>
-      <ion-col>
-        <h1>4 Défaites</h1>
-      </ion-col>
-    </ion-row>
-  </p>
-  <br/>
-  <p>
-    <ion-row>
-      <ion-col style="text-align:center">
-        <h2>
-          <ion-icon name="reorder"></ion-icon> Classement Général : 3/123</h2>
-      </ion-col>
-    </ion-row>
-  </p>
-  <p>
-    <ion-row>
-      <ion-col style="text-align:center">
-        <h2>
-          <ion-icon name="reorder"></ion-icon> Classement Amis : 3/123</h2>
-      </ion-col>
-    </ion-row>
-  </p>
-  <br/>
-  <p style="text-align:center">
-    <ion-row>
-      <ion-col>
-        <h1>8
-          <ion-icon name="football"></ion-icon>
-        </h1>
-      </ion-col>
-      <ion-col>
-        <h1>4
-          <ion-icon name="game-controller-a"></ion-icon>
-        </h1>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <h2>2 buts/match</h2>
-      </ion-col>
+    <p style="text-align:center">
+        <ion-row>
+            <ion-col>
+                <h1>{{ V }} Victoires</h1>
+            </ion-col>
+            <ion-col>
+                <h1>{{ D }} Défaites</h1>
+            </ion-col>
+        </ion-row>
+    </p>
+    <br/>
+    <p>
+        <ion-row>
+            <ion-col style="text-align:center">
+                <h2>
+                    <ion-icon name="reorder"></ion-icon> Classement Général : {{ G_r }}/123</h2>
+            </ion-col>
+        </ion-row>
+    </p>
+    <p>
+        <ion-row>
+            <ion-col style="text-align:center">
+                <h2>
+                    <ion-icon name="reorder"></ion-icon> Classement Amis : {{ F_r }}/5</h2>
+            </ion-col>
+        </ion-row>
+    </p>
+    <br/>
+    <p style="text-align:center">
+        <ion-row>
+            <ion-col>
+                <h1>{{ goals }}
+                    <ion-icon name="football"></ion-icon>
+                </h1>
+            </ion-col>
+            <ion-col>
+                <h1>{{ games }}
+                    <ion-icon name="game-controller-a"></ion-icon>
+                </h1>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <h2>{{ R }} buts/match</h2>
+            </ion-col>
 
-    </ion-row>
-  </p>
+        </ion-row>
+    </p>
 </ion-content>

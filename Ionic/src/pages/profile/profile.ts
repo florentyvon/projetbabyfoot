@@ -25,7 +25,9 @@ export class ProfilePage {
 
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private data: DataProvider) {
+    //On stocke le pseudo courant
     this.username=window.localStorage.getItem('userConnected');
+    //Requête à la BDD pour avoir les données du joeurs et pouvoir les afficher
     this.data.getDataPlayer(this.username).subscribe(data => {
       this.player = JSON.parse(data);
       this.username = this.player.pseudo;

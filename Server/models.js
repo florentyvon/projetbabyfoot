@@ -17,28 +17,80 @@ module.exports= function(app){
     /** Collection joueurs **/
 
     //Schéma associé aux joueurs
+
+    // ------- JOUEUR -------
     var joueurSchema = mongoose.Schema({
     //        id : { type : mongoose.Schema.Types.ObjectId, ref : 'Id'},
         pseudo: String,
+        nom_joueur: String,
+        prenom_joueur : String,
+        date_naiss : Date,
+        nom_equipe : String,    // miniscule uniquement!!
+        id_stat : Number, 
+        id_amitie : Number, 
+        type : String,  // type de connexion : admin, 
         mail : String,
         password: String,
         salt: String,
         niv : Number,
-        team : String,
     }, {collection : 'joueurs'});
-    
-    joueurSchema.methods.toDto = function (){
-        return {
-            pseudo : this.pseudo,
-            mail : this.mail,
-            niv : this.niv,
-            team : this.team,
-        }
-    }
+
+    // ------- STATIQUES -------
+    var StaticSchema = mongoose.Schema({
+        //  id : { type : mongoose.Schema.Types.ObjectId, ref : 'Id'},
+            nbr_match: Number,
+            nbr_but: Number,
+            nbr_victoires : Number,
+            nbr_defaites : Number,
+        }, {collection : 'Statistiques'});
+
+    // ------- EQUIPE -------
+    var EquipeSchema = mongoose.Schema({
+        //  id : { type : mongoose.Schema.Types.ObjectId, ref : 'Id'},
+            nom_equipe: String,
+            nbr_joueurs: Number,
+            id_stat : Number,
+            }, {collection : 'Equipe'});
+
+    // ------- CHAMPIONNATS -------
+    var ChampionnatSchema = mongoose.Schema({
+        //  id : { type : mongoose.Schema.Types.ObjectId, ref : 'Id'},
+            nbr_equipe: Number,
+            date_championnat: Date,
+            id_stat : Number,
+            classement : Array,
+            organisateur : String,
+            }, {collection : 'Championnat'});
+
+    // ------- AMIS -------
+    var AmisSchema = mongoose.Schema({
+        //  id : { type : mongoose.Schema.Types.ObjectId, ref : 'Id'},
+            
+            }, {collection : 'Amis'});
+
+    // ------- Partie -------
+    var PartieSchema = mongoose.Schema({
+        //  id : { type : mongoose.Schema.Types.ObjectId, ref : 'Id'},
+            ID_game: Number,
+            etat: String, //etat ( attente, en cours , terminé)
+            nom_baby : Number,
+            tab_joueurs : Array,
+            id_stat : String,
+            }, {collection : 'Partie'}); 
+
     //Modele associé au schéma joueurs
     var Joueur = mongoose.model('JoueurModel', joueurSchema);
+    var Statistique = mongoose.model('StatistiqueModel', StaticSchema);
+    var Equipe = mongoose.model('EquipeModel', EquipeSchema);
+    var Championnat = mongoose.model('ChampionnatModel', ChampionnatSchema);
+    var Amis = mongoose.model('AmisModel', AmisSchema);
+    var Partie = mongoose.model('PartieModel', PartieSchema);
   
-    //Export de Joueur
-    module.exports.Joueur = Joueur; 
-
+    //-------- Export des collections -----------
+    module.exports.Joueur = Joueur;
+    module.exports.Statistique = Statistique;
+    module.exports.Equipe = Equipe; 
+    module.exports.Championnat = Championnat;
+    module.exports.Amis = Amis;   
+    module.exports.Partie = Partie;   
 }

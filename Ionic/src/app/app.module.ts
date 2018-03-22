@@ -24,6 +24,7 @@ import { TeamPage } from '../pages/team/team';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { AuthentificationProvider } from '../providers/authentification/authentification';
+import { DataProvider } from '../providers/data/data';
 
 @NgModule({
   declarations: [
@@ -75,6 +76,7 @@ import { AuthentificationProvider } from '../providers/authentification/authenti
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     AuthentificationProvider,
+    DataProvider
   ]
 })
 export class AppModule {}

@@ -8,6 +8,8 @@ import { ListbabyfootsPage } from '../listbabyfoots/listbabyfoots';
 import { ProfilePage } from '../profile/profile';
 import { FollowingPage } from '../following/following';
 
+import { DataProvider } from '../../providers/data/data';
+
 /**
  * Generated class for the HomePage page.
  *
@@ -23,9 +25,22 @@ import { FollowingPage } from '../following/following';
 export class HomePage {
 
   username;
+  player;
+  team;
 
-  constructor(private navCtrl: NavController) {
+  constructor(private navCtrl: NavController, private data: DataProvider) {
     this.username=window.localStorage.getItem('userConnected');
+    this.data.getDataPlayer(this.username).subscribe(data => {
+      this.player = JSON.parse(data);
+      this.username = this.player.pseudo;
+      if(this.player.nom_equipe)
+      {
+        this.team = this.player.nom_equipe;
+      }else
+      {
+        this.team = "Aucune Equipe";
+      }     
+    });
    }
 
   goTo(page) {

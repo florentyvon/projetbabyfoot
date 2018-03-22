@@ -144,7 +144,7 @@ export class LoginPage {
 
         this.createSuccess = true;
         this.showPopup("Succès", "Votre compte a été créé");
-        this.nav.setRoot(HomePage);
+        this.nav.setRoot(HomePage); 
       //Sinon
       } else {
         this.showPopup("Erreur", success);

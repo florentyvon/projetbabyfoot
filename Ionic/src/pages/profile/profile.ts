@@ -3,6 +3,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { StatsPage } from '../stats/stats';
 import { FriendsPage } from '../friends/friends';
 
+import { DataProvider } from '../../providers/data/data';
+
 /**
  * Generated class for the ProfilePage page.
  *
@@ -18,14 +20,22 @@ import { FriendsPage } from '../friends/friends';
 export class ProfilePage {
 
   username;
+  niv;
+  player;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, private data: DataProvider) {
     this.username=window.localStorage.getItem('userConnected');
+    this.data.getDataPlayer(this.username).subscribe(data => {
+      this.player = JSON.parse(data);
+      this.username = this.player.pseudo;
+      this.niv = this.player.niv;
+    });
   }
 
-  /*ionViewDidLoad() {
+  ionViewDidLoad() {
     console.log('ionViewDidLoad ProfilePage');
-  }*/
+  }
 
   goTo(page) {
     switch (page) {

@@ -81,6 +81,14 @@ module.exports = function(app) {
         id_stat: String,
     }, { collection: 'Partie' });
 
+    var ReservationSchema = mongoose.Schema({
+        //  id : { type : mongoose.Schema.Types.ObjectId, ref : 'Id'},
+        ID_baby: Number,
+        ID_Joueur: { type: Schema.Types.ObjectId, ref: 'Joueur' },
+        DateDeb: Date,
+        DateFin: Date,
+    }, { collection: 'Reservation' });
+
     //Modele associé au schéma joueurs
     var Joueur = mongoose.model('JoueurModel', joueurSchema);
     var Statistique = mongoose.model('StatistiqueModel', StaticSchema);
@@ -88,6 +96,7 @@ module.exports = function(app) {
     var Championnat = mongoose.model('ChampionnatModel', ChampionnatSchema);
     var Amis = mongoose.model('AmisModel', AmisSchema);
     var Partie = mongoose.model('PartieModel', PartieSchema);
+    var Reservation = mongoose.model('ReservationModel', ReservationSchema);
 
     //-------- Export des collections -----------
     module.exports.Joueur = Joueur;
@@ -96,4 +105,5 @@ module.exports = function(app) {
     module.exports.Championnat = Championnat;
     module.exports.Amis = Amis;
     module.exports.Partie = Partie;
+    module.exports.Reservation = Reservation;
 }

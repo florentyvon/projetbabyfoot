@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { StatsPage } from '../stats/stats';
 import { FriendsPage } from '../friends/friends';
+import { MyBookingsPage } from '../my-bookings/my-bookings';
 
 import { DataProvider } from '../../providers/data/data';
 
@@ -47,6 +48,9 @@ export class ProfilePage {
       case 'friends':
         this.navCtrl.push(FriendsPage);
         break;
+      case 'bookings':
+      this.navCtrl.push(MyBookingsPage);
+      break;
     }
   }
 

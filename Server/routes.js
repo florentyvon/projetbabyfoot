@@ -8,4 +8,6 @@ module.exports = function(app) {
     app.post('/logout', auth.logout);
     app.post('/getDataPlayer', data.getDataPlayer);
     app.post('/getStatsPlayer', data.getStatsPlayer);
+    app.post('/bookReservation', data.bookReservation);
+    app.post('/getMyReservations', data.getMyReservations)
 }

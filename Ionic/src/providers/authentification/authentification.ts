@@ -41,7 +41,6 @@ export class AuthentificationProvider {
   //Fonction signup qui recoit en parametre les données de création de compte
   public signup(signupdata) {
 
-
     //Creation d'un header => JSON
     let headers = new Headers(
       {
@@ -60,8 +59,6 @@ export class AuthentificationProvider {
         //On envoie la réponse à login.ts
         return res.json();
       });
-
-
 
   }
 

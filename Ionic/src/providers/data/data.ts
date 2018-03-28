@@ -53,4 +53,50 @@ export class DataProvider {
         return res.json();
       });
   }
+
+  public bookReservation(reservationData)
+  {
+    //Creation d'un header => JSON
+    let headers = new Headers(
+      {
+        'Content-Type': 'application/json'
+      });
+
+    //Creation des options
+    let options = new RequestOptions({ headers: headers });
+
+    //Creation des data en JSON 
+    let data = JSON.stringify(reservationData);
+    console.log(data);
+
+    //Requete au serveur
+    return this.http.post('http://localhost:8080/bookReservation', data, options)
+      .map(res => {
+        //On envoie la réponse à bookingbabyfoot.ts
+        return res.json();
+      });
+  }
+
+  public getMyReservations(userID)
+  {
+    let headers = new Headers({
+      "Content-Type": "application/json"
+    });
+
+    //Création trame JSON
+    let data = { dataID: userID };
+    //Transformation string en JSON
+    let dataID = JSON.stringify(data);
+    console.log(dataID)
+    //Creation des options
+    let options = new RequestOptions({ headers: headers });
+    //Envoi de la requête POST
+    return this.http
+      .post("http://localhost:8080/getMyReservations", dataID, options)
+      .map(res => {
+        //On envoie la réponse à login.ts
+        return res.json();
+      });
+  }
 }
+

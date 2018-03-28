@@ -17,6 +17,7 @@ import { StatsPage } from '../pages/stats/stats';
 import { FriendsPage } from '../pages/friends/friends';
 import {LoginPage} from '../pages/login/login';
 import { LogOutPage } from '../pages/log-out/log-out';
+import { MyBookingsPage } from '../pages/my-bookings/my-bookings'
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -56,7 +57,8 @@ export class MyApp {
       { title: 'Suivre un match', component: FollowingPage},
       { title: 'Voir stats', component: StatsPage},
       { title: 'Voir amis', component: FriendsPage},
-      { title: 'Déconnexion', component : LogOutPage}
+      { title: 'Mes réservations', component : MyBookingsPage},
+      { title: 'Déconnexion', component : LogOutPage},
     ];
     this.checkPreviousAuthorization();
   }

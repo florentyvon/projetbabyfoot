@@ -20,6 +20,7 @@ import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
 import { StatsPage } from '../pages/stats/stats';
 import { FriendsPage } from '../pages/friends/friends';
 import { TeamPage } from '../pages/team/team';
+import { MyBookingsPage } from '../pages/my-bookings/my-bookings';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -46,6 +47,7 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator';
     ListbabyfootsPage,
     StatsPage,
     TeamPage,
+    MyBookingsPage,
   ],
   imports: [
     BrowserModule,
@@ -71,6 +73,7 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator';
     ListbabyfootsPage,
     StatsPage,
     TeamPage,
+    MyBookingsPage,
   ],
   providers: [
     StatusBar,

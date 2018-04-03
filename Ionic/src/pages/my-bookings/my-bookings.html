@@ -5,19 +5,19 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>Mes Réservations</ion-title>
-  </ion-navbar>
-
+    <ion-navbar>
+        <ion-title>Mes Réservations</ion-title>
+    </ion-navbar>
 </ion-header>
 
 
 <ion-content padding>
-  <ion-card> 
-    <ion-card-content>
-      Réservation
-      {{ reservations }}
-    </ion-card-content>
-  </ion-card>
+    <ion-card *ngFor="let stack of reservations">
+        <ion-card-header>
+            <b> {{stack.ID_baby }}</b>
+        </ion-card-header>
+        <ion-card-content>
+            {{ stack.DateFin }}
+        </ion-card-content>
+    </ion-card>
 </ion-content>

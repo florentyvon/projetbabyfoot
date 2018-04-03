@@ -60,7 +60,6 @@ export class BookingbabyfootPage {
     } else {
       this.event.timeEnds = `${this.now.getHours()}:${this.now.getMinutes() + 10}`
     }
-    console.log(this.event);
     this.username=window.localStorage.getItem('userConnected');
     //Requête à la BDD pour avoir les données du joeurs et pouvoir les afficher
     this.data.getDataPlayer(this.username).subscribe(data => {
@@ -110,7 +109,6 @@ export class BookingbabyfootPage {
     alert.addButton({
       text: 'Valider',
       handler: data => {
-        console.info('Choix babyfoot', data);
         this.testRadioOpen = false;
         this.testRadioResult = data;
         document.getElementById("Resultat").style.visibility = "visible";
@@ -124,7 +122,6 @@ export class BookingbabyfootPage {
 
   booking(babyfoot, date, hdeb, hfin) {
     let id_baby : number;
-    console.log(this.testRadioResult + '/' + date + '/' + hdeb + '/' + hfin)
     if (babyfoot != undefined) {
       switch(this.testRadioResult)
       {
@@ -152,7 +149,6 @@ export class BookingbabyfootPage {
         DateDeb: DD,
         DateFin: DF,
       }
-      console.log(dataR);
 
       this.data.bookReservation(dataR).subscribe(success => {
       

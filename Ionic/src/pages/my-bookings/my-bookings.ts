@@ -31,7 +31,6 @@ export class MyBookingsPage {
   ) {
     //On stocke le pseudo courant
     this.username = window.localStorage.getItem("userConnected");
-    this.count = 0;
     //Requête à la BDD pour avoir les données du joeurs et pouvoir les afficher
     this.data.getDataPlayer(this.username).subscribe(data => {
       this.player = JSON.parse(data);
@@ -40,7 +39,7 @@ export class MyBookingsPage {
       this.data.getMyReservations(this.id).subscribe(data2 => {
         this.reservations = JSON.parse(data2);
         this.reservations.forEach(element => {
-          this.printReservation(element);
+            this.printReservation(element);
         });
       });
     });
@@ -51,6 +50,8 @@ export class MyBookingsPage {
   }
 
   printReservation(reservation) {
+    let dated = new Date(reservation.DateDeb);
+    let datef = new Date(reservation.DateFin);
     switch (reservation.ID_baby) {
       case 1:
         reservation.ID_baby = "Babyfoot Présidence";
@@ -68,8 +69,6 @@ export class MyBookingsPage {
         reservation.ID_baby = "Babyfoot Médecine";
         break;
     }
-    
-    let dated = new Date(reservation.DateDeb);
 
     if (dated.getDate() < 10) {
       this.event.month = `0${dated.getDate()}`;
@@ -82,7 +81,6 @@ export class MyBookingsPage {
       this.event.month += `-${dated.getMonth() + 1}-${dated.getFullYear()}`;
     }
     
-
     /*Construction créneau*/
     if (dated.getHours() < 10) {
       this.event.timeStarts = `0${dated.getHours()}`;
@@ -94,18 +92,18 @@ export class MyBookingsPage {
     } else {
       this.event.timeStarts += `:${dated.getMinutes()}`;
     }
-    if (dated.getMinutes() + 10 > 59) {
-      if (dated.getHours() < 9) {
-        this.event.timeEnds = `0${dated.getHours()+1}`;
-      } else {
-        this.event.timeEnds = `${dated.getHours()+1}`;
-      }
-      this.event.timeEnds += `:0${(dated.getMinutes() + 10) % 60}`
+    if (datef.getHours() < 10) {
+      this.event.timeEnds = `0${datef.getHours()}`;
     } else {
-      this.event.timeEnds = `${dated.getHours()}:${dated.getMinutes() + 10}`
+      this.event.timeEnds = `${datef.getHours()}`;
     }
-
-    reservation.DateFin = 'Le ' + this.event.month + ' de ' + this.event.timeStarts + ' à ' +  this.event.timeEnds;
+    if (datef.getMinutes() < 10) {
+      this.event.timeEnds += `:0${datef.getMinutes()}`;
+    } else {
+      this.event.timeEnds += `:${datef.getMinutes()}`;
+    }
+    reservation.DateDeb = this.event.month;
+    reservation.DateFin = this.event.timeStarts + ' à ' +  this.event.timeEnds;
   }
 
   public event = {

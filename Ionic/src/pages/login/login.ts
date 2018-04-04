@@ -35,7 +35,6 @@ export class LoginPage {
 
 
   constructor(private nav: NavController, private auth: AuthentificationProvider, public formBuilder: FormBuilder, private alertCtrl: AlertController, private loadingCtrl: LoadingController) {
-
     //Instanciation du formulaire de connection 
     this.SigninForm = formBuilder.group({
       //Variable pseudo_signin : longueur entre 3 et 16 caracteres, contenant des chiffres / lettres / point / tiret / underscore

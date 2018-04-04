@@ -7,7 +7,6 @@ var Stat = models.Statistique;
 
 //Function to sign in
 exports.signin = function(req, res) {
-    stats;
     console.log("Signin Function");
 
     //On recupère les données du formulaire

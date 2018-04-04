@@ -108,7 +108,7 @@ module.exports = function(app) {
     var Amis = mongoose.model('AmisModel', AmisSchema);
     var Partie = mongoose.model('PartieModel', PartieSchema);
     var Reservation = mongoose.model('ReservationModel', ReservationSchema);
-
+    
     //-------- Export des collections -----------
     module.exports.Joueur = Joueur;
     module.exports.Statistique = Statistique;

@@ -5,11 +5,11 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-  <link rel="stylesheet prefetch" href="http://fonts.googleapis.com/css?family=Open+Sans:600">
+    <link rel="stylesheet prefetch" href="http://fonts.googleapis.com/css?family=Open+Sans:600">
 
-<ion-navbar>
-  <ion-title>Se connecter / S'enregistrer</ion-title>
-</ion-navbar>
+    <ion-navbar>
+        <ion-title>Se connecter / S'enregistrer</ion-title>
+    </ion-navbar>
 
 </ion-header>
 <!--
@@ -22,7 +22,7 @@
           <div class="sign-in-htm">
             <div class="group">
               <!--<label for="user" class="label">Pseudo</label>-->
- <!--           <input id="user" type="text" class="input" placeholder="Pseudo"> 
+<!--           <input id="user" type="text" class="input" placeholder="Pseudo"> 
 
 
 
@@ -30,7 +30,7 @@
             </div>
             <div class="group">
               <!--<label for="pass" class="label">Mot de passe</label>-->
- <!--             <input id="pass" type="password" class="input" data-type="password" placeholder="Mot de passe" >
+<!--             <input id="pass" type="password" class="input" data-type="password" placeholder="Mot de passe" >
               
             </div>
             <div class="group">
@@ -49,19 +49,19 @@
           <div class="sign-up-htm">
             <div class="group">
              <!-- <label for="user" class="label">Pseudo</label>-->
- <!--             <input id="user" type="text" class="input" placeholder="Pseudo" >
+<!--             <input id="user" type="text" class="input" placeholder="Pseudo" >
             </div>
             <div class="group">
              <!-- <label for="pass" class="label">Mot de passe</label>-->
-     <!--         <input id="pass" type="password" class="input" data-type="password" placeholder="Mot de passe">
+<!--         <input id="pass" type="password" class="input" data-type="password" placeholder="Mot de passe">
             </div>
             <div class="group">
              <!-- <label for="pass" class="label">Confirmer le mot de passe</label>-->
-    <!--          <input id="pass" type="password" class="input" data-type="password" placeholder=" Confirmer mot de passe" >
+<!--          <input id="pass" type="password" class="input" data-type="password" placeholder=" Confirmer mot de passe" >
             </div>
             <div class="group">
               <!--<label for="pass" class="label">Adresse mail</label>-->
-  <!--            <input id="pass" type="text" class="input" placeholder="Adresse mail">
+<!--            <input id="pass" type="text" class="input" placeholder="Adresse mail">
             </div>
             <div class="group">
               <input type="submit" class="button" value="Sign Up">
@@ -116,69 +116,69 @@
 -->
 <ion-content>
 
-<ion-list no-lines>
+    <ion-list no-lines>
 
-  <form [formGroup]="SigninForm">
+        <form [formGroup]="SigninForm">
 
-      <ion-item>
-          <ion-label floating>Pseudo</ion-label>
-          <ion-input formControlName="pseudo_signin" type="text" [class.invalid]="!SigninForm.controls.pseudo_signin.valid && (SigninForm.controls.pseudo_signin.dirty || submitSignin)"></ion-input>
-      </ion-item>
-      <ion-item *ngIf="!SigninForm.controls.pseudo_signin.valid  && (SigninForm.controls.pseudo_signin.dirty || submitSignin)">
-          <p style=" color: red;">Entrer un pseudo entre 3 et 16 caractères (caractères speciaux non autorisés)</p>
-      </ion-item>
+            <ion-item>
+                <ion-label floating>Pseudo</ion-label>
+                <ion-input formControlName="pseudo_signin" type="text" [class.invalid]="!SigninForm.controls.pseudo_signin.valid && (SigninForm.controls.pseudo_signin.dirty || submitSignin)"></ion-input>
+            </ion-item>
+            <ion-item *ngIf="!SigninForm.controls.pseudo_signin.valid  && (SigninForm.controls.pseudo_signin.dirty || submitSignin)">
+                <p style=" color: red;">Entrer un pseudo entre 3 et 16 caractères (caractères speciaux non autorisés)</p>
+            </ion-item>
 
-      <ion-item>
-          <ion-label floating>Mot de passe</ion-label>
-          <ion-input formControlName="password_signin" type="password"></ion-input>
-      </ion-item> 
-  </form>
+            <ion-item>
+                <ion-label floating>Mot de passe</ion-label>
+                <ion-input formControlName="password_signin" type="password"></ion-input>
+            </ion-item>
+        </form>
 
-</ion-list>
-<button ion-button full color="primary" (click)="signin()">Se connecter</button>
+    </ion-list>
+    <button ion-button full color="primary" (click)="signin()">Se connecter</button>
 
-<ion-list no-lines>
+    <ion-list no-lines>
 
-  <form [formGroup]="SignupForm">
+        <form [formGroup]="SignupForm">
 
-      <ion-item>
-          <ion-label floating>Pseudo</ion-label>
-          <ion-input formControlName="pseudo_signup" type="text" [class.invalid]="!SignupForm.controls.pseudo_signup.valid && (SignupForm.controls.pseudo_signup.dirty || submitSignup)"></ion-input>
-      </ion-item>
-      <ion-item *ngIf="!SignupForm.controls.pseudo_signup.valid  && (SignupForm.controls.pseudo_signup.dirty || submitSignup)">
-          <p style=" color: red;">Entrer un pseudo entre 3 et 16 caractères (caractères speciaux non autorisés)</p>
-      </ion-item>
+            <ion-item>
+                <ion-label floating>Pseudo</ion-label>
+                <ion-input formControlName="pseudo_signup" type="text" [class.invalid]="!SignupForm.controls.pseudo_signup.valid && (SignupForm.controls.pseudo_signup.dirty || submitSignup)"></ion-input>
+            </ion-item>
+            <ion-item *ngIf="!SignupForm.controls.pseudo_signup.valid  && (SignupForm.controls.pseudo_signup.dirty || submitSignup)">
+                <p style=" color: red;">Entrer un pseudo entre 3 et 16 caractères (caractères speciaux non autorisés)</p>
+            </ion-item>
 
-      <ion-item>
-          <ion-label floating>Mot de passe</ion-label>
-          <ion-input formControlName="password_signup" type="password" [class.invalid]="!SignupForm.controls.password_signup.valid && (SignupForm.controls.password_signup.dirty || submitSignup)"></ion-input>
-      </ion-item> 
-      <ion-item *ngIf="!SignupForm.controls.password_signup.valid  && (SignupForm.controls.password_signup.dirty || submitSignup)">
-          <p style=" color: red;">Le mot de passe doit contenir au moins 6 caractères dont au moins un minuscule, une Majuscule et un chiffre.</p>
-      </ion-item>
+            <ion-item>
+                <ion-label floating>Mot de passe</ion-label>
+                <ion-input formControlName="password_signup" type="password" [class.invalid]="!SignupForm.controls.password_signup.valid && (SignupForm.controls.password_signup.dirty || submitSignup)"></ion-input>
+            </ion-item>
+            <ion-item *ngIf="!SignupForm.controls.password_signup.valid  && (SignupForm.controls.password_signup.dirty || submitSignup)">
+                <p style=" color: red;">Le mot de passe doit contenir au moins 6 caractères dont au moins un minuscule, une Majuscule et un chiffre.</p>
+            </ion-item>
 
-      <ion-item>
-          <ion-label floating>Vérification du mot de passe</ion-label>
-          <ion-input formControlName="password_verify_signup" type="password"></ion-input>
-      </ion-item> 
-      <ion-item *ngIf="!MatchPassword">
-          <p style=" color: red;">Les deux mots de passe ne correspondent pas</p>
-      </ion-item>
+            <ion-item>
+                <ion-label floating>Vérification du mot de passe</ion-label>
+                <ion-input formControlName="password_verify_signup" type="password"></ion-input>
+            </ion-item>
+            <ion-item *ngIf="!MatchPassword">
+                <p style=" color: red;">Les deux mots de passe ne correspondent pas</p>
+            </ion-item>
 
-      <ion-item>
-          <ion-label floating>Adresse mail</ion-label>
-          <ion-input formControlName="mail_signup" type="text" [class.invalid]="!SignupForm.controls.mail_signup.valid && (SignupForm.controls.mail_signup.dirty || submitSignup)"></ion-input>
-      </ion-item> 
-      <ion-item *ngIf="!SignupForm.controls.mail_signup.valid  && (SignupForm.controls.mail_signup.dirty || submitSignup)">
-          <p style=" color: red;">Entrer une addresse mail valide</p>
-      </ion-item>
-  </form>
+            <ion-item>
+                <ion-label floating>Adresse mail</ion-label>
+                <ion-input formControlName="mail_signup" type="text" [class.invalid]="!SignupForm.controls.mail_signup.valid && (SignupForm.controls.mail_signup.dirty || submitSignup)"></ion-input>
+            </ion-item>
+            <ion-item *ngIf="!SignupForm.controls.mail_signup.valid  && (SignupForm.controls.mail_signup.dirty || submitSignup)">
+                <p style=" color: red;">Entrer une addresse mail valide</p>
+            </ion-item>
+        </form>
 
-</ion-list>
-<button ion-button full color="primary" (click)="signup()">Créer un compte</button>
+    </ion-list>
+    <button ion-button full color="primary" (click)="signup()">Créer un compte</button>
 
 </ion-content>
-  <!--
+<!--
 <form method="post">
 
 <div>
@@ -194,4 +194,3 @@
 <p><button ion-button [navPush]="Connection" menuToggle>Se connecter </button></p>
 </form>
 -->
-

@@ -6,13 +6,13 @@ var io = require('socket.io').listen(server);
 require("./config")(app);
 
 // Models
-require("./models")(app); 
+require("./models")(app);
 
 // Routes
-require("./routes")(app); 
+require("./routes")(app);
 
 // Communication Socket.io
-require("./sockets")(io); 
+require("./sockets")(io);
 
 // listen (start app with node server.js) ======================================
 //Localhost
@@ -20,5 +20,3 @@ require("./sockets")(io);
 //Serveur local 
 server.listen(8080, "192.168.1.1");
 console.log("App listening on port 8080");
-
-

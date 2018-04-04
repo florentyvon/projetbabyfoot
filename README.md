@@ -102,8 +102,8 @@ Add additional notes about how to deploy this on a live system
 ## Contributing
 
 Contributors to the project : 
-- Youssouf Ziyyat
-- Steve Desprès
+- Youssouf ZIYYAT
+- Steve DESPRES
 - Florent YVON
 
 ## Versioning
@@ -111,6 +111,8 @@ Contributors to the project :
 ## Authors
 
 * **Florent YVON**
+* **Steve DESPRES**
+* **Youssef ZIYYAT**
 
 ## License
 

@@ -111,6 +111,8 @@ Contributors to the project :
 ## Authors
 
 * **Florent YVON**
+* **Steve DESPRES**
+* **Youssef ZYYIAT**
 
 ## License
 

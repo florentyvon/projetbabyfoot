@@ -1,0 +1,52 @@
+<!--
+  Generated template for the JoingamePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+  <ion-icon name="menu"></ion-icon>
+</button>
+    <ion-title>Rejoindre une partie</ion-title>
+</ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <h4>
+        <ion-row>
+            <ion-col style="text-align:center"><br/>Entrez l'ID de la partie à rejoindre (affiché sur l'écran du babyfoot)</ion-col>
+        </ion-row>
+    </h4>
+    <ion-list radio-group [(ngModel)]="autoManufacturers">
+
+        <form [formGroup]="JoinGameForm">
+      
+            <ion-item>
+                <ion-label floating>ID</ion-label>
+                <ion-input formControlName="idgame" type="text" [class.invalid]="!JoinGameForm.controls.idgame.valid && JoinGameForm.controls.idgame.dirty"></ion-input>
+            </ion-item>
+            <ion-item *ngIf="!JoinGameForm.controls.idgame.valid  && JoinGameForm.controls.idgame.dirty">
+                <p style=" color: red;">Format de l'ID incorrect</p>
+            </ion-item> 
+        
+            <ion-item>
+                    <ion-label>Équipe Bleue</ion-label>
+                    <ion-radio (ionSelect)="selectBleue()" [disabled]="isDisabled"></ion-radio>
+            </ion-item>
+            <ion-item>
+                    <ion-label>Équipe Rouge</ion-label>
+                    <ion-radio (ionSelect)="selectRouge()" [disabled]="isDisabled"></ion-radio>
+            </ion-item>
+    
+        </form>
+      
+      </ion-list>
+      <button ion-button full color="primary" (click)="joinGame()">Rejoindre</button>
+      
+
+</ion-content>

@@ -1,7 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, NavParams, AlertController, ToastController } from 'ionic-angular';
 import { Socket } from 'ng-socket-io';
-import { JoingamePage } from '../joingame/joingame';
 import { Navbar } from 'ionic-angular';
 /**
  * Generated class for the PlayerBoardGamePage page.

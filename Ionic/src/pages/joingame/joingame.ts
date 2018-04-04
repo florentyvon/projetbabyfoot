@@ -1,5 +1,5 @@
 import { Component,ViewChild } from '@angular/core';
-import { IonicPage, NavController, NavParams,ToastController, AlertController, LoadingController, Loading } from 'ionic-angular';
+import { IonicPage, NavController, NavParams,ToastController, AlertController } from 'ionic-angular';
 
 import { GameProvider } from '../../providers/game/game';
 import { FormBuilder, FormGroup, Validators} from '@angular/forms';
@@ -27,7 +27,7 @@ export class JoingamePage {
     dataPlayer : any;
     equipe : String;
   @ViewChild(Navbar) navBar: Navbar;
-  constructor(public navCtrl: NavController, public navParams: NavParams, private game: GameProvider,public formBuilder: FormBuilder, private alertCtrl: AlertController, private loadingCtrl: LoadingController,private socket: Socket, private toastCtrl: ToastController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private game: GameProvider,public formBuilder: FormBuilder, private alertCtrl: AlertController,private socket: Socket, private toastCtrl: ToastController) {
    
     //Instanciation du formulaire de connection 
     this.JoinGameForm = formBuilder.group({

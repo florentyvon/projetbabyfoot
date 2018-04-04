@@ -6,126 +6,124 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>Partie en cours : {{idgame}}</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>Partie en cours : {{idgame}}</ion-title>
+    </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
 
-  <ion-card style="font-size: 5em;text-align: center;height: 1.25em ;margin-top: 0;" ><br><br>
-          <button item-left ion-button color="danger" (click)="removeGoalB()" >
+    <ion-card style="font-size: 5em;text-align: center;height: 1.25em ;margin-top: 0;"><br><br>
+        <button item-left ion-button color="danger" (click)="removeGoalB()">
               <ion-icon name="remove"></ion-icon>
-          </button>           
-          <button item-left ion-button color="secondary" (click)="addGoalB()">
-                  <ion-icon name="add"></ion-icon>                
           </button>
-          {{scoreEquipeB}}  -  {{scoreEquipeR}} 
-          <button item-left ion-button color="danger" (click)="removeGoalR()">
+        <button item-left ion-button color="secondary" (click)="addGoalB()">
+                  <ion-icon name="add"></ion-icon>                
+          </button> {{scoreEquipeB}} - {{scoreEquipeR}}
+        <button item-left ion-button color="danger" (click)="removeGoalR()">
                   <ion-icon name="remove"></ion-icon>
           </button>
-          <button item-left ion-button color="secondary" (click)="addGoalR()">
+        <button item-left ion-button color="secondary" (click)="addGoalR()">
               <ion-icon name="add"></ion-icon>
           </button>
-  </ion-card>
-  
+    </ion-card>
+
     <ion-grid>
-      <ion-row>
-        <ion-col style="font-size: 2em; text-align: center;">
-             
-            <img width="40" height="40" src="assets/imgs/blue_flag.png">
-              Equipe Bleue
-        </ion-col>
-        <ion-col style="font-size: 2em; text-align: center;">
-          Equipe Rouge 
-          <img width="40" height="40" src="assets/imgs/red_flag.png">
-        </ion-col>
-      </ion-row>
+        <ion-row>
+            <ion-col style="font-size: 2em; text-align: center;">
+
+                <img width="40" height="40" src="assets/imgs/blue_flag.png"> Equipe Bleue
+            </ion-col>
+            <ion-col style="font-size: 2em; text-align: center;">
+                Equipe Rouge
+                <img width="40" height="40" src="assets/imgs/red_flag.png">
+            </ion-col>
+        </ion-row>
 
     </ion-grid>
-  <ion-grid>
-    <ion-row>
-        <ion-col>
-          <ion-card *ngIf="showPlayerB1" style="height:50px; margin-top: 0;"> 
-            <ion-item>
-                <ion-avatar item-start>
-                <img src="assets/imgs/icon_equipeB.png">
-                </ion-avatar>
-                <h2>{{this.playerB1.pseudo}}</h2>
-                <!--   <p>November 5, 1955</p> -->
-            </ion-item>
-        </ion-card>
-      </ion-col>
-      
-      <ion-col> 
-        <ion-card *ngIf="showPlayerR1" style="height:50px; margin-top: 0;" > 
-            <ion-item>
-                <ion-avatar item-start>
-                <img src="assets/imgs/icon_equipeR.png">
-                </ion-avatar>
-                <h2>{{this.playerR1.pseudo}}</h2>
-                <!--   <p>November 5, 1955</p> -->
-            </ion-item>
-        </ion-card>
-     
-      </ion-col>
-      </ion-row>   
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <ion-card *ngIf="showPlayerB1" style="height:50px; margin-top: 0;">
+                    <ion-item>
+                        <ion-avatar item-start>
+                            <img src="assets/imgs/icon_equipeB.png">
+                        </ion-avatar>
+                        <h2>{{this.playerB1.pseudo}}</h2>
+                        <!--   <p>November 5, 1955</p> -->
+                    </ion-item>
+                </ion-card>
+            </ion-col>
 
-      <ion-row>
-          <ion-col>
-            <ion-card *ngIf="showPlayerB2" style="height:50px; margin-top: 0;"> 
-              <ion-item>
-                  <ion-avatar item-start>
-                  <img src="assets/imgs/icon_equipeB.png">
-                  </ion-avatar>
-                  <h2>{{this.playerB2.pseudo}}</h2>
-                  <!--   <p>November 5, 1955</p> -->
-              </ion-item>
-          </ion-card>
-        </ion-col>
-        
-        <ion-col> 
-          <ion-card *ngIf="showPlayerR2" style="height:50px; margin-top: 0;" > 
-              <ion-item>
-                  <ion-avatar item-start>
-                  <img src="assets/imgs/icon_equipeR.png">
-                  </ion-avatar>
-                  <h2>{{this.playerR2.pseudo}}</h2>
-                  <!--   <p>November 5, 1955</p> -->
-              </ion-item>
-          </ion-card>
-       
-        </ion-col>
-        </ion-row>   
+            <ion-col>
+                <ion-card *ngIf="showPlayerR1" style="height:50px; margin-top: 0;">
+                    <ion-item>
+                        <ion-avatar item-start>
+                            <img src="assets/imgs/icon_equipeR.png">
+                        </ion-avatar>
+                        <h2>{{this.playerR1.pseudo}}</h2>
+                        <!--   <p>November 5, 1955</p> -->
+                    </ion-item>
+                </ion-card>
+
+            </ion-col>
+        </ion-row>
+
+        <ion-row>
+            <ion-col>
+                <ion-card *ngIf="showPlayerB2" style="height:50px; margin-top: 0;">
+                    <ion-item>
+                        <ion-avatar item-start>
+                            <img src="assets/imgs/icon_equipeB.png">
+                        </ion-avatar>
+                        <h2>{{this.playerB2.pseudo}}</h2>
+                        <!--   <p>November 5, 1955</p> -->
+                    </ion-item>
+                </ion-card>
+            </ion-col>
+
+            <ion-col>
+                <ion-card *ngIf="showPlayerR2" style="height:50px; margin-top: 0;">
+                    <ion-item>
+                        <ion-avatar item-start>
+                            <img src="assets/imgs/icon_equipeR.png">
+                        </ion-avatar>
+                        <h2>{{this.playerR2.pseudo}}</h2>
+                        <!--   <p>November 5, 1955</p> -->
+                    </ion-item>
+                </ion-card>
+
+            </ion-col>
+        </ion-row>
     </ion-grid>
 
     <ion-grid>
         <ion-row>
-          <ion-col>
-              <button icon-right ion-button full color="light" (click)="giveupB()">          
+            <ion-col>
+                <button icon-right ion-button full color="light" (click)="giveupB()">          
                   Déclarer forfait
                   <ion-icon name="remove-circle" item-start></ion-icon>
               </button>
-          </ion-col>
-          
-          <ion-col> 
-              <button icon-right ion-button full color="danger" (click)="stopGame()">          
+            </ion-col>
+
+            <ion-col>
+                <button icon-right ion-button full color="danger" (click)="stopGame()">          
                   Arrêter la partie
                   <ion-icon name="power" item-start></ion-icon>
-              </button>           
-          </ion-col>
+              </button>
+            </ion-col>
 
-          <ion-col> 
-              <button icon-right ion-button full color="light" (click)="giveupR()">          
+            <ion-col>
+                <button icon-right ion-button full color="light" (click)="giveupR()">          
                   Déclarer forfait
                   <ion-icon name="remove-circle" item-start></ion-icon>
-              </button>           
-          </ion-col>
-          
-        </ion-row>     
+              </button>
+            </ion-col>
+
+        </ion-row>
     </ion-grid>
-  
+
 
 </ion-content>

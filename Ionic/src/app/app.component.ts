@@ -2,26 +2,18 @@ import { Component, ViewChild } from '@angular/core';
 
 import { Platform, MenuController, Nav } from 'ionic-angular';
 
-import { ListPage } from '../pages/list/list';
 import { HomePage } from '../pages/home/home';
 import { QuickgamePage } from '../pages/quickgame/quickgame';
-import { ChampionshipPage } from '../pages/championship/championship';
 import { BookingbabyfootPage } from '../pages/bookingbabyfoot/bookingbabyfoot';
-import { UnknowngamePage } from '../pages/unknowngame/unknowngame';
-import { FriendsgamePage } from '../pages/friendsgame/friendsgame';
-import { HistoricPage } from '../pages/historic/historic';
 import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
 import { ProfilePage } from '../pages/profile/profile';
-import { FollowingPage } from '../pages/following/following';
-import { StatsPage } from '../pages/stats/stats';
-import { FriendsPage } from '../pages/friends/friends';
-import {LoginPage} from '../pages/login/login';
+import { LoginPage } from '../pages/login/login';
 import { LogOutPage } from '../pages/log-out/log-out';
-import { MyBookingsPage } from '../pages/my-bookings/my-bookings'
+import { HomeBfPage } from '../pages/home-bf/home-bf';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { HomeBfPage } from '../pages/home-bf/home-bf';
+
 
 
 
@@ -45,20 +37,11 @@ export class MyApp {
     
     // set our app's pages
     this.pages = [
-      { title: 'My First List', component: ListPage },
       { title: 'HomePage', component: HomePage },
       { title: 'Partie Rapide', component: QuickgamePage },
-      { title: 'Championnats', component: ChampionshipPage },
       { title: 'Réservation Babyfoot', component: BookingbabyfootPage },
-      { title: 'Jouer avec des amis', component: FriendsgamePage },
-      { title: 'Jouer avec des inconnus', component: UnknowngamePage },
-      { title: 'Historique des Parties', component: HistoricPage },
       { title: 'Liste des babyfoots', component: ListbabyfootsPage },
       { title: 'Mon Profil', component: ProfilePage },
-      { title: 'Suivre un match', component: FollowingPage},
-      { title: 'Voir stats', component: StatsPage},
-      { title: 'Voir amis', component: FriendsPage},
-      { title: 'Mes réservations', component : MyBookingsPage},
       { title: 'Déconnexion', component : LogOutPage},
     ];
     this.checkPreviousAuthorization();

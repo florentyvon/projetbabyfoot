@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, AlertController, LoadingController, Loading, ToastController } from 'ionic-angular';
+import { IonicPage, NavController, AlertController, Loading, ToastController } from 'ionic-angular';
 
 import { AuthentificationProvider } from '../../providers/authentification/authentification';
 import { HomePage } from '../home/home';
@@ -36,7 +36,7 @@ export class LoginPage {
   signupdata = {pseudo_signup: '',password_signup : '', password_verif_signup: '',mail_signup : '' }
 
 
-  constructor(private nav: NavController, private auth: AuthentificationProvider, public formBuilder: FormBuilder, private alertCtrl: AlertController, private loadingCtrl: LoadingController,private toastCtrl: ToastController) {
+  constructor(private nav: NavController, private auth: AuthentificationProvider, public formBuilder: FormBuilder, private alertCtrl: AlertController, private toastCtrl: ToastController) {
 
     //Instanciation du formulaire de connection 
     this.SigninForm = formBuilder.group({

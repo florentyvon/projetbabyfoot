@@ -1,12 +1,10 @@
 import { Component, ViewChild } from '@angular/core';
-import { IonicPage, NavController, ToastController,AlertController, LoadingController, Loading, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, ToastController,AlertController, NavParams } from 'ionic-angular';
 
 import { GameProvider } from '../../providers/game/game';
 
 import { Socket } from 'ng-socket-io';
-import { Observable } from 'rxjs/Observable';
 import { HomeBfPage } from '../home-bf/home-bf';
-import { isUndefined } from 'ionic-angular/util/util';
 import { Navbar } from 'ionic-angular';
 import { DirectGamePage } from '../direct-game/direct-game';
 
@@ -54,7 +52,7 @@ export class SalonPartiePage {
   nGuests = 0;
 
   @ViewChild(Navbar) navBar: Navbar;
-  constructor(private nav: NavController, private navParams: NavParams, private game: GameProvider, private alertCtrl: AlertController, private loadingCtrl: LoadingController, private socket: Socket, private toastCtrl: ToastController) {
+  constructor(private nav: NavController, private navParams: NavParams, private game: GameProvider, private alertCtrl: AlertController, private socket: Socket, private toastCtrl: ToastController) {
     
     //Flag de verification des joueurs présents dans la partie
     var checkPlayerB1 = false;
@@ -396,8 +394,10 @@ export class SalonPartiePage {
 
      //On envoit les données du joueurs a supprimer de la partie 
      this.socket.emit('remove-player',player );
-
-
+     if(player.pseudo === "Guestpseudo")
+     {
+      this.nGuests--;
+     }
   }
 
   /** FONCTION AJOUTER INVITE */

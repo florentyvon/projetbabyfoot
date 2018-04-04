@@ -3,6 +3,7 @@ var models = require("./../models");
 var Regex = require("regex");
 var security = require("./security");
 var Joueur = models.Joueur;
+var Stat = models.Statistique;
 
 
 //Function to sign in
@@ -127,6 +128,17 @@ exports.signup = function(req, res) {
 
                 //Hachage et salage du mot de passe 
                 var secureData = security.hashPassword(dataPlayer.password_signup, security.createSalt());
+                //On créé un champ stats associé au nouveau joueur
+                var stats = new Stat({
+                    nbr_match: 0,
+                    nbr_but: 0,
+                    nbr_victoires: 0,
+                    nbr_defaites: 0,
+                });
+                //On sauve cette variable dans la bdd
+                stats.save(function(err) {
+                    if (err) return handleError(err);
+                });
                 //Creation du nouveau joueur dans la base de données
                 Joueur.create({
                         pseudo: dataPlayer.pseudo_signup,
@@ -134,7 +146,8 @@ exports.signup = function(req, res) {
                         password: secureData.pswd,
                         salt: secureData.salt,
                         niv: 1,
-                        typeCompte: 'joueur'
+                        id_stat: stats._id,
+                        typeCompte: 'babyfoot'
                     },
                     function(err, user) {
                         console.log(err, user)

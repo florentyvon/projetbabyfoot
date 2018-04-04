@@ -1,0 +1,115 @@
+<!--
+  Generated template for the SalonPartiePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Rejoignez la partie</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+   <ion-item>
+                <ion-icon name="football" item-start></ion-icon>
+        <ion-label>ID : {{ idgame }}</ion-label>
+  </ion-item>
+
+        <ion-grid>
+                <ion-row>
+                        <ion-col style="font-size: 2em; text-align: center;">
+                                <img width="40" height="40" src="assets/imgs/blue_flag.png">
+                                 Equipe Bleue
+                        </ion-col>
+                        <ion-col style="font-size: 2em; text-align: center;">
+                                Equipe Rouge 
+                                <img width="40" height="40" src="assets/imgs/red_flag.png">
+                        </ion-col>
+                </ion-row>
+        </ion-grid> 
+
+        <ion-grid>
+                <ion-row>
+                        <ion-col>
+                                <ion-card *ngIf="showPlayerB1" style="height:50px; margin-top: 0;"> 
+                                        <ion-item>
+                                                <ion-avatar item-start>
+                                                        <img src="assets/imgs/icon_equipeB.png">
+                                                </ion-avatar>
+                                                <h2>{{playerB1.pseudo}}</h2>
+                                                <!--   <p>November 5, 1955</p> -->
+                                                <button item-right ion-button color="danger" (click)='RemovePlayer( playerB1 )'>
+                                                     <ion-icon name="remove-circle"></ion-icon>
+                                                </button>
+                                        </ion-item>
+                                </ion-card>
+                        </ion-col>
+          
+                        <ion-col> 
+                                <ion-card *ngIf="showPlayerR1" style="height:50px; margin-top: 0;" > 
+                                        <ion-item>
+                                                <ion-avatar item-start>
+                                                        <img src="assets/imgs/icon_equipeR.png">
+                                                </ion-avatar>
+                                                <h2>{{playerR1.pseudo}}</h2>
+                                                <!--   <p>November 5, 1955</p> -->
+                                                <button item-right ion-button color="danger" (click)='RemovePlayer( playerR1 )'>
+                                                        <ion-icon name="remove-circle"></ion-icon>
+                                                </button>
+                                        </ion-item>
+                                </ion-card>
+                        </ion-col>
+                </ion-row>   
+  
+        <ion-row>
+                <ion-col>
+                        <ion-card *ngIf="showPlayerB2" style="height:50px; margin-top: 0;"> 
+                                <ion-item>
+                                        <ion-avatar item-start>
+                                                <img src="assets/imgs/icon_equipeB.png">
+                                        </ion-avatar>
+                                        <h2>{{playerB2.pseudo}}</h2>
+                                        <!--   <p>November 5, 1955</p> -->
+                                        <button item-right ion-button color="danger" (click)='RemovePlayer( playerB2 )'>
+                                                <ion-icon name="remove-circle"></ion-icon>
+                                        </button>
+                                </ion-item>
+                        </ion-card>
+                </ion-col>
+            
+                <ion-col> 
+                        <ion-card *ngIf="showPlayerR2" style="height:50px; margin-top: 0;" > 
+                                <ion-item>
+                                        <ion-avatar item-start>
+                                                <img src="assets/imgs/icon_equipeR.png">
+                                        </ion-avatar>
+                                        <h2>{{playerR2.pseudo}}</h2>
+                                        <!--   <p>November 5, 1955</p> -->
+                                        <button item-right ion-button color="danger" (click)='RemovePlayer( playerR2 )'>
+                                                <ion-icon name="remove-circle"></ion-icon>
+                                        </button>
+                                </ion-item>
+                        </ion-card> 
+                </ion-col>
+        </ion-row>   
+</ion-grid>
+
+        <ion-row> 
+                <ion-col style="text-align:center">
+                        <button ion-button center color="primary" (click)='this.addGuest()'>Ajouter un joueur en tant que "invité"</button>
+                </ion-col>
+        </ion-row>
+ 
+
+        <button *ngIf="!ready" ion-button full color="light">En attente de joueur</button>
+        <button *ngIf="ready"  icon-right ion-button full color="primary" (click)='this.LaunchGame()'>          
+                Lancer la partie
+                <ion-icon name="play" item-start></ion-icon>
+        </button>
+
+
+</ion-content>

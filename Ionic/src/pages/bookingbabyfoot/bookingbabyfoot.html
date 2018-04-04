@@ -1,0 +1,45 @@
+<!--
+  Generated template for the BookingbabyfootPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar>
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>Réserver un Babyfoot</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+    <ion-row>
+        <ion-col style="text-align:center"><button ion-button (click)="doRadio()">Choisir le babyfoot</button></ion-col>
+    </ion-row>
+    <p id='Resultat'>Vous avez choisi le : {{ testRadioResult }}</p>
+    <p>Créneau horaire :</p>
+    <ion-list>
+        <ion-item>
+            <ion-label>Date</ion-label>
+            <ion-datetime displayFormat="DD MMM YYYY" [(ngModel)]="event.month"></ion-datetime>
+        </ion-item>
+
+
+        <ion-item>
+            <ion-label>Heure début</ion-label>
+            <ion-datetime displayFormat="H:mm" pickerFormat="H mm" [(ngModel)]="event.timeStarts"></ion-datetime>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Heure fin</ion-label>
+            <ion-datetime displayFormat="H:mm" pickerFormat="H mm" [(ngModel)]="event.timeEnds"></ion-datetime>
+        </ion-item>
+    </ion-list>
+
+    <ion-row>
+        <ion-col style="text-align:center"><button ion-button (click)="booking(testRadioResult, event.month, event.timeStarts, event.timeEnds)">Réserver</button></ion-col>
+    </ion-row>
+</ion-content>

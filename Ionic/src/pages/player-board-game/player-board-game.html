@@ -1,0 +1,30 @@
+<!--
+  Generated template for the PlayerBoardGamePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Partie en cours</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <h4>Vous êtes connecté à la partie en tant que {{ this.dataPlayer.pseudo }} </h4>
+  <ion-item>
+      <ion-label>ID de la partie : {{ this.dataPlayer.idgame }}</ion-label>
+  </ion-item>
+<!--  
+  <ion-item>
+      <ion-label>Lien de la partie : </ion-label>
+ </ion-item> 
+ --> 
+  <button ion-button full color="primary" (click) ="addPlayer()">Ajouter un autre joueur</button>
+  <button ion-button full color="danger" (click) = "quitGame()">Quitter la partie</button>
+
+</ion-content>

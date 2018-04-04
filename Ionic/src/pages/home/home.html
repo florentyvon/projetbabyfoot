@@ -1,0 +1,64 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>Babyfoot Connecté</ion-title>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+    <h3 (click)="goTo('mp')">
+        <ion-icon name="contact"></ion-icon> {{ username }} - {{ team }}
+    </h3>
+    <h4>
+        <ion-row>
+            <ion-col style="text-align:center"><br/>Je souhaite...</ion-col>
+        </ion-row>
+    </h4>
+    <p>
+        <ion-row>
+            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('fg')"><ion-icon name="contacts"></ion-icon>Jouer avec des amis</button></ion-col>
+        </ion-row>
+    </p>
+    <p>
+        <ion-row>
+            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('ug')"><ion-icon name="help"></ion-icon>Jouer avec des inconnus</button></ion-col>
+        </ion-row>
+    </p>
+    <p>
+        <ion-row>
+            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('fm')"><ion-icon name="information"></ion-icon>Suivre un match</button></ion-col>
+        </ion-row>
+    </p>
+    <p>
+        <ion-row>
+            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('bb')"><ion-icon name="calendar"></ion-icon>Reserver un babyfoot</button></ion-col>
+        </ion-row>
+    </p>
+    <!--<p><button ion-button color="light" (click)="back()">Back</button></p>-->
+
+</ion-content>
+<ion-footer>
+    <ion-toolbar>
+        <ion-row>
+            <ion-col style="text-align:center" (click)="goTo('hp')">
+                <ion-icon name="time"></ion-icon><br/>Historique des Parties
+            </ion-col>
+            <ion-col style="text-align:center" (click)="goTo('f')">
+                <ion-icon name="heart"></ion-icon><br/>Favoris
+            </ion-col>
+            <ion-col style="text-align:center" (click)="goTo('lb')">
+                <ion-icon name="pin"></ion-icon><br/>Les Babys
+            </ion-col>
+        </ion-row>
+    </ion-toolbar>
+</ion-footer>

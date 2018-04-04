@@ -34,6 +34,7 @@ module.exports = function(app) {
         password: String,
         salt: String,
         niv: Number,
+        typeCompte : String,
     }, { collection: 'joueurs' });
 
     // ------- STATIQUES -------
@@ -74,10 +75,20 @@ module.exports = function(app) {
     // ------- Partie -------
     var PartieSchema = mongoose.Schema({
         //  id : { type : mongoose.Schema.Types.ObjectId, ref : 'Id'},
-        ID_game: Number,
+      //  ID_game: Number,
+        id: String,
         etat: String, //etat ( attente, en cours , terminé)
-        nom_baby: Number,
-        tab_joueurs: Array,
+        nomBabyfoot : String,
+        joueurs : {},
+        nbjoueurs : { 
+            min : Number,
+            max : Number,
+            b : Number, 
+            r : Number,
+        },
+        config : {
+            limiteScore : Number,
+        },
         id_stat: String,
     }, { collection: 'Partie' });
 

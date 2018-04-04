@@ -27,6 +27,7 @@ export class LogOutPage {
   LogOut() {
 
     window.localStorage.removeItem('userConnected');
+    window.localStorage.removeItem('typeAccount');
     this.showPopup('Déconnexion', 'Vous êtes bien déconnecté');
     this.navCtrl.setRoot(LoginPage);
   }

@@ -26,7 +26,8 @@ export class DataProvider {
     let options = new RequestOptions({ headers: headers });
     //Envoi de la requête POST
     return this.http
-      .post("http://localhost:8080/getDataPlayer", dataPN, options)
+        .post("http://192.168.1.1:8080/getDataPlayer", dataPN, options)
+    //  .post("http://localhost:8080/getDataPlayer", dataPN, options)
       .map(res => {
         //On envoie la réponse à login.ts
         return res.json();
@@ -47,7 +48,8 @@ export class DataProvider {
     let options = new RequestOptions({ headers: headers });
     //Envoi de la requête POST
     return this.http
-      .post("http://localhost:8080/getStatsPlayer", dataIS, options)
+      .post("http://192.168.1.1:8080/getStatsPlayer", dataIS, options)
+     // .post("http://localhost:8080/getStatsPlayer", dataIS, options)
       .map(res => {
         //On envoie la réponse à login.ts
         return res.json();
@@ -70,7 +72,8 @@ export class DataProvider {
     console.log(data);
 
     //Requete au serveur
-    return this.http.post('http://localhost:8080/bookReservation', data, options)
+    return this.http.post('http://192.168.1.1:8080/bookReservation', data, options)
+  //  return this.http.post('http://localhost:8080/bookReservation', data, options)
       .map(res => {
         //On envoie la réponse à bookingbabyfoot.ts
         return res.json();
@@ -92,7 +95,8 @@ export class DataProvider {
     let options = new RequestOptions({ headers: headers });
     //Envoi de la requête POST
     return this.http
-      .post("http://localhost:8080/getMyReservations", dataID, options)
+      //.post("http://localhost:8080/getMyReservations", dataID, options)
+      .post("http://192.168.1.1:8080/getMyReservations", dataID, options)
       .map(res => {
         //On envoie la réponse à login.ts
         return res.json();

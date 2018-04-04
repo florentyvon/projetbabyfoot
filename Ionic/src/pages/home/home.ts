@@ -7,6 +7,7 @@ import { HistoricPage } from '../historic/historic';
 import { ListbabyfootsPage } from '../listbabyfoots/listbabyfoots';
 import { ProfilePage } from '../profile/profile';
 import { FollowingPage } from '../following/following';
+import { JoingamePage }from '../joingame/joingame';
 
 import { DataProvider } from '../../providers/data/data';
 
@@ -45,6 +46,9 @@ export class HomePage {
 
   goTo(page) {
     switch (page) {
+      case 'jg':
+        this.navCtrl.push(JoingamePage);
+        break;
       case 'fg':
         this.navCtrl.push(FriendsgamePage);
         break;

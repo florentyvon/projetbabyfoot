@@ -31,7 +31,8 @@ export class AuthentificationProvider {
     let data = JSON.stringify(signindata);
 
     //Requete au serveur
-    return this.http.post('http://localhost:8080/signin', data, options)
+    return this.http.post('http://192.168.1.1:8080/signin', data, options)
+   // return this.http.post('http://localhost:8080/signin', data, options)
       .map(res => {
         //On envoie la réponse à login.ts
         return res.json();
@@ -54,7 +55,8 @@ export class AuthentificationProvider {
     let data = JSON.stringify(signupdata);
 
     //Requete au serveur
-    return this.http.post('http://localhost:8080/signup', data, options)
+    return this.http.post('http://192.168.1.1:8080/signup', data, options)
+  //  return this.http.post('http://localhost:8080/signup', data, options)
       .map(res => {
         //On envoie la réponse à login.ts
         return res.json();
@@ -78,7 +80,8 @@ export class AuthentificationProvider {
 
     //Requete au serveur
     //    return new Promise((resolve, reject) => {
-    this.http.post('http://localhost:8080/logout', data, options)
+      this.http.post('http://192.168.1.1:8080/logout', data, options)
+//  this.http.post('http://localhost:8080/logout', data, options)
       .toPromise()
       .then((response) => {
         console.log('API Response : ', response.json());

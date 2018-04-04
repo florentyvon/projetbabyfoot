@@ -21,6 +21,7 @@ import { MyBookingsPage } from '../pages/my-bookings/my-bookings'
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { HomeBfPage } from '../pages/home-bf/home-bf';
 
 
 
@@ -66,13 +67,18 @@ export class MyApp {
   checkPreviousAuthorization(): void { 
     
     console.log(window.localStorage.getItem('userConnected'));
-    //window.localStorage.removeItem('userConnected');
+    console.log(window.localStorage.getItem('typeAccount'));
     if((window.localStorage.getItem('userConnected') === "undefined" || window.localStorage.getItem('userConnected') === null)) {
       this.rootPage=LoginPage;
     } else {
-      this.rootPage=HomePage;  
+      if(window.localStorage.getItem('typeAccount') === "joueur"){
+        this.rootPage=HomePage;  
+      }else{
+        if(window.localStorage.getItem('typeAccount') === "babyfoot"){
+          this.rootPage=HomeBfPage;  
+        } 
+      }
     }
-
   }
 
 

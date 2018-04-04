@@ -1,6 +1,6 @@
-// Set up
-var express  = require('express');
-var app      = express();
+var app = require('express')();
+var server = require('http').createServer(app);
+var io = require('socket.io').listen(server);
 
 // Config
 require("./config")(app);
@@ -10,10 +10,15 @@ require("./models")(app);
 
 // Routes
 require("./routes")(app); 
- 
+
+// Communication Socket.io
+require("./sockets")(io); 
 
 // listen (start app with node server.js) ======================================
-app.listen(8080);
+//Localhost
+//server.listen(8080);
+//Serveur local 
+server.listen(8080, "192.168.1.1");
 console.log("App listening on port 8080");
 
 

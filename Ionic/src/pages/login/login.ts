@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, AlertController, LoadingController, Loading } from 'ionic-angular';
+import { IonicPage, NavController, AlertController, LoadingController, Loading, ToastController } from 'ionic-angular';
 
 import { AuthentificationProvider } from '../../providers/authentification/authentification';
 import { HomePage } from '../home/home';
+import{ HomeBfPage } from '../home-bf/home-bf'
 import { FormBuilder, FormGroup, Validators} from '@angular/forms';
 
 
@@ -20,6 +21,7 @@ import { FormBuilder, FormGroup, Validators} from '@angular/forms';
 })
 export class LoginPage {
 
+  //Variables Globales
   loading : Loading;
   createSuccess = false;
 
@@ -34,7 +36,7 @@ export class LoginPage {
   signupdata = {pseudo_signup: '',password_signup : '', password_verif_signup: '',mail_signup : '' }
 
 
-  constructor(private nav: NavController, private auth: AuthentificationProvider, public formBuilder: FormBuilder, private alertCtrl: AlertController, private loadingCtrl: LoadingController) {
+  constructor(private nav: NavController, private auth: AuthentificationProvider, public formBuilder: FormBuilder, private alertCtrl: AlertController, private loadingCtrl: LoadingController,private toastCtrl: ToastController) {
 
     //Instanciation du formulaire de connection 
     this.SigninForm = formBuilder.group({
@@ -61,7 +63,7 @@ export class LoginPage {
 
   }
 
-  //Comparer si les deux mots de passe correspondent
+/** FONCTION COMPARAISON DES MOTS DE PASSE ENTREES */
   areEqual(passwordKey: string, passwordConfirmationKey: string) {
     return (group: FormGroup) => {
       let passwordInput = group.controls[passwordKey],
@@ -83,7 +85,7 @@ export class LoginPage {
     console.log('ionViewDidLoad LoginPage'); 
   }
 
-  //Fonction de connection 
+/** FONCTION DE CONNECTION  */
   signin(): void{
 
     //this.showLoading();
@@ -99,18 +101,35 @@ export class LoginPage {
     this.auth.signin(this.signindata).subscribe(success => {
      
       console.log(success);
-      //Si connection OK
-      if (success === 'OK') {
+      //Si connection OK et que c'est un compte Joueur
+      if (success === 'OKjoueur') {
 
         //On enregistre dans une variable local l'utilisateur connecté
         window.localStorage.setItem('userConnected', this.signindata.pseudo_signin);
+        //On enregistre dans une variable local le type de compte
+        window.localStorage.setItem('typeAccount', 'joueur');
 
         this.createSuccess = true;
-        this.showPopup("Success", "Connection réussie");
+        this.showToast("Connection réussie");
         this.nav.setRoot(HomePage);
       //Sinon
       } else {
-        this.showPopup("Accès refusé", success);
+        if (success === 'OKbabyfoot') {
+          //On enregistre dans une variable local l'utilisateur connecté
+          window.localStorage.setItem('userConnected', this.signindata.pseudo_signin);
+          //On enregistre dans une variable local le type de compte
+          window.localStorage.setItem('typeAccount', 'babyfoot');
+
+          console.log(window.localStorage.getItem('typeAccount'));
+          console.log(success);
+
+          this.createSuccess = true;
+          this.showToast("Connection réussie");
+          this.nav.setRoot(HomeBfPage);
+        }else{
+          this.showPopup("Accès refusé", 'Pseudo et mot de passe invalide');
+        }
+        
       }
     },
       error => {
@@ -119,7 +138,7 @@ export class LoginPage {
     }
   }
 
-  //Fonction Signup : creation de compte
+  /** FONCTION CREATION DE COMPTE */
   signup(): void{
 
     this.submitSignup = true;
@@ -141,13 +160,15 @@ export class LoginPage {
 
         //On enregistre dans une variable local l'utilisateur connecté
         window.localStorage.setItem('userConnected', this.signupdata.pseudo_signup);
+        //Type de compte = joueur
+        window.localStorage.setItem('typeAccount', 'joueur');
 
         this.createSuccess = true;
         this.showPopup("Succès", "Votre compte a été créé");
-        this.nav.setRoot(HomePage); 
+        this.nav.setRoot(HomePage);
       //Sinon
       } else {
-        this.showPopup("Erreur", success);
+        this.showPopup("Erreur", 'Compte déjà existant (pseudo ou adresse mail)');
       }
     },
       error => {
@@ -156,15 +177,7 @@ export class LoginPage {
     }
   }
 
-  
-  showLoading() {
-    this.loading = this.loadingCtrl.create({
-      content: 'Please wait...',
-      dismissOnPageChange: true
-    });
-    this.loading.present();
-  }
-
+  /** FONCTION AFFICHER ERREURS */
   showError(text) {
     this.loading.dismiss();
  
@@ -176,6 +189,7 @@ export class LoginPage {
     alert.present();
   }
 
+  /** FONCTION AFFICHER POP-UP */
   showPopup(title, text) {
     let alert = this.alertCtrl.create({
       title: title,
@@ -194,5 +208,14 @@ export class LoginPage {
     alert.present();
   }
 
+  
+  /** AFFICHER DES TOASTS */
+  showToast(msg) {
+    let toast = this.toastCtrl.create({
+      message: msg,
+      duration: 2000
+    });
+    toast.present();
+  }
 
 }

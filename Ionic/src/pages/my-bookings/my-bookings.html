@@ -17,8 +17,11 @@
             <b> Réservation du  {{ stack.DateDeb }}</b>
         </ion-card-header>
         <ion-card-content>
-            <ion-icon name="pin"></ion-icon>   {{stack.ID_baby }} <br/>
-            <ion-icon name="calendar"></ion-icon>   {{ stack.DateFin }}
+            <ion-icon name="pin"></ion-icon> {{stack.ID_baby }} <br/>
+            <ion-icon name="time"></ion-icon> {{ stack.DateFin }}
         </ion-card-content>
+        <ion-row style="text-align:center">
+            <ion-col><button ion-button (click)="delete(stack)" color="danger">Supprimer</button></ion-col>
+        </ion-row>
     </ion-card>
 </ion-content>

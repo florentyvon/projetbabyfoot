@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
-import { IonicPage, NavController, NavParams } from "ionic-angular";
+import { IonicPage, NavController, NavParams, AlertController } from "ionic-angular";
+import { ProfilePage } from '../profile/profile';
 
 import { DataProvider } from "../../providers/data/data";
 
@@ -23,11 +24,14 @@ export class MyBookingsPage {
   printedR: string;
   count: number;
   reservationsTD = [];
+  DelBool : boolean = false;
 
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
-    private data: DataProvider
+    private data: DataProvider,
+    public alertCtrl : AlertController,
+
   ) {
     //On stocke le pseudo courant
     this.username = window.localStorage.getItem("userConnected");
@@ -111,5 +115,13 @@ export class MyBookingsPage {
     timeStarts: '',
     timeEnds: '',
 
+  }
+
+  delete(reservation) 
+  {
+    console.log("Supprimer la réservation "+reservation._id)
+      this.data.DelReservation(reservation._id).subscribe(data => {
+    });
+    this.navCtrl.push(this.navCtrl.getActive().component);
   }
 }

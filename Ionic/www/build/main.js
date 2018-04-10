@@ -4,51 +4,6 @@ webpackJsonp([21],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FriendsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the FriendsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var FriendsPage = (function () {
-    function FriendsPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    FriendsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad FriendsPage');
-    };
-    FriendsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-friends',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\friends\friends.html"*/'<!--\n\n  Generated template for the FriendsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Mes amis</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\friends\friends.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], FriendsPage);
-    return FriendsPage;
-}());
-
-//# sourceMappingURL=friends.js.map
-
-/***/ }),
-
-/***/ 122:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FriendsgamePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -90,7 +45,7 @@ var FriendsgamePage = (function () {
 
 /***/ }),
 
-/***/ 123:
+/***/ 122:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -136,7 +91,262 @@ var HistoricPage = (function () {
 
 /***/ }),
 
+/***/ 123:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_data_data__ = __webpack_require__(34);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the StatsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var StatsPage = (function () {
+    function StatsPage(navCtrl, navParams, data) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.data = data;
+        //On récupère le pseudo courrant
+        this.username = window.localStorage.getItem('userConnected');
+        //On envoie une requête à la BDD pour trouver l'ID des stats du joueur
+        this.data.getDataPlayer(this.username).subscribe(function (data) {
+            //On décrypte le résultat
+            _this.player = JSON.parse(data);
+            //On récupère l'id_stat du joueur
+            _this.idstats = _this.player.id_stat;
+            //On peut maintenant envoyer une requête pour connaitre les stats selon leur id
+            _this.data.getStatsPlayer(_this.idstats).subscribe(function (data2) {
+                //Décryptage
+                _this.stats = JSON.parse(data2);
+                //Chaque variable globale reçoit maintenant sa valeur correspondante
+                _this.goals = _this.stats.nbr_but;
+                _this.games = _this.stats.nbr_match;
+                _this.V = _this.stats.nbr_victoires;
+                _this.D = _this.stats.nbr_defaites;
+                _this.R = (_this.goals / _this.games).toFixed(2);
+                _this.F_r = _this.stats.friend_rank;
+                _this.G_r = _this.stats.gen_rank;
+            });
+        });
+    }
+    StatsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad StatsPage');
+    };
+    StatsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-stats',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\stats\stats.html"*/'<!--\n\n  Generated template for the StatsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Statistiques</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <p style="text-align:center">\n\n        <ion-row>\n\n            <ion-col>\n\n                <h1>{{ V }} Victoires</h1>\n\n            </ion-col>\n\n            <ion-col>\n\n                <h1>{{ D }} Défaites</h1>\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <br/>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center">\n\n                <h2>\n\n                    <ion-icon name="reorder"></ion-icon> Classement Général : {{ G_r }}/10</h2>\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center">\n\n                <h2>\n\n                    <ion-icon name="reorder"></ion-icon> Classement Amis : {{ F_r }}/5</h2>\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <br/>\n\n    <p style="text-align:center">\n\n        <ion-row>\n\n            <ion-col>\n\n                <h1>{{ goals }}\n\n                    <ion-icon name="football"></ion-icon>\n\n                </h1>\n\n            </ion-col>\n\n            <ion-col>\n\n                <h1>{{ games }}\n\n                    <ion-icon name="game-controller-a"></ion-icon>\n\n                </h1>\n\n            </ion-col>\n\n        </ion-row>\n\n        <ion-row>\n\n            <ion-col>\n\n                <h2>{{ R }} buts/match</h2>\n\n            </ion-col>\n\n\n\n        </ion-row>\n\n    </p>\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\stats\stats.html"*/,
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */]) === "function" && _c || Object])
+    ], StatsPage);
+    return StatsPage;
+    var _a, _b, _c;
+}());
+
+//# sourceMappingURL=stats.js.map
+
+/***/ }),
+
 /***/ 124:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FriendsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the FriendsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var FriendsPage = (function () {
+    function FriendsPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    FriendsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad FriendsPage');
+    };
+    FriendsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-friends',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\friends\friends.html"*/'<!--\n\n  Generated template for the FriendsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Mes amis</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n    <ion-row>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n      <ion-col>\n\n        <ion-card>\n\n          <img src="../assets/imgs/unnamed.png" />\n\n        </ion-card>\n\n      </ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\friends\friends.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], FriendsPage);
+    return FriendsPage;
+}());
+
+//# sourceMappingURL=friends.js.map
+
+/***/ }),
+
+/***/ 125:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyBookingsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_data_data__ = __webpack_require__(34);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Generated class for the MyBookingsPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var MyBookingsPage = (function () {
+    function MyBookingsPage(navCtrl, navParams, data, alertCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.data = data;
+        this.alertCtrl = alertCtrl;
+        this.reservationsTD = [];
+        this.DelBool = false;
+        this.event = {
+            month: '',
+            timeStarts: '',
+            timeEnds: '',
+        };
+        //On stocke le pseudo courant
+        this.username = window.localStorage.getItem("userConnected");
+        //Requête à la BDD pour avoir les données du joeurs et pouvoir les afficher
+        this.data.getDataPlayer(this.username).subscribe(function (data) {
+            _this.player = JSON.parse(data);
+            _this.username = _this.player.pseudo;
+            _this.id = _this.player._id;
+            _this.data.getMyReservations(_this.id).subscribe(function (data2) {
+                _this.reservations = JSON.parse(data2);
+                _this.reservations.forEach(function (element) {
+                    _this.printReservation(element);
+                });
+            });
+        });
+    }
+    MyBookingsPage.prototype.ionViewDidLoad = function () {
+        console.log("ionViewDidLoad MyBookingsPage");
+    };
+    MyBookingsPage.prototype.printReservation = function (reservation) {
+        var dated = new Date(reservation.DateDeb);
+        var datef = new Date(reservation.DateFin);
+        switch (reservation.ID_baby) {
+            case 1:
+                reservation.ID_baby = "Babyfoot Présidence";
+                break;
+            case 2:
+                reservation.ID_baby = "Babyfoot Sciences";
+                break;
+            case 3:
+                reservation.ID_baby = "Babyfoot Istia";
+                break;
+            case 4:
+                reservation.ID_baby = "Babyfoot Suaps";
+                break;
+            case 5:
+                reservation.ID_baby = "Babyfoot Médecine";
+                break;
+        }
+        if (dated.getDate() < 10) {
+            this.event.month = "0" + dated.getDate();
+        }
+        else {
+            this.event.month = "" + dated.getDate();
+        }
+        if (dated.getMonth() + 1 < 10) {
+            this.event.month += "-0" + (dated.getMonth() + 1) + "-" + dated.getFullYear();
+        }
+        else {
+            this.event.month += "-" + (dated.getMonth() + 1) + "-" + dated.getFullYear();
+        }
+        /*Construction créneau*/
+        if (dated.getHours() < 10) {
+            this.event.timeStarts = "0" + dated.getHours();
+        }
+        else {
+            this.event.timeStarts = "" + dated.getHours();
+        }
+        if (dated.getMinutes() < 10) {
+            this.event.timeStarts += ":0" + dated.getMinutes();
+        }
+        else {
+            this.event.timeStarts += ":" + dated.getMinutes();
+        }
+        if (datef.getHours() < 10) {
+            this.event.timeEnds = "0" + datef.getHours();
+        }
+        else {
+            this.event.timeEnds = "" + datef.getHours();
+        }
+        if (datef.getMinutes() < 10) {
+            this.event.timeEnds += ":0" + datef.getMinutes();
+        }
+        else {
+            this.event.timeEnds += ":" + datef.getMinutes();
+        }
+        reservation.DateDeb = this.event.month;
+        reservation.DateFin = this.event.timeStarts + ' à ' + this.event.timeEnds;
+    };
+    MyBookingsPage.prototype.delete = function (reservation) {
+        console.log("Supprimer la réservation " + reservation._id);
+        this.data.DelReservation(reservation._id).subscribe(function (data) {
+        });
+        this.navCtrl.push(this.navCtrl.getActive().component);
+    };
+    MyBookingsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: "page-my-bookings",template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\my-bookings\my-bookings.html"*/'<!--\n\n  Generated template for the MyBookingsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Mes Réservations</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-card *ngFor="let stack of reservations">\n\n        <ion-card-header>\n\n            <b> Réservation du  {{ stack.DateDeb }}</b>\n\n        </ion-card-header>\n\n        <ion-card-content>\n\n            <ion-icon name="pin"></ion-icon> {{stack.ID_baby }} <br/>\n\n            <ion-icon name="time"></ion-icon> {{ stack.DateFin }}\n\n        </ion-card-content>\n\n        <ion-row style="text-align:center">\n\n            <ion-col><button ion-button (click)="delete(stack)" color="danger">Supprimer</button></ion-col>\n\n        </ion-row>\n\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\my-bookings\my-bookings.html"*/
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _d || Object])
+    ], MyBookingsPage);
+    return MyBookingsPage;
+    var _a, _b, _c, _d;
+}());
+
+//# sourceMappingURL=my-bookings.js.map
+
+/***/ }),
+
+/***/ 126:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -184,7 +394,640 @@ var FollowingPage = (function () {
 
 /***/ }),
 
-/***/ 125:
+/***/ 127:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JoingamePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_game_game__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng_socket_io__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng_socket_io___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_ng_socket_io__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__player_board_game_player_board_game__ = __webpack_require__(128);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Generated class for the JoingamePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var JoingamePage = (function () {
+    function JoingamePage(navCtrl, navParams, game, formBuilder, alertCtrl, socket, toastCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.game = game;
+        this.formBuilder = formBuilder;
+        this.alertCtrl = alertCtrl;
+        this.socket = socket;
+        this.toastCtrl = toastCtrl;
+        //Instanciation du formulaire de connection 
+        this.JoinGameForm = formBuilder.group({
+            //Variable idgame composé de 6 caractères : minuscule, majuscule ou chiffre
+            idgame: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].compose([, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].minLength(6), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].maxLength(6), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].pattern('[a-zA-Z0-9]{6}'), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required])],
+        });
+        /** SOCKETS */
+        /** ________________________________________________________________________________________________ */
+        /** ECOUTE CONFIRMATION CONNEXION A LA PARTIE */
+        this.socket.on('ack-set-player', function (rep) {
+            switch (rep.ack) {
+                //Si joueur ajouté a la partie 
+                case 'ok':
+                    //On redirige vers la page 
+                    _this.showToast('Joueur dans la partie');
+                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__player_board_game_player_board_game__["a" /* PlayerBoardGamePage */], { "dataPlayer": _this.dataPlayer });
+                    _this.socket.removeAllListeners();
+                    break;
+                //Si la partie est complète
+                case 'err_full':
+                    _this.showToast('La partie est complète');
+                    break;
+                //Si le joueur n'a pas d'équipe attribuée
+                case 'err_noteam':
+                    _this.showToast('Pas d\'équipe attribuée');
+                    break;
+                //Si l'équipe rouge est complète
+                case 'err_fullteam':
+                    _this.showToast('L\'équipe est complète');
+                    break;
+                //Si l'équipe bleue est complète
+                case 'err_player':
+                    _this.showToast('Joueur déjà dans cette partie');
+                    break;
+                //Si la partie est déjà lancée
+                case 'err_notopen':
+                    _this.showToast('La partie est déjà lancée ou terminée');
+                    break;
+            }
+        });
+    }
+    JoingamePage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        console.log('ionViewDidLoad JoingamePage');
+        this.navBar.backButtonClick = function (e) {
+            // todo something
+            _this.socket.removeAllListeners();
+            _this.navCtrl.pop();
+        };
+    };
+    /** FONCTION REJOINDRE UNE PARTIE */
+    JoingamePage.prototype.joinGame = function () {
+        var _this = this;
+        //Si le formulaire est valide
+        if (this.JoinGameForm.valid) {
+            //On recupère la donnée du formulaire
+            var dataForm = { idgame: this.JoinGameForm.value.idgame,
+                equipe: this.equipe };
+            //On appelle la fonction signin du provider joingame (Providers/joingame)
+            this.game.joinGame(dataForm).subscribe(function (success) {
+                //Si la partie existe bien
+                if (success === 'OKjoin') {
+                    //  this.navCtrl.setRoot(HomePage);
+                    _this.dataPlayer = { pseudo: window.localStorage.getItem('userConnected'), idgame: dataForm.idgame, equipe: dataForm.equipe };
+                    //On envoit le pseudo et l'id de la partie
+                    _this.socket.emit('set-player', _this.dataPlayer);
+                }
+                else {
+                    _this.showPopup("Accès refusé", success);
+                }
+            }, function (error) {
+                _this.showPopup("Error", error);
+            });
+        }
+    };
+    /** FONCTION SELECTIONNER EQUIPE BLEUE */
+    JoingamePage.prototype.selectBleue = function () {
+        this.equipe = 'b';
+    };
+    /** FONCTION SELECTIONNER EQUIPE ROUGE */
+    JoingamePage.prototype.selectRouge = function () {
+        this.equipe = 'r';
+    };
+    /** FONCTION AFFICHAGE POP-UP */
+    JoingamePage.prototype.showPopup = function (title, text) {
+        var alert = this.alertCtrl.create({
+            title: title,
+            subTitle: text,
+            buttons: [
+                {
+                    text: 'OK',
+                }
+            ]
+        });
+        alert.present();
+    };
+    /** FONCTION AFFICHAGE TOASTS */
+    JoingamePage.prototype.showToast = function (msg) {
+        var toast = this.toastCtrl.create({
+            message: msg,
+            duration: 2000
+        });
+        toast.present();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */])
+    ], JoingamePage.prototype, "navBar", void 0);
+    JoingamePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-joingame',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\joingame\joingame.html"*/'<!--\n\n  Generated template for the JoingamePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n  <ion-icon name="menu"></ion-icon>\n\n</button>\n\n    <ion-title>Rejoindre une partie</ion-title>\n\n</ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <h4>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><br/>Entrez l\'ID de la partie à rejoindre (affiché sur l\'écran du babyfoot)</ion-col>\n\n        </ion-row>\n\n    </h4>\n\n    <ion-list radio-group [(ngModel)]="autoManufacturers">\n\n\n\n        <form [formGroup]="JoinGameForm">\n\n      \n\n            <ion-item>\n\n                <ion-label floating>ID</ion-label>\n\n                <ion-input formControlName="idgame" type="text" [class.invalid]="!JoinGameForm.controls.idgame.valid && JoinGameForm.controls.idgame.dirty"></ion-input>\n\n            </ion-item>\n\n            <ion-item *ngIf="!JoinGameForm.controls.idgame.valid  && JoinGameForm.controls.idgame.dirty">\n\n                <p style=" color: red;">Format de l\'ID incorrect</p>\n\n            </ion-item> \n\n        \n\n            <ion-item>\n\n                    <ion-label>Équipe Bleue</ion-label>\n\n                    <ion-radio (ionSelect)="selectBleue()" [disabled]="isDisabled"></ion-radio>\n\n            </ion-item>\n\n            <ion-item>\n\n                    <ion-label>Équipe Rouge</ion-label>\n\n                    <ion-radio (ionSelect)="selectRouge()" [disabled]="isDisabled"></ion-radio>\n\n            </ion-item>\n\n    \n\n        </form>\n\n      \n\n      </ion-list>\n\n      <button ion-button full color="primary" (click)="joinGame()">Rejoindre</button>\n\n      \n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\joingame\joingame.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_game_game__["a" /* GameProvider */], __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_4_ng_socket_io__["Socket"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]])
+    ], JoingamePage);
+    return JoingamePage;
+}());
+
+//# sourceMappingURL=joingame.js.map
+
+/***/ }),
+
+/***/ 128:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlayerBoardGamePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ng_socket_io__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ng_socket_io___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_ng_socket_io__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the PlayerBoardGamePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var PlayerBoardGamePage = (function () {
+    function PlayerBoardGamePage(navCtrl, alertCtrl, toastCtrl, navParams, socket) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.alertCtrl = alertCtrl;
+        this.toastCtrl = toastCtrl;
+        this.navParams = navParams;
+        this.socket = socket;
+        this.dataPlayer = this.navParams.get('dataPlayer');
+        /**SOCKETS */
+        /* ___________________________________________________________________________________________________________________*/
+        ///**ECOUTE CONFIRMATION SI LE JOUEUR A AJOUTER EXISTE DANS LA BDD */
+        this.socket.on('ack-add-player', function (rep) {
+            //Si le joueur n'existe pas
+            if (rep.rep === 'player_nofound') {
+                _this.showToast('Ce joueur n\'existe pas');
+                //Sinon si il existe
+            }
+            else {
+                //On l'ajoute à la partie 
+                _this.socket.emit('set-player', rep.dataPlayer);
+            }
+        });
+        /**__________________________________________________________________________________ */
+        /** ECOUTE CONFIRMATION DE L'AJOUT DE JOUEUR */
+        this.socket.on('ack-set-player', function (rep) {
+            switch (rep.ack) {
+                //Si joueur ajouté a la partie 
+                case 'ok':
+                    //On redirige vers la page 
+                    _this.showToast('Joueur ajouté dans la partie');
+                    break;
+                //Si la partie est complète
+                case 'err_full':
+                    _this.showToast('La partie est complète');
+                    break;
+                //Si le joueur n'a pas d'équipe attribuée
+                case 'err_noteam':
+                    _this.showToast('Pas d\'équipe attribuée');
+                    break;
+                //Si l'équipe rouge est complète
+                case 'err_fullteam':
+                    _this.showToast('L\'équipe est complète');
+                    break;
+                //Si l'équipe bleue est complète
+                case 'err_player':
+                    _this.showToast('Joueur déjà dans cette partie');
+                    break;
+                //Si la partie est déjà lancée
+                case 'err_notopen':
+                    _this.showToast('La partie est déjà lancée ou terminée');
+                    break;
+            }
+        });
+        /**__________________________________________________________________________________________ */
+        /** ECOUTE DE LA CONFIRMATION QUE LE JOUEUR A QUITTE LA PARTIE */
+        this.socket.on('ack-remove-player', function (data) {
+            if (data.ack === 'ok' && data.playername === _this.dataPlayer.pseudo) {
+                _this.showToast('Vous avez été déconnecté de la partie');
+                _this.navCtrl.pop();
+                _this.socket.removeAllListeners();
+            }
+            else {
+                if (data.ack === 'player_nofound') {
+                    _this.showToast('Votre joueur n\'est pas dans la partie');
+                }
+            }
+        });
+    }
+    PlayerBoardGamePage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        console.log('ionViewDidLoad PlayerBoardGamePage');
+        this.navBar.backButtonClick = function (e) {
+            // todo something
+            _this.socket.removeAllListeners();
+            _this.navCtrl.pop();
+        };
+    };
+    /** FONCTION AJOUTER JOUEUR A LA PARTIE */
+    PlayerBoardGamePage.prototype.addPlayer = function () {
+        var _this = this;
+        //Creation d'une alerte pour récupérer le nom et l'équipe du joueur à ajouter
+        var alert = this.alertCtrl.create({
+            title: 'Pseudo du joueur',
+            inputs: [
+                {
+                    name: 'pseudoPlayer',
+                    placeholder: ''
+                }
+            ],
+            buttons: [
+                {
+                    text: 'Annuler',
+                    role: 'cancel',
+                    handler: function (data) {
+                    }
+                },
+                {
+                    text: 'Ajouter',
+                    handler: function (data) {
+                        var alert2 = _this.alertCtrl.create({
+                            title: 'Choix de l\'équipe',
+                            inputs: [
+                                {
+                                    type: 'radio',
+                                    label: 'Bleue',
+                                    id: 'b',
+                                    value: 'b',
+                                    checked: true
+                                },
+                                {
+                                    type: 'radio',
+                                    label: 'Rouge',
+                                    id: 'r',
+                                    value: 'r'
+                                }
+                            ],
+                            buttons: [
+                                {
+                                    text: 'Annuler',
+                                    role: 'cancel',
+                                    handler: function (data) {
+                                    }
+                                },
+                                {
+                                    text: 'Valider',
+                                    handler: function (data2) {
+                                        //On envoit les données du joueur à ajouter au server
+                                        _this.socket.emit('add-player', { "pseudo": data.pseudoPlayer, "idgame": _this.dataPlayer.idgame, "equipe": data2 });
+                                    }
+                                }
+                            ]
+                        });
+                        alert2.present();
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    /**FONCTION POUR QUITTER LA PARTIE */
+    PlayerBoardGamePage.prototype.quitGame = function () {
+        //On envoit les données du joueur qui veut quitter la partie
+        this.socket.emit('remove-player', this.dataPlayer);
+    };
+    /**FONCTION AFFICHAGE DE POP UP */
+    PlayerBoardGamePage.prototype.showToast = function (msg) {
+        var toast = this.toastCtrl.create({
+            message: msg,
+            duration: 2000
+        });
+        toast.present();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */])
+    ], PlayerBoardGamePage.prototype, "navBar", void 0);
+    PlayerBoardGamePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-player-board-game',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\player-board-game\player-board-game.html"*/'<!--\n\n  Generated template for the PlayerBoardGamePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Partie en cours</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <h4>Vous êtes connecté à la partie en tant que {{ this.dataPlayer.pseudo }} </h4>\n\n  <ion-item>\n\n      <ion-label>ID de la partie : {{ this.dataPlayer.idgame }}</ion-label>\n\n  </ion-item>\n\n<!--  \n\n  <ion-item>\n\n      <ion-label>Lien de la partie : </ion-label>\n\n </ion-item> \n\n --> \n\n  <button ion-button full color="primary" (click) ="addPlayer()">Ajouter un autre joueur</button>\n\n  <button ion-button full color="danger" (click) = "quitGame()">Quitter la partie</button>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\player-board-game\player-board-game.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2_ng_socket_io__["Socket"]])
+    ], PlayerBoardGamePage);
+    return PlayerBoardGamePage;
+}());
+
+//# sourceMappingURL=player-board-game.js.map
+
+/***/ }),
+
+/***/ 129:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DirectGamePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_game_game__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng_socket_io__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng_socket_io___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_ng_socket_io__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the DirectGamePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var DirectGamePage = (function () {
+    function DirectGamePage(navCtrl, socket, navParams, alertCtrl, game, toastCtrl) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.socket = socket;
+        this.navParams = navParams;
+        this.alertCtrl = alertCtrl;
+        this.game = game;
+        this.toastCtrl = toastCtrl;
+        //Flag pour gérer l'affichage des joueurs
+        this.showPlayerB1 = false;
+        this.showPlayerB2 = false;
+        this.showPlayerR1 = false;
+        this.showPlayerR2 = false;
+        this.scoreEquipeB = 0;
+        this.scoreEquipeR = 0;
+        var dataSalon = this.navParams.get('dataGame');
+        this.idgame = dataSalon.idgame;
+        console.log(dataSalon);
+        console.log(this.idgame);
+        console.log(dataSalon.playerB2);
+        //Attribution des joueurs
+        if (typeof dataSalon.playerB1 !== "undefined") {
+            this.playerB1 = dataSalon.playerB1;
+            this.showPlayerB1 = true;
+        }
+        if (typeof dataSalon.playerB2 !== "undefined") {
+            console.log('player B2 est undefined');
+            this.playerB2 = dataSalon.playerB2;
+            this.showPlayerB2 = true;
+        }
+        if (typeof dataSalon.playerR1 !== "undefined") {
+            this.playerR1 = dataSalon.playerR1;
+            this.showPlayerR1 = true;
+        }
+        if (typeof dataSalon.playerR2 !== "undefined") {
+            this.playerR2 = dataSalon.playerR2;
+            this.showPlayerR2 = true;
+        }
+        this.directGame(this.idgame);
+        /** ECOUTE MAJ DES SCORES */
+        this.socket.on('maj-score-game', function (rep) {
+            console.log("on maj-score-game");
+            console.log(rep);
+            //SI la maj correspond bien au bon babyfoot et à la bonne partie 
+            if (rep.idgame === _this.idgame && rep.nameBF === window.localStorage.getItem('userConnected')) {
+                //On met à jour les scores à afficher
+                _this.scoreEquipeB = rep.score.b;
+                _this.scoreEquipeR = rep.score.r;
+                //Tester si une equipe a gagnée 
+                _this.checkWinner();
+            }
+        });
+        /** ECOUTE SI BABYFOOT NON CONNECTE */
+        this.socket.on('no-bf-connecter', function (rep) {
+            console.log("babyfoot non connecté");
+            _this.showPopup("Erreur", "Babyfoot non connecté");
+            _this.navCtrl.pop();
+        });
+    }
+    DirectGamePage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        console.log('ionViewDidLoad DirectGamePage');
+        this.navBar.backButtonClick = function (e) {
+            var alert1 = _this.alertCtrl.create({
+                title: 'Êtes-vous sûr de vouloir quitter la partie ?',
+                inputs: [
+                    {
+                        type: 'radio',
+                        label: 'Oui',
+                        id: 'o',
+                        value: 'o',
+                        checked: true
+                    },
+                    {
+                        type: 'radio',
+                        label: 'Non',
+                        id: 'n',
+                        value: 'n'
+                    }
+                ],
+                buttons: [
+                    {
+                        text: 'Annuler',
+                        role: 'cancel',
+                        handler: function (data) {
+                        }
+                    },
+                    {
+                        text: 'Valider',
+                        handler: function (data2) {
+                            if (data2 === "o") {
+                                _this.socket.emit('cancel-game', { "idgame": _this.idgame });
+                                _this.socket.removeAllListeners();
+                                _this.navCtrl.popToRoot();
+                            }
+                        }
+                    }
+                ]
+            });
+            alert1.present();
+        };
+    };
+    DirectGamePage.prototype.directGame = function (idgame) {
+        var _this = this;
+        var data = { "idgame": idgame };
+        console.log('direct game function');
+        console.log(data);
+        //On appelle la fonction signin du provider authentification (Providers/authentification) => requète vers le serveur
+        this.game.directGame(data).subscribe(function (success) {
+            console.log('success');
+            console.log(success);
+            //Si la réponse est de type objet <=> la réponse contient les données de la partie en cours
+            if (typeof success === "object") {
+                _this.dataGame = success;
+                _this.limiteScore = success.config.limiteScore;
+                console.log(_this.limiteScore);
+                //Attribution des joueurs
+                _this.showToast("La partie est lancée");
+                console.log(_this.dataGame);
+                //On demande l'envoie des scores de la partie
+                //Pour le babyfoot concerné 
+                _this.socket.emit('ask-score-bf', { "nameBF": window.localStorage.getItem('userConnected'), "idgame": idgame });
+                console.log('emit ask-score-bf');
+            }
+            else {
+                _this.showPopup('Erreur', success);
+                _this.navCtrl.pop();
+            }
+        }, function (error) {
+            _this.showPopup("Error", error);
+        });
+    };
+    DirectGamePage.prototype.checkWinner = function () {
+        //Si la limite de score est atteinte 
+        //SI l'équipe Bleue gagne 
+        if (this.scoreEquipeB === this.limiteScore) {
+            this.showPopup("Gagné", "L'équipe Bleue a gagné " + this.scoreEquipeB + " - " + this.scoreEquipeR + " !");
+            this.socket.emit("stop-game", { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
+            this.navCtrl.popToRoot();
+        }
+        else {
+            //Si l'équipe Rouge gagne
+            if (this.scoreEquipeR === this.limiteScore) {
+                this.showPopup("Gagné", "L'équipe Rouge a gagné " + this.scoreEquipeR + " - " + this.scoreEquipeB + " !");
+                this.socket.emit("stop-game", { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
+                this.navCtrl.popToRoot();
+            }
+        }
+    };
+    /** FONCTION ARRET DE LA PARTIE */
+    DirectGamePage.prototype.stopGame = function () {
+        if (this.scoreEquipeB > this.scoreEquipeR) {
+            this.showPopup("Gagné", "L'équipe Bleue a gagné " + this.scoreEquipeB + " - " + this.scoreEquipeR + " !");
+        }
+        else {
+            if (this.scoreEquipeR > this.scoreEquipeB) {
+                this.showPopup("Gagné", "L'équipe Rouge a gagné " + this.scoreEquipeR + " - " + this.scoreEquipeB + " !");
+            }
+            else {
+                this.showPopup("Égalité", this.scoreEquipeR + " - " + this.scoreEquipeB);
+            }
+        }
+        this.socket.emit("stop-game", { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
+        this.navCtrl.popToRoot();
+    };
+    /** FONCTION EQUIPE B DECLARE FORFAITE */
+    DirectGamePage.prototype.giveupB = function () {
+        this.showPopup("Gagné", "L'équipe Rouge a gagné par forfait 10 - 0 ");
+        this.socket.emit("stop-game", { "idgame": this.idgame, "scoreB": 0, "scoreR": 10 });
+        this.navCtrl.popToRoot();
+    };
+    /** FONCTION EQUIPE R DECLARE FORFAITE */
+    DirectGamePage.prototype.giveupR = function () {
+        this.showPopup("Gagné", "L'équipe Bleue a gagné par forfait 0 - 10 ");
+        this.socket.emit("stop-game", { "idgame": this.idgame, "scoreB": 10, "scoreR": 0 });
+        this.navCtrl.popToRoot();
+    };
+    /** FONCTION AJOUT et ENLEVE BUT EQUIPE B */
+    DirectGamePage.prototype.addGoalB = function () {
+        this.scoreEquipeB++;
+        //Tester si une equipe a gagnée 
+        this.checkWinner();
+        this.socket.emit('maj-score-user', { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
+    };
+    DirectGamePage.prototype.removeGoalB = function () {
+        this.scoreEquipeB--;
+        //Tester si une equipe a gagnée 
+        this.checkWinner();
+        this.socket.emit('maj-score-user', { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
+    };
+    /** FONCTION AJOUT et ENLEVE BUT EQUIPE R */
+    DirectGamePage.prototype.addGoalR = function () {
+        this.scoreEquipeR++;
+        //Tester si une equipe a gagnée 
+        this.checkWinner();
+        this.socket.emit('maj-score-user', { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
+    };
+    DirectGamePage.prototype.removeGoalR = function () {
+        this.scoreEquipeR--;
+        //Tester si une equipe a gagnée 
+        this.checkWinner();
+        this.socket.emit('maj-score-user', { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
+    };
+    /** AFFICHER DES TOASTS */
+    DirectGamePage.prototype.showToast = function (msg) {
+        var toast = this.toastCtrl.create({
+            message: msg,
+            duration: 2000
+        });
+        toast.present();
+    };
+    /** AFFICHER DES POP-UP */
+    DirectGamePage.prototype.showPopup = function (title, text) {
+        var alert = this.alertCtrl.create({
+            title: title,
+            subTitle: text,
+            buttons: [
+                {
+                    text: 'OK',
+                }
+            ]
+        });
+        alert.present();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */])
+    ], DirectGamePage.prototype, "navBar", void 0);
+    DirectGamePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-direct-game',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\direct-game\direct-game.html"*/'<!--\n\n  Generated template for the DirectGamePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Partie en cours : {{idgame}}</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n    <ion-card style="font-size: 5em;text-align: center;height: 1.25em ;margin-top: 0;"><br><br>\n\n        <button item-left ion-button color="danger" (click)="removeGoalB()">\n\n              <ion-icon name="remove"></ion-icon>\n\n          </button>\n\n        <button item-left ion-button color="secondary" (click)="addGoalB()">\n\n                  <ion-icon name="add"></ion-icon>                \n\n          </button> {{scoreEquipeB}} - {{scoreEquipeR}}\n\n        <button item-left ion-button color="danger" (click)="removeGoalR()">\n\n                  <ion-icon name="remove"></ion-icon>\n\n          </button>\n\n        <button item-left ion-button color="secondary" (click)="addGoalR()">\n\n              <ion-icon name="add"></ion-icon>\n\n          </button>\n\n    </ion-card>\n\n\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col style="font-size: 2em; text-align: center;">\n\n\n\n                <img width="40" height="40" src="assets/imgs/blue_flag.png"> Equipe Bleue\n\n            </ion-col>\n\n            <ion-col style="font-size: 2em; text-align: center;">\n\n                Equipe Rouge\n\n                <img width="40" height="40" src="assets/imgs/red_flag.png">\n\n            </ion-col>\n\n        </ion-row>\n\n\n\n    </ion-grid>\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerB1" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeB.png">\n\n                        </ion-avatar>\n\n                        <h2>{{this.playerB1.pseudo}}</h2>\n\n                        <!--   <p>November 5, 1955</p> -->\n\n                    </ion-item>\n\n                </ion-card>\n\n            </ion-col>\n\n\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerR1" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeR.png">\n\n                        </ion-avatar>\n\n                        <h2>{{this.playerR1.pseudo}}</h2>\n\n                        <!--   <p>November 5, 1955</p> -->\n\n                    </ion-item>\n\n                </ion-card>\n\n\n\n            </ion-col>\n\n        </ion-row>\n\n\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerB2" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeB.png">\n\n                        </ion-avatar>\n\n                        <h2>{{this.playerB2.pseudo}}</h2>\n\n                        <!--   <p>November 5, 1955</p> -->\n\n                    </ion-item>\n\n                </ion-card>\n\n            </ion-col>\n\n\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerR2" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeR.png">\n\n                        </ion-avatar>\n\n                        <h2>{{this.playerR2.pseudo}}</h2>\n\n                        <!--   <p>November 5, 1955</p> -->\n\n                    </ion-item>\n\n                </ion-card>\n\n\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col>\n\n                <button icon-right ion-button full color="light" (click)="giveupB()">          \n\n                  Déclarer forfait\n\n                  <ion-icon name="remove-circle" item-start></ion-icon>\n\n              </button>\n\n            </ion-col>\n\n\n\n            <ion-col>\n\n                <button icon-right ion-button full color="danger" (click)="stopGame()">          \n\n                  Arrêter la partie\n\n                  <ion-icon name="power" item-start></ion-icon>\n\n              </button>\n\n            </ion-col>\n\n\n\n            <ion-col>\n\n                <button icon-right ion-button full color="light" (click)="giveupR()">          \n\n                  Déclarer forfait\n\n                  <ion-icon name="remove-circle" item-start></ion-icon>\n\n              </button>\n\n            </ion-col>\n\n\n\n        </ion-row>\n\n    </ion-grid>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\direct-game\direct-game.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_3_ng_socket_io__["Socket"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_2__providers_game_game__["a" /* GameProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]])
+    ], DirectGamePage);
+    return DirectGamePage;
+}());
+
+//# sourceMappingURL=direct-game.js.map
+
+/***/ }),
+
+/***/ 130:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -194,8 +1037,8 @@ var FollowingPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_game_game__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng_socket_io__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng_socket_io___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_ng_socket_io__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_bf_home_bf__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__direct_game_direct_game__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_bf_home_bf__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__direct_game_direct_game__ = __webpack_require__(129);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -658,856 +1501,18 @@ var SalonPartiePage = (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */])
     ], SalonPartiePage.prototype, "navBar", void 0);
     SalonPartiePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'page-salon-partie',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\salon-partie\salon-partie.html"*/'<!--\n\n  Generated template for the SalonPartiePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Rejoignez la partie</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-item>\n\n        <ion-icon name="football" item-start></ion-icon>\n\n        <ion-label>ID : {{ idgame }}</ion-label>\n\n    </ion-item>\n\n\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col style="font-size: 2em; text-align: center;">\n\n                <img width="40" height="40" src="assets/imgs/blue_flag.png"> Equipe Bleue\n\n            </ion-col>\n\n            <ion-col style="font-size: 2em; text-align: center;">\n\n                Equipe Rouge\n\n                <img width="40" height="40" src="assets/imgs/red_flag.png">\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerB1" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeB.png">\n\n                        </ion-avatar>\n\n                        <h2>{{playerB1.pseudo}}</h2>\n\n\n\n                        <button item-right ion-button color="danger" (click)=\'RemovePlayer( playerB1 )\'>\n\n                                                     <ion-icon name="remove-circle"></ion-icon>\n\n                                                </button>\n\n                    </ion-item>\n\n                </ion-card>\n\n            </ion-col>\n\n\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerR1" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeR.png">\n\n                        </ion-avatar>\n\n                        <h2>{{playerR1.pseudo}}</h2>\n\n\n\n                        <button item-right ion-button color="danger" (click)=\'RemovePlayer( playerR1 )\'>\n\n                                                        <ion-icon name="remove-circle"></ion-icon>\n\n                                                </button>\n\n                    </ion-item>\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerB2" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeB.png">\n\n                        </ion-avatar>\n\n                        <h2>{{playerB2.pseudo}}</h2>\n\n                        <button item-right ion-button color="danger" (click)=\'RemovePlayer( playerB2 )\'>\n\n                                                <ion-icon name="remove-circle"></ion-icon>\n\n                                        </button>\n\n                    </ion-item>\n\n                </ion-card>\n\n            </ion-col>\n\n\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerR2" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeR.png">\n\n                        </ion-avatar>\n\n                        <h2>{{playerR2.pseudo}}</h2>\n\n                        <button item-right ion-button color="danger" (click)=\'RemovePlayer( playerR2 )\'>\n\n                                                <ion-icon name="remove-circle"></ion-icon>\n\n                                        </button>\n\n                    </ion-item>\n\n                </ion-card>\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n\n\n    <ion-row>\n\n        <ion-col style="text-align:center">\n\n            <button ion-button center color="primary" (click)=\'this.addGuest()\'>Ajouter un joueur en tant que "invité"</button>\n\n        </ion-col>\n\n    </ion-row>\n\n\n\n\n\n    <button *ngIf="!ready" ion-button full color="light">En attente de joueur</button>\n\n    <button *ngIf="ready" icon-right ion-button full color="primary" (click)=\'this.LaunchGame()\'>          \n\n                Lancer la partie\n\n                <ion-icon name="play" item-start></ion-icon>\n\n        </button>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\salon-partie\salon-partie.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__providers_game_game__["a" /* GameProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_game_game__["a" /* GameProvider */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_3_ng_socket_io__["Socket"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_ng_socket_io__["Socket"]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_game_game__["a" /* GameProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_3_ng_socket_io__["Socket"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]])
     ], SalonPartiePage);
     return SalonPartiePage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=salon-partie.js.map
-
-/***/ }),
-
-/***/ 126:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DirectGamePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_game_game__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng_socket_io__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng_socket_io___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_ng_socket_io__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the DirectGamePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var DirectGamePage = (function () {
-    function DirectGamePage(navCtrl, socket, navParams, alertCtrl, game, toastCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.socket = socket;
-        this.navParams = navParams;
-        this.alertCtrl = alertCtrl;
-        this.game = game;
-        this.toastCtrl = toastCtrl;
-        //Flag pour gérer l'affichage des joueurs
-        this.showPlayerB1 = false;
-        this.showPlayerB2 = false;
-        this.showPlayerR1 = false;
-        this.showPlayerR2 = false;
-        this.scoreEquipeB = 0;
-        this.scoreEquipeR = 0;
-        var dataSalon = this.navParams.get('dataGame');
-        this.idgame = dataSalon.idgame;
-        console.log(dataSalon);
-        console.log(this.idgame);
-        console.log(dataSalon.playerB2);
-        //Attribution des joueurs
-        if (typeof dataSalon.playerB1 !== "undefined") {
-            this.playerB1 = dataSalon.playerB1;
-            this.showPlayerB1 = true;
-        }
-        if (typeof dataSalon.playerB2 !== "undefined") {
-            console.log('player B2 est undefined');
-            this.playerB2 = dataSalon.playerB2;
-            this.showPlayerB2 = true;
-        }
-        if (typeof dataSalon.playerR1 !== "undefined") {
-            this.playerR1 = dataSalon.playerR1;
-            this.showPlayerR1 = true;
-        }
-        if (typeof dataSalon.playerR2 !== "undefined") {
-            this.playerR2 = dataSalon.playerR2;
-            this.showPlayerR2 = true;
-        }
-        this.directGame(this.idgame);
-        /** ECOUTE MAJ DES SCORES */
-        this.socket.on('maj-score-game', function (rep) {
-            console.log("on maj-score-game");
-            console.log(rep);
-            //SI la maj correspond bien au bon babyfoot et à la bonne partie 
-            if (rep.idgame === _this.idgame && rep.nameBF === window.localStorage.getItem('userConnected')) {
-                //On met à jour les scores à afficher
-                _this.scoreEquipeB = rep.score.b;
-                _this.scoreEquipeR = rep.score.r;
-                //Tester si une equipe a gagnée 
-                _this.checkWinner();
-            }
-        });
-        /** ECOUTE SI BABYFOOT NON CONNECTE */
-        this.socket.on('no-bf-connecter', function (rep) {
-            console.log("babyfoot non connecté");
-            _this.showPopup("Erreur", "Babyfoot non connecté");
-            _this.navCtrl.pop();
-        });
-    }
-    DirectGamePage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        console.log('ionViewDidLoad DirectGamePage');
-        this.navBar.backButtonClick = function (e) {
-            var alert1 = _this.alertCtrl.create({
-                title: 'Êtes-vous sûr de vouloir quitter la partie ?',
-                inputs: [
-                    {
-                        type: 'radio',
-                        label: 'Oui',
-                        id: 'o',
-                        value: 'o',
-                        checked: true
-                    },
-                    {
-                        type: 'radio',
-                        label: 'Non',
-                        id: 'n',
-                        value: 'n'
-                    }
-                ],
-                buttons: [
-                    {
-                        text: 'Annuler',
-                        role: 'cancel',
-                        handler: function (data) {
-                        }
-                    },
-                    {
-                        text: 'Valider',
-                        handler: function (data2) {
-                            if (data2 === "o") {
-                                _this.socket.emit('cancel-game', { "idgame": _this.idgame });
-                                _this.socket.removeAllListeners();
-                                _this.navCtrl.popToRoot();
-                            }
-                        }
-                    }
-                ]
-            });
-            alert1.present();
-        };
-    };
-    DirectGamePage.prototype.directGame = function (idgame) {
-        var _this = this;
-        var data = { "idgame": idgame };
-        console.log('direct game function');
-        console.log(data);
-        //On appelle la fonction signin du provider authentification (Providers/authentification) => requète vers le serveur
-        this.game.directGame(data).subscribe(function (success) {
-            console.log('success');
-            console.log(success);
-            //Si la réponse est de type objet <=> la réponse contient les données de la partie en cours
-            if (typeof success === "object") {
-                _this.dataGame = success;
-                _this.limiteScore = success.config.limiteScore;
-                console.log(_this.limiteScore);
-                //Attribution des joueurs
-                _this.showToast("La partie est lancée");
-                console.log(_this.dataGame);
-                //On demande l'envoie des scores de la partie
-                //Pour le babyfoot concerné 
-                _this.socket.emit('ask-score-bf', { "nameBF": window.localStorage.getItem('userConnected'), "idgame": idgame });
-                console.log('emit ask-score-bf');
-            }
-            else {
-                _this.showPopup('Erreur', success);
-                _this.navCtrl.pop();
-            }
-        }, function (error) {
-            _this.showPopup("Error", error);
-        });
-    };
-    DirectGamePage.prototype.checkWinner = function () {
-        //Si la limite de score est atteinte 
-        //SI l'équipe Bleue gagne 
-        if (this.scoreEquipeB === this.limiteScore) {
-            this.showPopup("Gagné", "L'équipe Bleue a gagné " + this.scoreEquipeB + " - " + this.scoreEquipeR + " !");
-            this.socket.emit("stop-game", { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
-            this.navCtrl.popToRoot();
-        }
-        else {
-            //Si l'équipe Rouge gagne
-            if (this.scoreEquipeR === this.limiteScore) {
-                this.showPopup("Gagné", "L'équipe Rouge a gagné " + this.scoreEquipeR + " - " + this.scoreEquipeB + " !");
-                this.socket.emit("stop-game", { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
-                this.navCtrl.popToRoot();
-            }
-        }
-    };
-    /** FONCTION ARRET DE LA PARTIE */
-    DirectGamePage.prototype.stopGame = function () {
-        if (this.scoreEquipeB > this.scoreEquipeR) {
-            this.showPopup("Gagné", "L'équipe Bleue a gagné " + this.scoreEquipeB + " - " + this.scoreEquipeR + " !");
-        }
-        else {
-            if (this.scoreEquipeR > this.scoreEquipeB) {
-                this.showPopup("Gagné", "L'équipe Rouge a gagné " + this.scoreEquipeR + " - " + this.scoreEquipeB + " !");
-            }
-            else {
-                this.showPopup("Égalité", this.scoreEquipeR + " - " + this.scoreEquipeB);
-            }
-        }
-        this.socket.emit("stop-game", { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
-        this.navCtrl.popToRoot();
-    };
-    /** FONCTION EQUIPE B DECLARE FORFAITE */
-    DirectGamePage.prototype.giveupB = function () {
-        this.showPopup("Gagné", "L'équipe Rouge a gagné par forfait 10 - 0 ");
-        this.socket.emit("stop-game", { "idgame": this.idgame, "scoreB": 0, "scoreR": 10 });
-        this.navCtrl.popToRoot();
-    };
-    /** FONCTION EQUIPE R DECLARE FORFAITE */
-    DirectGamePage.prototype.giveupR = function () {
-        this.showPopup("Gagné", "L'équipe Bleue a gagné par forfait 0 - 10 ");
-        this.socket.emit("stop-game", { "idgame": this.idgame, "scoreB": 10, "scoreR": 0 });
-        this.navCtrl.popToRoot();
-    };
-    /** FONCTION AJOUT et ENLEVE BUT EQUIPE B */
-    DirectGamePage.prototype.addGoalB = function () {
-        this.scoreEquipeB++;
-        //Tester si une equipe a gagnée 
-        this.checkWinner();
-        this.socket.emit('maj-score-user', { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
-    };
-    DirectGamePage.prototype.removeGoalB = function () {
-        this.scoreEquipeB--;
-        //Tester si une equipe a gagnée 
-        this.checkWinner();
-        this.socket.emit('maj-score-user', { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
-    };
-    /** FONCTION AJOUT et ENLEVE BUT EQUIPE R */
-    DirectGamePage.prototype.addGoalR = function () {
-        this.scoreEquipeR++;
-        //Tester si une equipe a gagnée 
-        this.checkWinner();
-        this.socket.emit('maj-score-user', { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
-    };
-    DirectGamePage.prototype.removeGoalR = function () {
-        this.scoreEquipeR--;
-        //Tester si une equipe a gagnée 
-        this.checkWinner();
-        this.socket.emit('maj-score-user', { "idgame": this.idgame, "scoreB": this.scoreEquipeB, "scoreR": this.scoreEquipeR });
-    };
-    /** AFFICHER DES TOASTS */
-    DirectGamePage.prototype.showToast = function (msg) {
-        var toast = this.toastCtrl.create({
-            message: msg,
-            duration: 2000
-        });
-        toast.present();
-    };
-    /** AFFICHER DES POP-UP */
-    DirectGamePage.prototype.showPopup = function (title, text) {
-        var alert = this.alertCtrl.create({
-            title: title,
-            subTitle: text,
-            buttons: [
-                {
-                    text: 'OK',
-                }
-            ]
-        });
-        alert.present();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */])
-    ], DirectGamePage.prototype, "navBar", void 0);
-    DirectGamePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-direct-game',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\direct-game\direct-game.html"*/'<!--\n\n  Generated template for the DirectGamePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Partie en cours : {{idgame}}</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n    <ion-card style="font-size: 5em;text-align: center;height: 1.25em ;margin-top: 0;"><br><br>\n\n        <button item-left ion-button color="danger" (click)="removeGoalB()">\n\n              <ion-icon name="remove"></ion-icon>\n\n          </button>\n\n        <button item-left ion-button color="secondary" (click)="addGoalB()">\n\n                  <ion-icon name="add"></ion-icon>                \n\n          </button> {{scoreEquipeB}} - {{scoreEquipeR}}\n\n        <button item-left ion-button color="danger" (click)="removeGoalR()">\n\n                  <ion-icon name="remove"></ion-icon>\n\n          </button>\n\n        <button item-left ion-button color="secondary" (click)="addGoalR()">\n\n              <ion-icon name="add"></ion-icon>\n\n          </button>\n\n    </ion-card>\n\n\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col style="font-size: 2em; text-align: center;">\n\n\n\n                <img width="40" height="40" src="assets/imgs/blue_flag.png"> Equipe Bleue\n\n            </ion-col>\n\n            <ion-col style="font-size: 2em; text-align: center;">\n\n                Equipe Rouge\n\n                <img width="40" height="40" src="assets/imgs/red_flag.png">\n\n            </ion-col>\n\n        </ion-row>\n\n\n\n    </ion-grid>\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerB1" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeB.png">\n\n                        </ion-avatar>\n\n                        <h2>{{this.playerB1.pseudo}}</h2>\n\n                        <!--   <p>November 5, 1955</p> -->\n\n                    </ion-item>\n\n                </ion-card>\n\n            </ion-col>\n\n\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerR1" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeR.png">\n\n                        </ion-avatar>\n\n                        <h2>{{this.playerR1.pseudo}}</h2>\n\n                        <!--   <p>November 5, 1955</p> -->\n\n                    </ion-item>\n\n                </ion-card>\n\n\n\n            </ion-col>\n\n        </ion-row>\n\n\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerB2" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeB.png">\n\n                        </ion-avatar>\n\n                        <h2>{{this.playerB2.pseudo}}</h2>\n\n                        <!--   <p>November 5, 1955</p> -->\n\n                    </ion-item>\n\n                </ion-card>\n\n            </ion-col>\n\n\n\n            <ion-col>\n\n                <ion-card *ngIf="showPlayerR2" style="height:50px; margin-top: 0;">\n\n                    <ion-item>\n\n                        <ion-avatar item-start>\n\n                            <img src="assets/imgs/icon_equipeR.png">\n\n                        </ion-avatar>\n\n                        <h2>{{this.playerR2.pseudo}}</h2>\n\n                        <!--   <p>November 5, 1955</p> -->\n\n                    </ion-item>\n\n                </ion-card>\n\n\n\n            </ion-col>\n\n        </ion-row>\n\n    </ion-grid>\n\n\n\n    <ion-grid>\n\n        <ion-row>\n\n            <ion-col>\n\n                <button icon-right ion-button full color="light" (click)="giveupB()">          \n\n                  Déclarer forfait\n\n                  <ion-icon name="remove-circle" item-start></ion-icon>\n\n              </button>\n\n            </ion-col>\n\n\n\n            <ion-col>\n\n                <button icon-right ion-button full color="danger" (click)="stopGame()">          \n\n                  Arrêter la partie\n\n                  <ion-icon name="power" item-start></ion-icon>\n\n              </button>\n\n            </ion-col>\n\n\n\n            <ion-col>\n\n                <button icon-right ion-button full color="light" (click)="giveupR()">          \n\n                  Déclarer forfait\n\n                  <ion-icon name="remove-circle" item-start></ion-icon>\n\n              </button>\n\n            </ion-col>\n\n\n\n        </ion-row>\n\n    </ion-grid>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\direct-game\direct-game.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_3_ng_socket_io__["Socket"], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_2__providers_game_game__["a" /* GameProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]])
-    ], DirectGamePage);
-    return DirectGamePage;
-}());
-
-//# sourceMappingURL=direct-game.js.map
-
-/***/ }),
-
-/***/ 127:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_data_data__ = __webpack_require__(36);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the StatsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var StatsPage = (function () {
-    function StatsPage(navCtrl, navParams, data) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.data = data;
-        //On récupère le pseudo courrant
-        this.username = window.localStorage.getItem('userConnected');
-        //On envoie une requête à la BDD pour trouver l'ID des stats du joueur
-        this.data.getDataPlayer(this.username).subscribe(function (data) {
-            //On décrypte le résultat
-            _this.player = JSON.parse(data);
-            //On récupère l'id_stat du joueur
-            _this.idstats = _this.player.id_stat;
-            //On peut maintenant envoyer une requête pour connaitre les stats selon leur id
-            _this.data.getStatsPlayer(_this.idstats).subscribe(function (data2) {
-                //Décryptage
-                _this.stats = JSON.parse(data2);
-                //Chaque variable globale reçoit maintenant sa valeur correspondante
-                _this.goals = _this.stats.nbr_but;
-                _this.games = _this.stats.nbr_match;
-                _this.V = _this.stats.nbr_victoires;
-                _this.D = _this.stats.nbr_defaites;
-                _this.R = (_this.goals / _this.games).toFixed(2);
-                _this.F_r = _this.stats.friend_rank;
-                _this.G_r = _this.stats.gen_rank;
-            });
-        });
-    }
-    StatsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad StatsPage');
-    };
-    StatsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-stats',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\stats\stats.html"*/'<!--\n\n  Generated template for the StatsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Statistiques</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <p style="text-align:center">\n\n        <ion-row>\n\n            <ion-col>\n\n                <h1>{{ V }} Victoires</h1>\n\n            </ion-col>\n\n            <ion-col>\n\n                <h1>{{ D }} Défaites</h1>\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <br/>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center">\n\n                <h2>\n\n                    <ion-icon name="reorder"></ion-icon> Classement Général : {{ G_r }}/123</h2>\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center">\n\n                <h2>\n\n                    <ion-icon name="reorder"></ion-icon> Classement Amis : {{ F_r }}/5</h2>\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <br/>\n\n    <p style="text-align:center">\n\n        <ion-row>\n\n            <ion-col>\n\n                <h1>{{ goals }}\n\n                    <ion-icon name="football"></ion-icon>\n\n                </h1>\n\n            </ion-col>\n\n            <ion-col>\n\n                <h1>{{ games }}\n\n                    <ion-icon name="game-controller-a"></ion-icon>\n\n                </h1>\n\n            </ion-col>\n\n        </ion-row>\n\n        <ion-row>\n\n            <ion-col>\n\n                <h2>{{ R }} buts/match</h2>\n\n            </ion-col>\n\n\n\n        </ion-row>\n\n    </p>\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\stats\stats.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */]])
-    ], StatsPage);
-    return StatsPage;
-}());
-
-//# sourceMappingURL=stats.js.map
-
-/***/ }),
-
-/***/ 128:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyBookingsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_data_data__ = __webpack_require__(36);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * Generated class for the MyBookingsPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var MyBookingsPage = (function () {
-    function MyBookingsPage(navCtrl, navParams, data) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.data = data;
-        this.reservationsTD = [];
-        this.event = {
-            month: '',
-            timeStarts: '',
-            timeEnds: '',
-        };
-        //On stocke le pseudo courant
-        this.username = window.localStorage.getItem("userConnected");
-        //Requête à la BDD pour avoir les données du joeurs et pouvoir les afficher
-        this.data.getDataPlayer(this.username).subscribe(function (data) {
-            _this.player = JSON.parse(data);
-            _this.username = _this.player.pseudo;
-            _this.id = _this.player._id;
-            _this.data.getMyReservations(_this.id).subscribe(function (data2) {
-                _this.reservations = JSON.parse(data2);
-                _this.reservations.forEach(function (element) {
-                    _this.printReservation(element);
-                });
-            });
-        });
-    }
-    MyBookingsPage.prototype.ionViewDidLoad = function () {
-        console.log("ionViewDidLoad MyBookingsPage");
-    };
-    MyBookingsPage.prototype.printReservation = function (reservation) {
-        var dated = new Date(reservation.DateDeb);
-        var datef = new Date(reservation.DateFin);
-        switch (reservation.ID_baby) {
-            case 1:
-                reservation.ID_baby = "Babyfoot Présidence";
-                break;
-            case 2:
-                reservation.ID_baby = "Babyfoot Sciences";
-                break;
-            case 3:
-                reservation.ID_baby = "Babyfoot Istia";
-                break;
-            case 4:
-                reservation.ID_baby = "Babyfoot Suaps";
-                break;
-            case 5:
-                reservation.ID_baby = "Babyfoot Médecine";
-                break;
-        }
-        if (dated.getDate() < 10) {
-            this.event.month = "0" + dated.getDate();
-        }
-        else {
-            this.event.month = "" + dated.getDate();
-        }
-        if (dated.getMonth() + 1 < 10) {
-            this.event.month += "-0" + (dated.getMonth() + 1) + "-" + dated.getFullYear();
-        }
-        else {
-            this.event.month += "-" + (dated.getMonth() + 1) + "-" + dated.getFullYear();
-        }
-        /*Construction créneau*/
-        if (dated.getHours() < 10) {
-            this.event.timeStarts = "0" + dated.getHours();
-        }
-        else {
-            this.event.timeStarts = "" + dated.getHours();
-        }
-        if (dated.getMinutes() < 10) {
-            this.event.timeStarts += ":0" + dated.getMinutes();
-        }
-        else {
-            this.event.timeStarts += ":" + dated.getMinutes();
-        }
-        if (datef.getHours() < 10) {
-            this.event.timeEnds = "0" + datef.getHours();
-        }
-        else {
-            this.event.timeEnds = "" + datef.getHours();
-        }
-        if (datef.getMinutes() < 10) {
-            this.event.timeEnds += ":0" + datef.getMinutes();
-        }
-        else {
-            this.event.timeEnds += ":" + datef.getMinutes();
-        }
-        reservation.DateDeb = this.event.month;
-        reservation.DateFin = this.event.timeStarts + ' à ' + this.event.timeEnds;
-    };
-    MyBookingsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: "page-my-bookings",template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\my-bookings\my-bookings.html"*/'<!--\n\n  Generated template for the MyBookingsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <ion-navbar>\n\n        <ion-title>Mes Réservations</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <ion-card *ngFor="let stack of reservations">\n\n        <ion-card-header>\n\n            <b> Réservation du  {{ stack.DateDeb }}</b>\n\n        </ion-card-header>\n\n        <ion-card-content>\n\n            <ion-icon name="pin"></ion-icon>   {{stack.ID_baby }} <br/>\n\n            <ion-icon name="calendar"></ion-icon>   {{ stack.DateFin }}\n\n        </ion-card-content>\n\n    </ion-card>\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\my-bookings\my-bookings.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */]])
-    ], MyBookingsPage);
-    return MyBookingsPage;
-}());
-
-//# sourceMappingURL=my-bookings.js.map
-
-/***/ }),
-
-/***/ 129:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JoingamePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_game_game__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng_socket_io__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng_socket_io___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_ng_socket_io__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__player_board_game_player_board_game__ = __webpack_require__(130);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-/**
- * Generated class for the JoingamePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var JoingamePage = (function () {
-    function JoingamePage(navCtrl, navParams, game, formBuilder, alertCtrl, socket, toastCtrl) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.game = game;
-        this.formBuilder = formBuilder;
-        this.alertCtrl = alertCtrl;
-        this.socket = socket;
-        this.toastCtrl = toastCtrl;
-        //Instanciation du formulaire de connection 
-        this.JoinGameForm = formBuilder.group({
-            //Variable idgame composé de 6 caractères : minuscule, majuscule ou chiffre
-            idgame: ['', __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].compose([, __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].minLength(6), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].maxLength(6), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].pattern('[a-zA-Z0-9]{6}'), __WEBPACK_IMPORTED_MODULE_3__angular_forms__["f" /* Validators */].required])],
-        });
-        /** SOCKETS */
-        /** ________________________________________________________________________________________________ */
-        /** ECOUTE CONFIRMATION CONNEXION A LA PARTIE */
-        this.socket.on('ack-set-player', function (rep) {
-            switch (rep.ack) {
-                //Si joueur ajouté a la partie 
-                case 'ok':
-                    //On redirige vers la page 
-                    _this.showToast('Joueur dans la partie');
-                    _this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__player_board_game_player_board_game__["a" /* PlayerBoardGamePage */], { "dataPlayer": _this.dataPlayer });
-                    _this.socket.removeAllListeners();
-                    break;
-                //Si la partie est complète
-                case 'err_full':
-                    _this.showToast('La partie est complète');
-                    break;
-                //Si le joueur n'a pas d'équipe attribuée
-                case 'err_noteam':
-                    _this.showToast('Pas d\'équipe attribuée');
-                    break;
-                //Si l'équipe rouge est complète
-                case 'err_fullteam':
-                    _this.showToast('L\'équipe est complète');
-                    break;
-                //Si l'équipe bleue est complète
-                case 'err_player':
-                    _this.showToast('Joueur déjà dans cette partie');
-                    break;
-                //Si la partie est déjà lancée
-                case 'err_notopen':
-                    _this.showToast('La partie est déjà lancée ou terminée');
-                    break;
-            }
-        });
-    }
-    JoingamePage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        console.log('ionViewDidLoad JoingamePage');
-        this.navBar.backButtonClick = function (e) {
-            // todo something
-            _this.socket.removeAllListeners();
-            _this.navCtrl.pop();
-        };
-    };
-    /** FONCTION REJOINDRE UNE PARTIE */
-    JoingamePage.prototype.joinGame = function () {
-        var _this = this;
-        //Si le formulaire est valide
-        if (this.JoinGameForm.valid) {
-            //On recupère la donnée du formulaire
-            var dataForm = { idgame: this.JoinGameForm.value.idgame,
-                equipe: this.equipe };
-            //On appelle la fonction signin du provider joingame (Providers/joingame)
-            this.game.joinGame(dataForm).subscribe(function (success) {
-                //Si la partie existe bien
-                if (success === 'OKjoin') {
-                    //  this.navCtrl.setRoot(HomePage);
-                    _this.dataPlayer = { pseudo: window.localStorage.getItem('userConnected'), idgame: dataForm.idgame, equipe: dataForm.equipe };
-                    //On envoit le pseudo et l'id de la partie
-                    _this.socket.emit('set-player', _this.dataPlayer);
-                }
-                else {
-                    _this.showPopup("Accès refusé", success);
-                }
-            }, function (error) {
-                _this.showPopup("Error", error);
-            });
-        }
-    };
-    /** FONCTION SELECTIONNER EQUIPE BLEUE */
-    JoingamePage.prototype.selectBleue = function () {
-        this.equipe = 'b';
-    };
-    /** FONCTION SELECTIONNER EQUIPE ROUGE */
-    JoingamePage.prototype.selectRouge = function () {
-        this.equipe = 'r';
-    };
-    /** FONCTION AFFICHAGE POP-UP */
-    JoingamePage.prototype.showPopup = function (title, text) {
-        var alert = this.alertCtrl.create({
-            title: title,
-            subTitle: text,
-            buttons: [
-                {
-                    text: 'OK',
-                }
-            ]
-        });
-        alert.present();
-    };
-    /** FONCTION AFFICHAGE TOASTS */
-    JoingamePage.prototype.showToast = function (msg) {
-        var toast = this.toastCtrl.create({
-            message: msg,
-            duration: 2000
-        });
-        toast.present();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */]) === "function" && _a || Object)
-    ], JoingamePage.prototype, "navBar", void 0);
-    JoingamePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-joingame',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\joingame\joingame.html"*/'<!--\n\n  Generated template for the JoingamePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n  <ion-icon name="menu"></ion-icon>\n\n</button>\n\n    <ion-title>Rejoindre une partie</ion-title>\n\n</ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <h4>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><br/>Entrez l\'ID de la partie à rejoindre (affiché sur l\'écran du babyfoot)</ion-col>\n\n        </ion-row>\n\n    </h4>\n\n    <ion-list radio-group [(ngModel)]="autoManufacturers">\n\n\n\n        <form [formGroup]="JoinGameForm">\n\n      \n\n            <ion-item>\n\n                <ion-label floating>ID</ion-label>\n\n                <ion-input formControlName="idgame" type="text" [class.invalid]="!JoinGameForm.controls.idgame.valid && JoinGameForm.controls.idgame.dirty"></ion-input>\n\n            </ion-item>\n\n            <ion-item *ngIf="!JoinGameForm.controls.idgame.valid  && JoinGameForm.controls.idgame.dirty">\n\n                <p style=" color: red;">Format de l\'ID incorrect</p>\n\n            </ion-item> \n\n        \n\n            <ion-item>\n\n                    <ion-label>Équipe Bleue</ion-label>\n\n                    <ion-radio (ionSelect)="selectBleue()" [disabled]="isDisabled"></ion-radio>\n\n            </ion-item>\n\n            <ion-item>\n\n                    <ion-label>Équipe Rouge</ion-label>\n\n                    <ion-radio (ionSelect)="selectRouge()" [disabled]="isDisabled"></ion-radio>\n\n            </ion-item>\n\n    \n\n        </form>\n\n      \n\n      </ion-list>\n\n      <button ion-button full color="primary" (click)="joinGame()">Rejoindre</button>\n\n      \n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\joingame\joingame.html"*/,
-        }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_2__providers_game_game__["a" /* GameProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_game_game__["a" /* GameProvider */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormBuilder */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_4_ng_socket_io__["Socket"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4_ng_socket_io__["Socket"]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]) === "function" && _h || Object])
-    ], JoingamePage);
-    return JoingamePage;
-    var _a, _b, _c, _d, _e, _f, _g, _h;
-}());
-
-//# sourceMappingURL=joingame.js.map
-
-/***/ }),
-
-/***/ 130:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlayerBoardGamePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ng_socket_io__ = __webpack_require__(45);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ng_socket_io___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_ng_socket_io__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the PlayerBoardGamePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var PlayerBoardGamePage = (function () {
-    function PlayerBoardGamePage(navCtrl, alertCtrl, toastCtrl, navParams, socket) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.alertCtrl = alertCtrl;
-        this.toastCtrl = toastCtrl;
-        this.navParams = navParams;
-        this.socket = socket;
-        this.dataPlayer = this.navParams.get('dataPlayer');
-        /**SOCKETS */
-        /* ___________________________________________________________________________________________________________________*/
-        ///**ECOUTE CONFIRMATION SI LE JOUEUR A AJOUTER EXISTE DANS LA BDD */
-        this.socket.on('ack-add-player', function (rep) {
-            //Si le joueur n'existe pas
-            if (rep.rep === 'player_nofound') {
-                _this.showToast('Ce joueur n\'existe pas');
-                //Sinon si il existe
-            }
-            else {
-                //On l'ajoute à la partie 
-                _this.socket.emit('set-player', rep.dataPlayer);
-            }
-        });
-        /**__________________________________________________________________________________ */
-        /** ECOUTE CONFIRMATION DE L'AJOUT DE JOUEUR */
-        this.socket.on('ack-set-player', function (rep) {
-            switch (rep.ack) {
-                //Si joueur ajouté a la partie 
-                case 'ok':
-                    //On redirige vers la page 
-                    _this.showToast('Joueur ajouté dans la partie');
-                    break;
-                //Si la partie est complète
-                case 'err_full':
-                    _this.showToast('La partie est complète');
-                    break;
-                //Si le joueur n'a pas d'équipe attribuée
-                case 'err_noteam':
-                    _this.showToast('Pas d\'équipe attribuée');
-                    break;
-                //Si l'équipe rouge est complète
-                case 'err_fullteam':
-                    _this.showToast('L\'équipe est complète');
-                    break;
-                //Si l'équipe bleue est complète
-                case 'err_player':
-                    _this.showToast('Joueur déjà dans cette partie');
-                    break;
-                //Si la partie est déjà lancée
-                case 'err_notopen':
-                    _this.showToast('La partie est déjà lancée ou terminée');
-                    break;
-            }
-        });
-        /**__________________________________________________________________________________________ */
-        /** ECOUTE DE LA CONFIRMATION QUE LE JOUEUR A QUITTE LA PARTIE */
-        this.socket.on('ack-remove-player', function (data) {
-            if (data.ack === 'ok' && data.playername === _this.dataPlayer.pseudo) {
-                _this.showToast('Vous avez été déconnecté de la partie');
-                _this.navCtrl.pop();
-                _this.socket.removeAllListeners();
-            }
-            else {
-                if (data.ack === 'player_nofound') {
-                    _this.showToast('Votre joueur n\'est pas dans la partie');
-                }
-            }
-        });
-    }
-    PlayerBoardGamePage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        console.log('ionViewDidLoad PlayerBoardGamePage');
-        this.navBar.backButtonClick = function (e) {
-            // todo something
-            _this.socket.removeAllListeners();
-            _this.navCtrl.pop();
-        };
-    };
-    /** FONCTION AJOUTER JOUEUR A LA PARTIE */
-    PlayerBoardGamePage.prototype.addPlayer = function () {
-        var _this = this;
-        //Creation d'une alerte pour récupérer le nom et l'équipe du joueur à ajouter
-        var alert = this.alertCtrl.create({
-            title: 'Pseudo du joueur',
-            inputs: [
-                {
-                    name: 'pseudoPlayer',
-                    placeholder: ''
-                }
-            ],
-            buttons: [
-                {
-                    text: 'Annuler',
-                    role: 'cancel',
-                    handler: function (data) {
-                    }
-                },
-                {
-                    text: 'Ajouter',
-                    handler: function (data) {
-                        var alert2 = _this.alertCtrl.create({
-                            title: 'Choix de l\'équipe',
-                            inputs: [
-                                {
-                                    type: 'radio',
-                                    label: 'Bleue',
-                                    id: 'b',
-                                    value: 'b',
-                                    checked: true
-                                },
-                                {
-                                    type: 'radio',
-                                    label: 'Rouge',
-                                    id: 'r',
-                                    value: 'r'
-                                }
-                            ],
-                            buttons: [
-                                {
-                                    text: 'Annuler',
-                                    role: 'cancel',
-                                    handler: function (data) {
-                                    }
-                                },
-                                {
-                                    text: 'Valider',
-                                    handler: function (data2) {
-                                        //On envoit les données du joueur à ajouter au server
-                                        _this.socket.emit('add-player', { "pseudo": data.pseudoPlayer, "idgame": _this.dataPlayer.idgame, "equipe": data2 });
-                                    }
-                                }
-                            ]
-                        });
-                        alert2.present();
-                    }
-                }
-            ]
-        });
-        alert.present();
-    };
-    /**FONCTION POUR QUITTER LA PARTIE */
-    PlayerBoardGamePage.prototype.quitGame = function () {
-        //On envoit les données du joueur qui veut quitter la partie
-        this.socket.emit('remove-player', this.dataPlayer);
-    };
-    /**FONCTION AFFICHAGE DE POP UP */
-    PlayerBoardGamePage.prototype.showToast = function (msg) {
-        var toast = this.toastCtrl.create({
-            message: msg,
-            duration: 2000
-        });
-        toast.present();
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Navbar */]) === "function" && _a || Object)
-    ], PlayerBoardGamePage.prototype, "navBar", void 0);
-    PlayerBoardGamePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-player-board-game',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\player-board-game\player-board-game.html"*/'<!--\n\n  Generated template for the PlayerBoardGamePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Partie en cours</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <h4>Vous êtes connecté à la partie en tant que {{ this.dataPlayer.pseudo }} </h4>\n\n  <ion-item>\n\n      <ion-label>ID de la partie : {{ this.dataPlayer.idgame }}</ion-label>\n\n  </ion-item>\n\n<!--  \n\n  <ion-item>\n\n      <ion-label>Lien de la partie : </ion-label>\n\n </ion-item> \n\n --> \n\n  <button ion-button full color="primary" (click) ="addPlayer()">Ajouter un autre joueur</button>\n\n  <button ion-button full color="danger" (click) = "quitGame()">Quitter la partie</button>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\player-board-game\player-board-game.html"*/,
-        }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_2_ng_socket_io__["Socket"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ng_socket_io__["Socket"]) === "function" && _f || Object])
-    ], PlayerBoardGamePage);
-    return PlayerBoardGamePage;
-    var _a, _b, _c, _d, _e, _f;
-}());
-
-//# sourceMappingURL=player-board-game.js.map
 
 /***/ }),
 
@@ -1643,39 +1648,39 @@ webpackEmptyAsyncContext.id = 143;
 
 var map = {
 	"../pages/bookingbabyfoot/bookingbabyfoot.module": [
-		357,
+		350,
 		20
 	],
 	"../pages/championship/championship.module": [
-		350,
+		351,
 		19
 	],
 	"../pages/direct-game/direct-game.module": [
-		358,
+		352,
 		18
 	],
 	"../pages/following/following.module": [
-		354,
+		353,
 		17
 	],
 	"../pages/friends/friends.module": [
-		351,
+		354,
 		16
 	],
 	"../pages/friendsgame/friendsgame.module": [
-		352,
+		355,
 		15
 	],
 	"../pages/historic/historic.module": [
-		353,
+		356,
 		14
 	],
 	"../pages/home-bf/home-bf.module": [
-		355,
+		357,
 		13
 	],
 	"../pages/home/home.module": [
-		356,
+		358,
 		12
 	],
 	"../pages/joingame/joingame.module": [
@@ -1683,27 +1688,27 @@ var map = {
 		11
 	],
 	"../pages/listbabyfoots/listbabyfoots.module": [
-		362,
+		360,
 		10
 	],
 	"../pages/log-out/log-out.module": [
-		363,
+		361,
 		9
 	],
 	"../pages/login/login.module": [
-		360,
+		362,
 		8
 	],
 	"../pages/my-bookings/my-bookings.module": [
-		364,
+		363,
 		7
 	],
 	"../pages/player-board-game/player-board-game.module": [
-		365,
+		364,
 		6
 	],
 	"../pages/profile/profile.module": [
-		361,
+		365,
 		5
 	],
 	"../pages/quickgame/quickgame.module": [
@@ -1711,11 +1716,11 @@ var map = {
 		4
 	],
 	"../pages/salon-partie/salon-partie.module": [
-		370,
+		367,
 		3
 	],
 	"../pages/stats/stats.module": [
-		367,
+		368,
 		2
 	],
 	"../pages/team/team.module": [
@@ -1723,7 +1728,7 @@ var map = {
 		1
 	],
 	"../pages/unknowngame/unknowngame.module": [
-		368,
+		370,
 		0
 	]
 };
@@ -1749,16 +1754,16 @@ module.exports = webpackAsyncContext;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthentificationProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(7);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__ = __webpack_require__(189);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1899,51 +1904,6 @@ var ItemDetailsPage = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChampionshipPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the ChampionshipPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ChampionshipPage = (function () {
-    function ChampionshipPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    ChampionshipPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ChampionshipPage');
-    };
-    ChampionshipPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-championship',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\championship\championship.html"*/'<!--\n\n  Generated template for the ChampionshipPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Championnats</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  Bonjour je suis la page championnat\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\championship\championship.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], ChampionshipPage);
-    return ChampionshipPage;
-}());
-
-//# sourceMappingURL=championship.js.map
-
-/***/ }),
-
-/***/ 249:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UnknowngamePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -1982,6 +1942,51 @@ var UnknowngamePage = (function () {
 }());
 
 //# sourceMappingURL=unknowngame.js.map
+
+/***/ }),
+
+/***/ 249:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ChampionshipPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ChampionshipPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ChampionshipPage = (function () {
+    function ChampionshipPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ChampionshipPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ChampionshipPage');
+    };
+    ChampionshipPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-championship',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\championship\championship.html"*/'<!--\n\n  Generated template for the ChampionshipPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Championnats</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  Bonjour je suis la page championnat\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\championship\championship.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], ChampionshipPage);
+    return ChampionshipPage;
+}());
+
+//# sourceMappingURL=championship.js.map
 
 /***/ }),
 
@@ -2050,38 +2055,38 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(29);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(348);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_item_details_item_details__ = __webpack_require__(247);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_list_list__ = __webpack_require__(349);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_quickgame_quickgame__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_championship_championship__ = __webpack_require__(248);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_championship_championship__ = __webpack_require__(249);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_login_login__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_log_out_log_out__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_profile_profile__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_following_following__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_friendsgame_friendsgame__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_historic_historic__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_listbabyfoots_listbabyfoots__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_stats_stats__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_friends_friends__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_following_following__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_friendsgame_friendsgame__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_historic_historic__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_listbabyfoots_listbabyfoots__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_stats_stats__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_friends_friends__ = __webpack_require__(124);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_team_team__ = __webpack_require__(250);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_my_bookings_my_bookings__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_joingame_joingame__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_home_bf_home_bf__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_salon_partie_salon_partie__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_player_board_game_player_board_game__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_direct_game_direct_game__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_my_bookings_my_bookings__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_joingame_joingame__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_home_bf_home_bf__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_salon_partie_salon_partie__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_player_board_game_player_board_game__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_direct_game_direct_game__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_status_bar__ = __webpack_require__(245);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__ionic_native_splash_screen__ = __webpack_require__(246);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__providers_authentification_authentification__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__providers_data_data__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__providers_data_data__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__providers_game_game__ = __webpack_require__(58);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__ionic_native_launch_navigator__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__ionic_native_launch_navigator__ = __webpack_require__(186);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33_ng_socket_io__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33_ng_socket_io___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_33_ng_socket_io__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2160,27 +2165,27 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/bookingbabyfoot/bookingbabyfoot.module#BookingbabyfootPageModule', name: 'BookingbabyfootPage', segment: 'bookingbabyfoot', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/championship/championship.module#ChampionshipPageModule', name: 'ChampionshipPage', segment: 'championship', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/direct-game/direct-game.module#DirectGamePageModule', name: 'DirectGamePage', segment: 'direct-game', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/following/following.module#FollowingPageModule', name: 'FollowingPage', segment: 'following', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/friends/friends.module#FriendsPageModule', name: 'FriendsPage', segment: 'friends', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/friendsgame/friendsgame.module#FriendsgamePageModule', name: 'FriendsgamePage', segment: 'friendsgame', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/historic/historic.module#HistoricPageModule', name: 'HistoricPage', segment: 'historic', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/following/following.module#FollowingPageModule', name: 'FollowingPage', segment: 'following', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home-bf/home-bf.module#HomeBfPageModule', name: 'HomeBfPage', segment: 'home-bf', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/bookingbabyfoot/bookingbabyfoot.module#BookingbabyfootPageModule', name: 'BookingbabyfootPage', segment: 'bookingbabyfoot', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/direct-game/direct-game.module#DirectGamePageModule', name: 'DirectGamePage', segment: 'direct-game', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/joingame/joingame.module#JoingamePageModule', name: 'JoingamePage', segment: 'joingame', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/listbabyfoots/listbabyfoots.module#ListbabyfootsPageModule', name: 'ListbabyfootsPage', segment: 'listbabyfoots', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/log-out/log-out.module#LogOutPageModule', name: 'LogOutPage', segment: 'log-out', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/my-bookings/my-bookings.module#MyBookingsPageModule', name: 'MyBookingsPage', segment: 'my-bookings', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/player-board-game/player-board-game.module#PlayerBoardGamePageModule', name: 'PlayerBoardGamePage', segment: 'player-board-game', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/profile/profile.module#ProfilePageModule', name: 'ProfilePage', segment: 'profile', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/quickgame/quickgame.module#QuickgamePageModule', name: 'QuickgamePage', segment: 'quickgame', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/salon-partie/salon-partie.module#SalonPartiePageModule', name: 'SalonPartiePage', segment: 'salon-partie', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/stats/stats.module#StatsPageModule', name: 'StatsPage', segment: 'stats', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/unknowngame/unknowngame.module#UnknowngamePageModule', name: 'UnknowngamePage', segment: 'unknowngame', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/team/team.module#TeamPageModule', name: 'TeamPage', segment: 'team', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/salon-partie/salon-partie.module#SalonPartiePageModule', name: 'SalonPartiePage', segment: 'salon-partie', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/unknowngame/unknowngame.module#UnknowngamePageModule', name: 'UnknowngamePage', segment: 'unknowngame', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_33_ng_socket_io__["SocketIoModule"].forRoot(config),
@@ -2229,30 +2234,22 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 322:
+/***/ 328:
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 348:
+/***/ 34:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DataProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_home_home__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_quickgame_quickgame__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_listbabyfoots_listbabyfoots__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_profile_profile__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_login_login__ = __webpack_require__(68);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_log_out_log_out__ = __webpack_require__(131);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_home_bf_home_bf__ = __webpack_require__(46);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(245);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(246);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2263,6 +2260,146 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
+
+/*
+  Generated class for the DataProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var DataProvider = (function () {
+    function DataProvider(http) {
+        this.http = http;
+    }
+    //Fonction de récupération de données joueurs
+    DataProvider.prototype.getDataPlayer = function (dataPlayerName) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
+            "Content-Type": "application/json"
+        });
+        var data = { dataPN: dataPlayerName };
+        //Transformation string en JSON
+        var dataPN = JSON.stringify(data);
+        //Creation des options
+        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
+        //Envoi de la requête POST
+        return (this.http
+            .post("http://localhost:8080/getDataPlayer", dataPN, options)
+            .map(function (res) {
+            //On envoie la réponse à login.ts
+            return res.json();
+        }));
+    };
+    //Fonction pour récupérer les stats d'un joueur
+    DataProvider.prototype.getStatsPlayer = function (dataIDStats) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
+            "Content-Type": "application/json"
+        });
+        //Création trame JSON
+        var data = { dataIS: dataIDStats };
+        //Transformation string en JSON
+        var dataIS = JSON.stringify(data);
+        //Creation des options
+        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
+        //Envoi de la requête POST
+        return (this.http
+            .post("http://localhost:8080/getStatsPlayer", dataIS, options)
+            .map(function (res) {
+            //On envoie la réponse à login.ts
+            return res.json();
+        }));
+    };
+    DataProvider.prototype.bookReservation = function (reservationData) {
+        //Creation d'un header => JSON
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
+            "Content-Type": "application/json"
+        });
+        //Creation des options
+        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
+        //Creation des data en JSON
+        var data = JSON.stringify(reservationData);
+        //Requete au serveur
+        // return this.http.post('http://192.168.1.1:8080/bookReservation', data, options)
+        return this.http
+            .post("http://localhost:8080/bookReservation", data, options)
+            .map(function (res) {
+            //On envoie la réponse à bookingbabyfoot.ts
+            return res.json();
+        });
+    };
+    DataProvider.prototype.getMyReservations = function (userID) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
+            "Content-Type": "application/json"
+        });
+        //Création trame JSON
+        var data = { dataID: userID };
+        //Transformation string en JSON
+        var dataID = JSON.stringify(data);
+        //Creation des options
+        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
+        //Envoi de la requête POST
+        return (this.http
+            .post("http://localhost:8080/getMyReservations", dataID, options)
+            .map(function (res) {
+            //On envoie la réponse à login.ts
+            return res.json();
+        }));
+    };
+    DataProvider.prototype.DelReservation = function (ResID) {
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
+            "Content-Type": "application/json"
+        });
+        //Création trame JSON
+        var data = { dataID: ResID };
+        //Transformation string en JSON
+        var dataID = JSON.stringify(data);
+        //Creation des options
+        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
+        //Envoi de la requête POST
+        return (this.http
+            .post("http://localhost:8080/DelReservation", dataID, options)
+            .map(function (res) {
+            //On envoie la réponse à login.ts
+            return res.json();
+        }));
+    };
+    DataProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _a || Object])
+    ], DataProvider);
+    return DataProvider;
+    var _a;
+}());
+
+//# sourceMappingURL=data.js.map
+
+/***/ }),
+
+/***/ 348:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_home_home__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_quickgame_quickgame__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_listbabyfoots_listbabyfoots__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_profile_profile__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_login_login__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_log_out_log_out__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__ = __webpack_require__(245);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__ = __webpack_require__(246);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 
 
 
@@ -2304,7 +2441,7 @@ var MyApp = (function () {
             }
             else {
                 if (window.localStorage.getItem('typeAccount') === "babyfoot") {
-                    this.rootPage = __WEBPACK_IMPORTED_MODULE_9__pages_home_bf_home_bf__["a" /* HomeBfPage */];
+                    this.rootPage = __WEBPACK_IMPORTED_MODULE_2__pages_home_home__["a" /* HomePage */];
                 }
             }
         }
@@ -2326,15 +2463,17 @@ var MyApp = (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\app\app.html"*/'<ion-menu [content]="content">\n\n\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Pages</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\app\app.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _e || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */],
+            __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__["a" /* StatusBar */],
+            __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
     return MyApp;
-    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=app.component.js.map
@@ -2395,277 +2534,22 @@ var ListPage = (function () {
 
 /***/ }),
 
-/***/ 36:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DataProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_map__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/*
-  Generated class for the DataProvider provider.
-
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
-var DataProvider = (function () {
-    function DataProvider(http) {
-        this.http = http;
-    }
-    //Fonction de récupération de données joueurs
-    DataProvider.prototype.getDataPlayer = function (dataPlayerName) {
-        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
-            "Content-Type": "application/json"
-        });
-        var data = { dataPN: dataPlayerName };
-        //Transformation string en JSON
-        var dataPN = JSON.stringify(data);
-        //Creation des options
-        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
-        //Envoi de la requête POST
-        return this.http
-            .post("http://localhost:8080/getDataPlayer", dataPN, options)
-            .map(function (res) {
-            //On envoie la réponse à login.ts
-            return res.json();
-        });
-    };
-    //Fonction pour récupérer les stats d'un joueur
-    DataProvider.prototype.getStatsPlayer = function (dataIDStats) {
-        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
-            "Content-Type": "application/json"
-        });
-        //Création trame JSON
-        var data = { dataIS: dataIDStats };
-        //Transformation string en JSON
-        var dataIS = JSON.stringify(data);
-        //Creation des options
-        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
-        //Envoi de la requête POST
-        return this.http
-            .post("http://localhost:8080/getStatsPlayer", dataIS, options)
-            .map(function (res) {
-            //On envoie la réponse à login.ts
-            return res.json();
-        });
-    };
-    DataProvider.prototype.bookReservation = function (reservationData) {
-        //Creation d'un header => JSON
-        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
-            'Content-Type': 'application/json'
-        });
-        //Creation des options
-        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
-        //Creation des data en JSON 
-        var data = JSON.stringify(reservationData);
-        //Requete au serveur
-        // return this.http.post('http://192.168.1.1:8080/bookReservation', data, options)
-        return this.http.post('http://localhost:8080/bookReservation', data, options)
-            .map(function (res) {
-            //On envoie la réponse à bookingbabyfoot.ts
-            return res.json();
-        });
-    };
-    DataProvider.prototype.getMyReservations = function (userID) {
-        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({
-            "Content-Type": "application/json"
-        });
-        //Création trame JSON
-        var data = { dataID: userID };
-        //Transformation string en JSON
-        var dataID = JSON.stringify(data);
-        //Creation des options
-        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
-        //Envoi de la requête POST
-        return this.http
-            .post("http://localhost:8080/getMyReservations", dataID, options)
-            .map(function (res) {
-            //On envoie la réponse à login.ts
-            return res.json();
-        });
-    };
-    DataProvider = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
-    ], DataProvider);
-    return DataProvider;
-}());
-
-//# sourceMappingURL=data.js.map
-
-/***/ }),
-
 /***/ 46:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeBfPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__salon_partie_salon_partie__ = __webpack_require__(125);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_profile__ = __webpack_require__(47);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-/**
- * Generated class for the HomeBfPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var HomeBfPage = (function () {
-    function HomeBfPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.username = window.localStorage.getItem('userConnected');
-    }
-    HomeBfPage.prototype.goTo = function (page) {
-        switch (page) {
-            //Partie rapide : entre 2 et 4 joueurs
-            case 'pr':
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__salon_partie_salon_partie__["a" /* SalonPartiePage */], { "nbJoueursMin": 2, "nbJoueursMax": 4 });
-                break;
-            case 'pp':
-                //Redirection vers la page de gestion des options de partie
-                //this.navCtrl.push(FriendsgamePage);
-                break;
-            case 'mp':
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__profile_profile__["a" /* ProfilePage */]);
-                break;
-        }
-    };
-    HomeBfPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad HomeBfPage');
-    };
-    HomeBfPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-home-bf',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\home-bf\home-bf.html"*/'<!--\n\n  Generated template for the JoingamePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    \n\n    <ion-title>Créer une partie</ion-title>\n\n</ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <h3>\n\n        <ion-icon name="contact"></ion-icon> {{ username }}\n\n    </h3>\n\n    <h4>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><br/>Créer une partie</ion-col>\n\n        </ion-row>\n\n    </h4>\n\n\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'pr\')"><ion-icon name="contacts"></ion-icon>Partie Rapide</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'pp\')"><ion-icon name="contacts"></ion-icon>Partie Personnalisée</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n\n\n\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\home-bf\home-bf.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], HomeBfPage);
-    return HomeBfPage;
-}());
-
-//# sourceMappingURL=home-bf.js.map
-
-/***/ }),
-
-/***/ 47:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfilePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__stats_stats__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__friends_friends__ = __webpack_require__(121);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__my_bookings_my_bookings__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_data_data__ = __webpack_require__(36);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-/**
- * Generated class for the ProfilePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ProfilePage = (function () {
-    function ProfilePage(navCtrl, navParams, data) {
-        var _this = this;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.data = data;
-        //On stocke le pseudo courant
-        this.username = window.localStorage.getItem('userConnected');
-        //Requête à la BDD pour avoir les données du joeurs et pouvoir les afficher
-        this.data.getDataPlayer(this.username).subscribe(function (data) {
-            _this.player = JSON.parse(data);
-            _this.username = _this.player.pseudo;
-            _this.niv = _this.player.niv;
-        });
-    }
-    ProfilePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ProfilePage');
-    };
-    ProfilePage.prototype.goTo = function (page) {
-        switch (page) {
-            case 'stats':
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__stats_stats__["a" /* StatsPage */]);
-                break;
-            case 'friends':
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__friends_friends__["a" /* FriendsPage */]);
-                break;
-            case 'bookings':
-                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__my_bookings_my_bookings__["a" /* MyBookingsPage */]);
-                break;
-        }
-    };
-    ProfilePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-profile',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Mon Profil</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contact"></ion-icon> {{ username }} - Niv. {{ niv }}\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contacts"></ion-icon> Mon équipe\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row (click)="goTo(\'friends\')">\n\n            <ion-col>\n\n                <ion-icon name="people"></ion-icon> Mes amis\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row  (click)="goTo(\'stats\')">\n\n            <ion-col>\n\n                <ion-icon name="stats"></ion-icon> Mes statistiques\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row (click)="goTo(\'bookings\')">\n\n            <ion-col>\n\n                <ion-icon name="calendar"></ion-icon> Mes Réservations\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\profile\profile.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_data_data__["a" /* DataProvider */]])
-    ], ProfilePage);
-    return ProfilePage;
-}());
-
-//# sourceMappingURL=profile.js.map
-
-/***/ }),
-
-/***/ 48:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__unknowngame_unknowngame__ = __webpack_require__(249);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__friendsgame_friendsgame__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__historic_historic__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__listbabyfoots_listbabyfoots__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bookingbabyfoot_bookingbabyfoot__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__unknowngame_unknowngame__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__friendsgame_friendsgame__ = __webpack_require__(121);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__historic_historic__ = __webpack_require__(122);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__listbabyfoots_listbabyfoots__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__profile_profile__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__following_following__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__joingame_joingame__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_data_data__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__following_following__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__joingame_joingame__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_data_data__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2755,20 +2639,96 @@ var HomePage = (function () {
 
 /***/ }),
 
+/***/ 47:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProfilePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__stats_stats__ = __webpack_require__(123);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__friends_friends__ = __webpack_require__(124);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__my_bookings_my_bookings__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_data_data__ = __webpack_require__(34);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Generated class for the ProfilePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ProfilePage = (function () {
+    function ProfilePage(navCtrl, navParams, data) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.data = data;
+        //On stocke le pseudo courant
+        this.username = window.localStorage.getItem('userConnected');
+        //Requête à la BDD pour avoir les données du joeurs et pouvoir les afficher
+        this.data.getDataPlayer(this.username).subscribe(function (data) {
+            _this.player = JSON.parse(data);
+            _this.username = _this.player.pseudo;
+            _this.niv = _this.player.niv;
+        });
+    }
+    ProfilePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ProfilePage');
+    };
+    ProfilePage.prototype.goTo = function (page) {
+        switch (page) {
+            case 'stats':
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__stats_stats__["a" /* StatsPage */]);
+                break;
+            case 'friends':
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__friends_friends__["a" /* FriendsPage */]);
+                break;
+            case 'bookings':
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__my_bookings_my_bookings__["a" /* MyBookingsPage */]);
+                break;
+        }
+    };
+    ProfilePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-profile',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\profile\profile.html"*/'<!--\n\n  Generated template for the ProfilePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Mon Profil</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contact"></ion-icon> {{ username }} - Niv. {{ niv }}\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col>\n\n                <ion-icon name="contacts"></ion-icon> Mon équipe\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row (click)="goTo(\'friends\')">\n\n            <ion-col>\n\n                <ion-icon name="people"></ion-icon> Mes amis\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row  (click)="goTo(\'stats\')">\n\n            <ion-col>\n\n                <ion-icon name="stats"></ion-icon> Mes statistiques\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row (click)="goTo(\'bookings\')">\n\n            <ion-col>\n\n                <ion-icon name="calendar"></ion-icon> Mes Réservations\n\n            </ion-col>\n\n        </ion-row>\n\n    </p>\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\profile\profile.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_data_data__["a" /* DataProvider */]])
+    ], ProfilePage);
+    return ProfilePage;
+}());
+
+//# sourceMappingURL=profile.js.map
+
+/***/ }),
+
 /***/ 58:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GameProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_add_operator_map__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__ = __webpack_require__(186);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__ = __webpack_require__(189);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_observable_throw__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__ = __webpack_require__(190);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_catch__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_toPromise__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_toPromise__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_toPromise__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2850,25 +2810,24 @@ var GameProvider = (function () {
     };
     GameProvider = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["Injectable"])(),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_http__["b" /* Http */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0__angular_http__["b" /* Http */]])
     ], GameProvider);
     return GameProvider;
-    var _a;
 }());
 
 //# sourceMappingURL=game.js.map
 
 /***/ }),
 
-/***/ 66:
+/***/ 65:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BookingbabyfootPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_data_data__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_data_data__ = __webpack_require__(34);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3076,14 +3035,14 @@ var BookingbabyfootPage = (function () {
 
 /***/ }),
 
-/***/ 67:
+/***/ 66:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListbabyfootsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_launch_navigator__ = __webpack_require__(203);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_launch_navigator__ = __webpack_require__(186);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3113,91 +3072,18 @@ var ListbabyfootsPage = (function () {
         console.log("ionViewDidLoad ListbabyfootsPage");
     };
     ListbabyfootsPage.prototype.map = function (adr) {
-        var _this = this;
         switch (adr) {
             case "1":
-                var alert_1 = this.alertCtrl.create({
-                    title: "Babyfoot de la Présidence",
-                    message: "Présidence de l'Université d'Angers<br/>40 rue de Rennes<br/>49035 Angers<br/>02 41 96 23 23",
-                    buttons: [
-                        {
-                            text: "Retour",
-                            role: "cancel"
-                        },
-                        {
-                            text: "Voir sur Maps",
-                            handler: function () {
-                                console.log("Maps clicked");
-                                _this.destination = "Présidence de l'université d'Angers, 40 rue de Rennes, 49000 Angers";
-                                _this.navigate(_this.destination);
-                            }
-                        }
-                    ]
-                });
-                alert_1.present();
+                this.showPopup('Babyfoot de la Présidence', "Présidence de l'Université d'Angers<br/>40 rue de Rennes<br/>49035 Angers<br/>02 41 96 23 23", "Présidence de l'université d'Angers, 40 rue de Rennes, 49000 Angers");
                 break;
             case "2":
-                var alert2 = this.alertCtrl.create({
-                    title: "Babyfoot de l'ISTIA",
-                    message: "Ecole d'Ingénieurs ISTIA<br/>62 avenue Notre Dame du Lac<br/>49000 Angers<br/>02 44 68 75 00",
-                    buttons: [
-                        {
-                            text: "Retour",
-                            role: "cancel"
-                        },
-                        {
-                            text: "Voir sur Maps",
-                            handler: function () {
-                                console.log("Maps clicked");
-                                _this.destination = "ISTIA, 62 avenue Notre Dame du Lac, 49000 Angers";
-                                _this.navigate(_this.destination);
-                            }
-                        }
-                    ]
-                });
-                alert2.present();
+                this.showPopup("Babyfoot de l'ISTIA", "Ecole d'Ingénieurs ISTIA<br/>62 avenue Notre Dame du Lac<br/>49000 Angers<br/>02 44 68 75 00", "ISTIA, 62 avenue Notre Dame du Lac, 49000 Angers");
                 break;
             case "3":
-                var alert3 = this.alertCtrl.create({
-                    title: "Babyfoot Fac de Sciences",
-                    message: "Faculté de Sciences<br/>2 Boulevard Lavoisier<br/>49000 Angers<br/>02 41 73 53 53",
-                    buttons: [
-                        {
-                            text: "Retour",
-                            role: "cancel"
-                        },
-                        {
-                            text: "Voir sur Maps",
-                            handler: function () {
-                                console.log("Maps clicked");
-                                _this.destination = "Fac de Sciences, 2 Boulevard Lavoisier, 49000 Angers";
-                                _this.navigate(_this.destination);
-                            }
-                        }
-                    ]
-                });
-                alert3.present();
+                this.showPopup('Babyfoot Fac de Sciences', "Faculté de Sciences<br/>2 Boulevard Lavoisier<br/>49000 Angers<br/>02 41 73 53 53", "Fac de Sciences, 2 Boulevard Lavoisier, 49000 Angers");
                 break;
             case "4":
-                var alert4 = this.alertCtrl.create({
-                    title: 'Babyfoot SUAPS',
-                    message: "SUAPS<br/>6 Boulevard Beaussier<br/>49000 Angers<br/>02 41 22 69 49",
-                    buttons: [
-                        {
-                            text: "Retour",
-                            role: "cancel"
-                        },
-                        {
-                            text: "Voir sur Maps",
-                            handler: function () {
-                                console.log("Maps clicked");
-                                _this.destination = "S.U.A.P.S, 49000 Angers";
-                                _this.navigate(_this.destination);
-                            }
-                        }
-                    ]
-                });
-                alert4.present();
+                this.showPopup('Babyfoot SUAPS', "SUAPS<br/>6 Boulevard Beaussier<br/>49000 Angers<br/>02 41 22 69 49", "S.U.A.P.S, 49000 Angers");
                 break;
         }
     };
@@ -3209,18 +3095,103 @@ var ListbabyfootsPage = (function () {
             .navigate(destination, options)
             .then(function (success) { return console.log("Launched navigator"); }, function (error) { return console.log("Error launching navigator: " + error); });
     };
+    ListbabyfootsPage.prototype.showPopup = function (title, text, destination) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: title,
+            message: text,
+            buttons: [
+                {
+                    text: 'Retour',
+                    role: "cancel",
+                },
+                {
+                    text: "Voir sur Maps",
+                    handler: function () {
+                        console.log("Maps clicked");
+                        _this.destination = destination;
+                        _this.navigate(_this.destination);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
     ListbabyfootsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: "page-listbabyfoots",template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\listbabyfoots\listbabyfoots.html"*/'<!--\n\n  Generated template for the ListbabyfootsPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n<!-- cordova.js required for cordova apps -->\n\n<script src="cordova.js"></script>\n\n\n\n<ion-header>\n\n\n\n    <ion-navbar>\n\n        <ion-title>Les babyfoots de l\'UA</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="card-background-page">\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b1.jpg" />\n\n        <div class="card-title">Présidence</div>\n\n        <div class="card-subtitle">41 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map(\'1\')">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b2.jpg" />\n\n        <div class="card-title">ISTIA</div>\n\n        <div class="card-subtitle">64 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map(\'2\')">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b3.jpg" />\n\n        <div class="card-title">Sciences</div>\n\n        <div class="card-subtitle">72 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map(\'3\')">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n    </ion-card>\n\n\n\n    <ion-card>\n\n        <img src="../assets/imgs/b4.jpg" />\n\n        <div class="card-title">SUAPS</div>\n\n        <div class="card-subtitle">28 Parties Jouées</div>\n\n        <ion-fab right top>\n\n            <button ion-fab (click)="map(\'4\')">\n\n              <ion-icon name="pin"></ion-icon>\n\n            </button>\n\n        </ion-fab>\n\n    </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\listbabyfoots\listbabyfoots.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_2__ionic_native_launch_navigator__["a" /* LaunchNavigator */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_launch_navigator__["a" /* LaunchNavigator */]])
     ], ListbabyfootsPage);
     return ListbabyfootsPage;
 }());
 
 //# sourceMappingURL=listbabyfoots.js.map
+
+/***/ }),
+
+/***/ 67:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeBfPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__salon_partie_salon_partie__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__profile_profile__ = __webpack_require__(47);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Generated class for the HomeBfPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var HomeBfPage = (function () {
+    function HomeBfPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.username = window.localStorage.getItem('userConnected');
+    }
+    HomeBfPage.prototype.goTo = function (page) {
+        switch (page) {
+            //Partie rapide : entre 2 et 4 joueurs
+            case 'pr':
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__salon_partie_salon_partie__["a" /* SalonPartiePage */], { "nbJoueursMin": 2, "nbJoueursMax": 4 });
+                break;
+            case 'pp':
+                //Redirection vers la page de gestion des options de partie
+                //this.navCtrl.push(FriendsgamePage);
+                break;
+            case 'mp':
+                this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__profile_profile__["a" /* ProfilePage */]);
+                break;
+        }
+    };
+    HomeBfPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad HomeBfPage');
+    };
+    HomeBfPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-home-bf',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\home-bf\home-bf.html"*/'<!--\n\n  Generated template for the JoingamePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    \n\n    <ion-title>Créer une partie</ion-title>\n\n</ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n    <h3>\n\n        <ion-icon name="contact"></ion-icon> {{ username }}\n\n    </h3>\n\n    <h4>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><br/>Créer une partie</ion-col>\n\n        </ion-row>\n\n    </h4>\n\n\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'pr\')"><ion-icon name="contacts"></ion-icon>Partie Rapide</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n    <p>\n\n        <ion-row>\n\n            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo(\'pp\')"><ion-icon name="contacts"></ion-icon>Partie Personnalisée</button></ion-col>\n\n        </ion-row>\n\n    </p>\n\n\n\n\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\home-bf\home-bf.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+    ], HomeBfPage);
+    return HomeBfPage;
+}());
+
+//# sourceMappingURL=home-bf.js.map
 
 /***/ }),
 
@@ -3232,8 +3203,8 @@ var ListbabyfootsPage = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_authentification_authentification__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_bf_home_bf__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__home_home__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__home_bf_home_bf__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__(14);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -3422,10 +3393,9 @@ var LoginPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'page-login',template:/*ion-inline-start:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n    <link rel="stylesheet prefetch" href="http://fonts.googleapis.com/css?family=Open+Sans:600">\n\n\n\n    <ion-navbar>\n\n        <ion-title>Se connecter / S\'enregistrer</ion-title>\n\n    </ion-navbar>\n\n\n\n</ion-header>\n\n<!--\n\n<ion-content>\n\n  <div class="login-wrap">\n\n      <div class="login-html">\n\n        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>\n\n        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>\n\n        <div class="login-form">\n\n          <div class="sign-in-htm">\n\n            <div class="group">\n\n              <!--<label for="user" class="label">Pseudo</label>-->\n\n<!--           <input id="user" type="text" class="input" placeholder="Pseudo"> \n\n\n\n\n\n\n\n          \n\n            </div>\n\n            <div class="group">\n\n              <!--<label for="pass" class="label">Mot de passe</label>-->\n\n<!--             <input id="pass" type="password" class="input" data-type="password" placeholder="Mot de passe" >\n\n              \n\n            </div>\n\n            <div class="group">\n\n              <input id="check" type="checkbox" class="check" checked>\n\n              <label for="check"><span class="icon"></span> Rester connecté</label>\n\n            </div>\n\n            <div class="group">\n\n              <input type="submit" class="button" value="Sign In">\n\n            \n\n            </div>\n\n            <div class="hr"></div>\n\n            <div class="foot-lnk">\n\n              <label href="#forgot">Mot de passe oublié?</label>\n\n            </div>\n\n          </div>\n\n          <div class="sign-up-htm">\n\n            <div class="group">\n\n             <!-- <label for="user" class="label">Pseudo</label>-->\n\n<!--             <input id="user" type="text" class="input" placeholder="Pseudo" >\n\n            </div>\n\n            <div class="group">\n\n             <!-- <label for="pass" class="label">Mot de passe</label>-->\n\n<!--         <input id="pass" type="password" class="input" data-type="password" placeholder="Mot de passe">\n\n            </div>\n\n            <div class="group">\n\n             <!-- <label for="pass" class="label">Confirmer le mot de passe</label>-->\n\n<!--          <input id="pass" type="password" class="input" data-type="password" placeholder=" Confirmer mot de passe" >\n\n            </div>\n\n            <div class="group">\n\n              <!--<label for="pass" class="label">Adresse mail</label>-->\n\n<!--            <input id="pass" type="text" class="input" placeholder="Adresse mail">\n\n            </div>\n\n            <div class="group">\n\n              <input type="submit" class="button" value="Sign Up">\n\n            </div>\n\n            <div class="hr"></div>\n\n            <div class="foot-lnk">\n\n              <label for="tab-1">Déja membre?</label>\n\n            </div>\n\n          </div>\n\n        </div>\n\n      </div>\n\n    </div>\n\n\n\n\n\n  -->\n\n\n\n\n\n\n\n<!--\n\n<ion-content padding>\n\n\n\n\n\n<ion-item>\n\n  <ion-label floating>Pseudo</ion-label>\n\n  <ion-input [(ngModel)]="signindata.pseudo_signin" type="text" required></ion-input>\n\n</ion-item>\n\n<ion-item>\n\n  <ion-label floating>Mot de passe</ion-label>\n\n  <ion-input [(ngModel)]="signindata.password_signin" type="text" required></ion-input>\n\n</ion-item>\n\n<button ion-button full color="primary" (click)="signin()">Sign In</button>\n\n\n\n\n\n\n\n<ion-item>\n\n  <ion-label floating>Pseudo</ion-label>\n\n  <ion-input [(ngModel)]="signupdata.pseudo_signup" type="text"></ion-input>\n\n</ion-item>\n\n<ion-item>\n\n  <ion-label floating>Mot de passe</ion-label>\n\n  <ion-input [(ngModel)]="signupdata.password_signup" type="text"></ion-input>\n\n</ion-item>\n\n<ion-item>\n\n  <ion-label floating>Confirmer le mot de passe</ion-label>\n\n  <ion-input [(ngModel)]="vpassword_verif_signup" type="text"></ion-input>\n\n</ion-item>\n\n  <ion-item>\n\n    <ion-label floating>Adresse mail</ion-label>\n\n    <ion-input [(ngModel)]="signupdata.mail_signup" type="text"></ion-input>\n\n  </ion-item>\n\n  <button ion-button full color="primary" (click)="signup()">Sign Up</button>\n\n-->\n\n<ion-content>\n\n    <ion-list no-lines>\n\n\n\n        <form [formGroup]="SigninForm">\n\n\n\n            <ion-item>\n\n                <ion-label floating>Pseudo</ion-label>\n\n                <ion-input formControlName="pseudo_signin" type="text" [class.invalid]="!SigninForm.controls.pseudo_signin.valid && (SigninForm.controls.pseudo_signin.dirty || submitSignin)"></ion-input>\n\n            </ion-item>\n\n            <ion-item *ngIf="!SigninForm.controls.pseudo_signin.valid  && (SigninForm.controls.pseudo_signin.dirty || submitSignin)">\n\n                <p style=" color: red;">Entrer un pseudo entre 3 et 16 caractères (caractères speciaux non autorisés)</p>\n\n            </ion-item>\n\n\n\n            <ion-item>\n\n                <ion-label floating>Mot de passe</ion-label>\n\n                <ion-input formControlName="password_signin" type="password"></ion-input>\n\n            </ion-item>\n\n        </form>\n\n\n\n    </ion-list>\n\n    <button ion-button full color="primary" (click)="signin()">Se connecter</button>\n\n\n\n    <ion-list no-lines>\n\n\n\n        <form [formGroup]="SignupForm">\n\n\n\n            <ion-item>\n\n                <ion-label floating>Pseudo</ion-label>\n\n                <ion-input formControlName="pseudo_signup" type="text" [class.invalid]="!SignupForm.controls.pseudo_signup.valid && (SignupForm.controls.pseudo_signup.dirty || submitSignup)"></ion-input>\n\n            </ion-item>\n\n            <ion-item *ngIf="!SignupForm.controls.pseudo_signup.valid  && (SignupForm.controls.pseudo_signup.dirty || submitSignup)">\n\n                <p style=" color: red;">Entrer un pseudo entre 3 et 16 caractères (caractères speciaux non autorisés)</p>\n\n            </ion-item>\n\n\n\n            <ion-item>\n\n                <ion-label floating>Mot de passe</ion-label>\n\n                <ion-input formControlName="password_signup" type="password" [class.invalid]="!SignupForm.controls.password_signup.valid && (SignupForm.controls.password_signup.dirty || submitSignup)"></ion-input>\n\n            </ion-item>\n\n            <ion-item *ngIf="!SignupForm.controls.password_signup.valid  && (SignupForm.controls.password_signup.dirty || submitSignup)">\n\n                <p style=" color: red;">Le mot de passe doit contenir au moins 6 caractères dont au moins un minuscule, une Majuscule et un chiffre.</p>\n\n            </ion-item>\n\n\n\n            <ion-item>\n\n                <ion-label floating>Vérification du mot de passe</ion-label>\n\n                <ion-input formControlName="password_verify_signup" type="password"></ion-input>\n\n            </ion-item>\n\n            <ion-item *ngIf="!MatchPassword">\n\n                <p style=" color: red;">Les deux mots de passe ne correspondent pas</p>\n\n            </ion-item>\n\n\n\n            <ion-item>\n\n                <ion-label floating>Adresse mail</ion-label>\n\n                <ion-input formControlName="mail_signup" type="text" [class.invalid]="!SignupForm.controls.mail_signup.valid && (SignupForm.controls.mail_signup.dirty || submitSignup)"></ion-input>\n\n            </ion-item>\n\n            <ion-item *ngIf="!SignupForm.controls.mail_signup.valid  && (SignupForm.controls.mail_signup.dirty || submitSignup)">\n\n                <p style=" color: red;">Entrer une addresse mail valide</p>\n\n            </ion-item>\n\n        </form>\n\n\n\n    </ion-list>\n\n    <button ion-button full color="primary" (click)="signup()">Créer un compte</button>\n\n</ion-content>\n\n<!--\n\n<form method="post">\n\n\n\n<div>\n\n  <br/>\n\n  <label> Login </label>\n\n  <input type="text" name="login" >\n\n  </div>\n\n  <br/>\n\n  <div>\n\n  <label>Mot de passe</label>\n\n    <input type="password" name="password">\n\n</div>\n\n<p><button ion-button [navPush]="Connection" menuToggle>Se connecter </button></p>\n\n</form>\n\n-->'/*ion-inline-end:"D:\Documents\Projet_Babyfoot\v2\projetbabyfoot\Ionic\src\pages\login\login.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__providers_authentification_authentification__["a" /* AuthentificationProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_authentification_authentification__["a" /* AuthentificationProvider */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormBuilder */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormBuilder */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]) === "function" && _e || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_authentification_authentification__["a" /* AuthentificationProvider */], __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]])
     ], LoginPage);
     return LoginPage;
-    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=login.js.map

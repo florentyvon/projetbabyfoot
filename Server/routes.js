@@ -11,8 +11,10 @@ module.exports = function(app) {
     app.post('/getDataPlayer', data.getDataPlayer);
     app.post('/getStatsPlayer', data.getStatsPlayer);
     app.post('/bookReservation', data.bookReservation);
-    app.post('/getMyReservations', data.getMyReservations)
+    app.post('/getMyReservations', data.getMyReservations);
+    app.post('/DelReservation', data.DelReservation);
+
     app.post('/joingame', game.joinGame);
-	app.post('/createSpeedGame', game.createSpeedGame);
-	app.post('/directGame', game.directGame);
+    app.post('/createSpeedGame', game.createSpeedGame);
+    app.post('/directGame', game.directGame);
 }

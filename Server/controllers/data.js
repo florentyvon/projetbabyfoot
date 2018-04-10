@@ -35,6 +35,7 @@ exports.getStatsPlayer = function(req, res) {
     var dataPlayer = req.body.dataIS;
     //On déclare le résultat à renvoyer comme un string
     var result = "";
+    var count = 0;
     //Variable qui reçoit le résultat de la requête
     var currentPlayer;
     //Requête sur la BDD
@@ -44,6 +45,7 @@ exports.getStatsPlayer = function(req, res) {
         //Envoi du résultat via res
         res.json(result);
     });
+
 };
 
 //ENREGISTREMENT RESERVATION
@@ -71,7 +73,7 @@ exports.bookReservation = function(req, res) {
     }
     if (DateDeb < DNow) {
         success = false;
-        result = "Veuillez entrer une date ou une heure postérieure ou égale à maintenant";
+        result = "Veuillez entrer une date et une heure postérieure à maintenant";
     }
     if (DateDeb - DNow > (maxDelay * 60000)) {
         success = false;
@@ -135,5 +137,15 @@ exports.getMyReservations = function(req, res) {
         result = JSON.stringify(mybookings);
         //Envoi du résultat via res
         res.json(result);
+    });
+};
+
+exports.DelReservation = function(req, res) {
+
+    //On recupère l'id de la réservation
+    var dataPlayer = req.body.dataID;
+    //Requête sur la BDD
+    booking.remove().where("_id").equals(dataPlayer).exec(function(err, TRmybookings) {
+        console.log("Removed : " + TRmybookings._id)
     });
 };

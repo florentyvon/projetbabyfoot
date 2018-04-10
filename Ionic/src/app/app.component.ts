@@ -58,7 +58,7 @@ export class MyApp {
         this.rootPage=HomePage;  
       }else{
         if(window.localStorage.getItem('typeAccount') === "babyfoot"){
-          this.rootPage=HomeBfPage;  
+          this.rootPage=HomePage;  
         } 
       }
     }

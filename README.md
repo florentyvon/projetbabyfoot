@@ -18,13 +18,32 @@ A step by step series of examples that tell you have to get a development env ru
 Say what the step will be
 
 Run First the Database : 
-"C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe" --dbpath "..\projetbabyfoot\MongoDB\data"
+```
+"C:\Program Files\MongoDB\Server\3.6\bin\mongod.exe" --dbpath "..\projetbabyfoot\MongoDB\data"*
+```
+Then run the server with : 
+```
+node ..\projetbabyfoot\Server\app.js*
+```
+Finally you can deploy the ionic app running : 
+```
+..\projetbabyfoot\Ionic ionic serve*
+```
 
-```
-until finished
-```
+*The two points must be replaced by he entrie path location where is the folder.
 
 End with an example of getting some data out of the system or using it for a little demo
+You must see and the differents prompts : 
+```
+--
+Waiting for connection on port 27017
+--
+App listenning on port 8080
+Connexion réussie à la base de données
+--
+build finished
+
+```
 
 ## Deployment
 

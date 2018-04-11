@@ -1,14 +1,14 @@
 webpackJsonp([11],{
 
-/***/ 359:
+/***/ 346:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JoingamePageModule", function() { return JoingamePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HistoricPageModule", function() { return HistoricPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__joingame__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__historic__ = __webpack_require__(123);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var JoingamePageModule = (function () {
-    function JoingamePageModule() {
+var HistoricPageModule = (function () {
+    function HistoricPageModule() {
     }
-    JoingamePageModule = __decorate([
+    HistoricPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__joingame__["a" /* JoingamePage */],
+                __WEBPACK_IMPORTED_MODULE_2__historic__["a" /* HistoricPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__joingame__["a" /* JoingamePage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__historic__["a" /* HistoricPage */]),
             ],
         })
-    ], JoingamePageModule);
-    return JoingamePageModule;
+    ], HistoricPageModule);
+    return HistoricPageModule;
 }());
 
-//# sourceMappingURL=joingame.module.js.map
+//# sourceMappingURL=historic.module.js.map
 
 /***/ })
 

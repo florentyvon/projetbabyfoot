@@ -7,19 +7,14 @@ import { MyApp } from './app.component';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 import { HomePage } from '../pages/home/home';
-import { QuickgamePage } from '../pages/quickgame/quickgame';
-import { ChampionshipPage } from '../pages/championship/championship';
 import { BookingbabyfootPage } from '../pages/bookingbabyfoot/bookingbabyfoot';
 import { LoginPage } from '../pages/login/login';
 import { LogOutPage } from '../pages/log-out/log-out';
 import { ProfilePage } from '../pages/profile/profile';
-import { FollowingPage } from '../pages/following/following';
-import { FriendsgamePage } from '../pages/friendsgame/friendsgame';
 import { HistoricPage } from '../pages/historic/historic'
 import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
 import { StatsPage } from '../pages/stats/stats';
 import { FriendsPage } from '../pages/friends/friends';
-import { TeamPage } from '../pages/team/team';
 import { MyBookingsPage } from '../pages/my-bookings/my-bookings';
 import { JoingamePage } from '../pages/joingame/joingame';
 import { HomeBfPage } from '../pages/home-bf/home-bf';
@@ -35,7 +30,7 @@ import { GameProvider } from '../providers/game/game';
 
 import { LaunchNavigator } from '@ionic-native/launch-navigator';
 import { SocketIoModule, SocketIoConfig } from 'ng-socket-io';
-
+//const config: SocketIoConfig = { url: 'http://localhost:8080', options: {} };
 const config: SocketIoConfig = { url: 'http://192.168.1.1:8080', options: {} };
 
 @NgModule({
@@ -44,19 +39,14 @@ const config: SocketIoConfig = { url: 'http://192.168.1.1:8080', options: {} };
     ItemDetailsPage,
     ListPage,
     HomePage,
-    QuickgamePage,
-    ChampionshipPage,
     BookingbabyfootPage,
     LoginPage,
     LogOutPage,
     ProfilePage,
-    FollowingPage,
-    FriendsgamePage,
     HistoricPage,
     FriendsPage,
     ListbabyfootsPage,
     StatsPage,
-    TeamPage,
     MyBookingsPage,
     JoingamePage,
     HomeBfPage,
@@ -76,19 +66,14 @@ const config: SocketIoConfig = { url: 'http://192.168.1.1:8080', options: {} };
     ItemDetailsPage,
     ListPage,
     HomePage,
-    QuickgamePage,
-    ChampionshipPage,
     BookingbabyfootPage,
     LoginPage,
     LogOutPage,
     ProfilePage,
-    FollowingPage,
-    FriendsgamePage,
     HistoricPage,
     FriendsPage,
     ListbabyfootsPage,
     StatsPage,
-    TeamPage,
     MyBookingsPage,
     JoingamePage,
     HomeBfPage,

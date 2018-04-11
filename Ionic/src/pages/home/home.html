@@ -12,13 +12,17 @@
         <ion-title>Babyfoot Connecté</ion-title>
     </ion-navbar>
 </ion-header>
-
+<ion-content text-right>
+    <ion-img style="margin-top : 15px; margin-right:15px" width="50" height="50" src="/assets/imgs/logobaby1.png"></ion-img>
+</ion-content>
 
 <ion-content padding>
 
     <h3 (click)="goTo('mp')">
         <ion-icon name="contact"></ion-icon> {{ username }} - {{ team }}
+     
     </h3>
+    
     <h4>
         <ion-row>
             <ion-col style="text-align:center"><br/>Je souhaite...</ion-col>
@@ -27,21 +31,6 @@
     <p>
         <ion-row>
             <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('jg')"><ion-icon name="contacts"></ion-icon>Rejoindre une partie</button></ion-col>
-        </ion-row>
-    </p>
-    <p>
-        <ion-row>
-            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('fg')"><ion-icon name="contacts"></ion-icon>Jouer avec des amis</button></ion-col>
-        </ion-row>
-    </p>
-    <p>
-        <ion-row>
-            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('ug')"><ion-icon name="help"></ion-icon>Jouer avec des inconnus</button></ion-col>
-        </ion-row>
-    </p>
-    <p>
-        <ion-row>
-            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('fm')"><ion-icon name="information"></ion-icon>Suivre un match</button></ion-col>
         </ion-row>
     </p>
     <p>
@@ -57,9 +46,6 @@
         <ion-row>
             <ion-col style="text-align:center" (click)="goTo('hp')">
                 <ion-icon name="time"></ion-icon><br/>Historique des Parties
-            </ion-col>
-            <ion-col style="text-align:center" (click)="goTo('f')">
-                <ion-icon name="heart"></ion-icon><br/>Favoris
             </ion-col>
             <ion-col style="text-align:center" (click)="goTo('lb')">
                 <ion-icon name="pin"></ion-icon><br/>Les Babys

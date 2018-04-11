@@ -1,12 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
 import { BookingbabyfootPage } from '../bookingbabyfoot/bookingbabyfoot';
-import { UnknowngamePage } from '../unknowngame/unknowngame';
-import { FriendsgamePage } from '../friendsgame/friendsgame';
 import { HistoricPage } from '../historic/historic';
 import { ListbabyfootsPage } from '../listbabyfoots/listbabyfoots';
 import { ProfilePage } from '../profile/profile';
-import { FollowingPage } from '../following/following';
 import { JoingamePage }from '../joingame/joingame';
 
 import { DataProvider } from '../../providers/data/data';
@@ -49,12 +46,6 @@ export class HomePage {
       case 'jg':
         this.navCtrl.push(JoingamePage);
         break;
-      case 'fg':
-        this.navCtrl.push(FriendsgamePage);
-        break;
-      case 'ug':
-        this.navCtrl.push(UnknowngamePage);
-        break;
       case 'bb':
         this.navCtrl.push(BookingbabyfootPage);
         break;
@@ -69,9 +60,6 @@ export class HomePage {
         break;
       case 'mp':
         this.navCtrl.push(ProfilePage);
-        break;
-      case 'fm':
-        this.navCtrl.push(FollowingPage);
         break;
     }
   }

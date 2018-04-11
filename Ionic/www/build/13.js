@@ -1,14 +1,14 @@
 webpackJsonp([13],{
 
-/***/ 357:
+/***/ 344:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeBfPageModule", function() { return HomeBfPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DirectGamePageModule", function() { return DirectGamePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_bf__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__direct_game__ = __webpack_require__(121);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var HomeBfPageModule = (function () {
-    function HomeBfPageModule() {
+var DirectGamePageModule = (function () {
+    function DirectGamePageModule() {
     }
-    HomeBfPageModule = __decorate([
+    DirectGamePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__home_bf__["a" /* HomeBfPage */],
+                __WEBPACK_IMPORTED_MODULE_2__direct_game__["a" /* DirectGamePage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__home_bf__["a" /* HomeBfPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__direct_game__["a" /* DirectGamePage */]),
             ],
         })
-    ], HomeBfPageModule);
-    return HomeBfPageModule;
+    ], DirectGamePageModule);
+    return DirectGamePageModule;
 }());
 
-//# sourceMappingURL=home-bf.module.js.map
+//# sourceMappingURL=direct-game.module.js.map
 
 /***/ })
 

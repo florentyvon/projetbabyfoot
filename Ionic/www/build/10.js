@@ -1,14 +1,14 @@
 webpackJsonp([10],{
 
-/***/ 360:
+/***/ 347:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListbabyfootsPageModule", function() { return ListbabyfootsPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeBfPageModule", function() { return HomeBfPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__listbabyfoots__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_bf__ = __webpack_require__(65);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ListbabyfootsPageModule = (function () {
-    function ListbabyfootsPageModule() {
+var HomeBfPageModule = (function () {
+    function HomeBfPageModule() {
     }
-    ListbabyfootsPageModule = __decorate([
+    HomeBfPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__listbabyfoots__["a" /* ListbabyfootsPage */],
+                __WEBPACK_IMPORTED_MODULE_2__home_bf__["a" /* HomeBfPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__listbabyfoots__["a" /* ListbabyfootsPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__home_bf__["a" /* HomeBfPage */]),
             ],
         })
-    ], ListbabyfootsPageModule);
-    return ListbabyfootsPageModule;
+    ], HomeBfPageModule);
+    return HomeBfPageModule;
 }());
 
-//# sourceMappingURL=listbabyfoots.module.js.map
+//# sourceMappingURL=home-bf.module.js.map
 
 /***/ })
 

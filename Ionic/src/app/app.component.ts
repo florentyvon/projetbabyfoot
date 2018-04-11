@@ -3,7 +3,6 @@ import { Component, ViewChild } from '@angular/core';
 import { Platform, MenuController, Nav } from 'ionic-angular';
 
 import { HomePage } from '../pages/home/home';
-import { QuickgamePage } from '../pages/quickgame/quickgame';
 import { BookingbabyfootPage } from '../pages/bookingbabyfoot/bookingbabyfoot';
 import { ListbabyfootsPage } from '../pages/listbabyfoots/listbabyfoots';
 import { ProfilePage } from '../pages/profile/profile';
@@ -37,8 +36,7 @@ export class MyApp {
     
     // set our app's pages
     this.pages = [
-      { title: 'HomePage', component: HomePage },
-      { title: 'Partie Rapide', component: QuickgamePage },
+      { title: 'Page d\'accueil', component: HomePage },
       { title: 'Réservation Babyfoot', component: BookingbabyfootPage },
       { title: 'Liste des babyfoots', component: ListbabyfootsPage },
       { title: 'Mon Profil', component: ProfilePage },
@@ -58,7 +56,7 @@ export class MyApp {
         this.rootPage=HomePage;  
       }else{
         if(window.localStorage.getItem('typeAccount') === "babyfoot"){
-          this.rootPage=HomePage;  
+          this.rootPage=HomeBfPage;  
         } 
       }
     }

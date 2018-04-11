@@ -6,36 +6,37 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    
-    <ion-title>Créer une partie</ion-title>
-</ion-navbar>
-
-</ion-header>
-
-
-<ion-content padding>
-    <h3>
-        <ion-icon name="contact"></ion-icon> {{ username }}
-    </h3>
-    <h4>
-        <ion-row>
-            <ion-col style="text-align:center"><br/>Créer une partie</ion-col>
-        </ion-row>
-    </h4>
-
-    <p>
-        <ion-row>
-            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('pr')"><ion-icon name="contacts"></ion-icon>Partie Rapide</button></ion-col>
-        </ion-row>
-    </p>
-    <p>
-        <ion-row>
-            <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('pp')"><ion-icon name="contacts"></ion-icon>Partie Personnalisée</button></ion-col>
-        </ion-row>
-    </p>
-
-
-
-
-</ion-content>
+    <ion-navbar>
+      
+      <ion-title>Créer une partie</ion-title>
+      
+  </ion-navbar>
+  
+  </ion-header>
+  <ion-content text-right>
+      <ion-img style="margin-top : 15px; margin-right:15px" width="50" height="50" src="/assets/imgs/logobaby1.png"></ion-img>
+  </ion-content>
+  
+  <ion-content padding>
+      <h3>
+          <ion-icon name="contact"></ion-icon> {{ username }}
+  
+      </h3>
+      <h4>
+          <ion-row>
+              <ion-col style="text-align:center"><br/>Créer une partie</ion-col>
+          </ion-row>
+      </h4>
+  
+      <p>
+          <ion-row>
+              <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('pr')"><ion-icon name="contacts"></ion-icon>Partie Rapide</button></ion-col>
+          </ion-row>
+      </p>
+      <p>
+          <ion-row>
+              <ion-col style="text-align:center"><button ion-button color="primary" icon-left (click)="goTo('pp')"><ion-icon name="contacts"></ion-icon>Partie Personnalisée</button></ion-col>
+          </ion-row>
+      </p>
+  
+  </ion-content>
